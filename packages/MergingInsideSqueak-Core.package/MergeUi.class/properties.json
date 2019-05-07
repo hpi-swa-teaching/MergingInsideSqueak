@@ -14,9 +14,10 @@
 		"ConflictList",
 		"MergeA",
 		"MergeB",
-		"MergeResult" ],
+		"MergeResult",
+		"panel" ],
 	"name" : "MergeUi",
 	"pools" : [
 		 ],
-	"super" : "UserInterface",
+	"super" : "Object",
 	"type" : "normal" }
