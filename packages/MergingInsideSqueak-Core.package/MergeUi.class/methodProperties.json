@@ -1,16 +1,19 @@
 {
 	"class" : {
-		 },
+		"open" : "Tim Strauss 5/7/2019 13:35" },
 	"instance" : {
-		"AButton" : "Tim Strauss 5/7/2019 08:38",
-		"BButton" : "Tim Strauss 5/7/2019 08:38",
-		"ConflictList" : "Tim Strauss 5/7/2019 08:38",
-		"LastButton" : "Tim Strauss 5/7/2019 08:38",
-		"MergeA" : "Tim Strauss 5/7/2019 08:38",
-		"MergeB" : "Tim Strauss 5/7/2019 08:38",
-		"MergeResult" : "Tim Strauss 5/7/2019 08:38",
-		"NextButton" : "Tim Strauss 5/7/2019 08:38",
-		"SaveButton" : "Tim Strauss 5/7/2019 08:38",
-		"initializePanel" : "Tim Strauss 5/7/2019 11:36",
-		"panel" : "Tim Strauss 5/7/2019 10:24",
-		"setupUi:" : "Tim Strauss 5/7/2019 10:25" } }
+		"buildAndOpenFullMergingTool" : "Tim Strauss 5/7/2019 14:28",
+		"buildConflictListWith:" : "Tim Strauss 5/7/2019 13:46",
+		"buildMergeButtonsWith:" : "Tim Strauss 5/7/2019 14:28",
+		"buildMergePartAWith:" : "Tim Strauss 5/7/2019 14:15",
+		"buildMergePartBWith:" : "Tim Strauss 5/7/2019 14:15",
+		"buildMergeResultWith:" : "Tim Strauss 5/7/2019 14:13",
+		"conflictList" : "Tim Strauss 5/7/2019 13:57",
+		"conflictListFrame" : "Tim Strauss 5/7/2019 14:08",
+		"conflictListIndex" : "Tim Strauss 5/7/2019 13:57",
+		"conflictListIndex:" : "Tim Strauss 5/7/2019 13:58",
+		"mergeButtonsFrame" : "Tim Strauss 5/7/2019 14:29",
+		"mergePartAFrame" : "Tim Strauss 5/7/2019 14:29",
+		"mergePartBFrame" : "Tim Strauss 5/7/2019 14:29",
+		"mergeResultFrame" : "Tim Strauss 5/7/2019 14:16",
+		"setMultiWindowFor:" : "Tim Strauss 5/7/2019 13:53" } }

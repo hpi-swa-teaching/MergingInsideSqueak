@@ -6,18 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"SaveButton",
-		"LastButton",
-		"NextButton",
-		"AButton",
-		"BButton",
-		"ConflictList",
-		"MergeA",
-		"MergeB",
-		"MergeResult",
-		"panel" ],
+		 ],
 	"name" : "MergeUi",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "CodeHolder",
 	"type" : "normal" }
