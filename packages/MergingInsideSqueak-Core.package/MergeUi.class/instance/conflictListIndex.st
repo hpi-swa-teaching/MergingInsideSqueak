@@ -1,4 +1,4 @@
 as yet unclassified
-getCurrentUi
+conflictListIndex
 
-	^ui
+	^0
