@@ -1,0 +1,14 @@
+{
+	"category" : "MergingInsideSqueak-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"uiController" ],
+	"name" : "MergeUiTests",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }
