@@ -1,7 +1,7 @@
 ui - private
 initializePanel
 	
-	panel := UiContainer new.
+	panel := BorderedMorph new.
 	panel extent: (700@400).
 	panel position: (0@0).
 	panel hResizing: (#rigid).
@@ -25,10 +25,9 @@ initializePanel
 	panel balloonColor: ((Color r: 0.934 g: 0.91 b: 0.836)).
 	panel color: (Color paleTan).
 	panel borderWidth: (0).
-	panel borderStyle2: (#simple).
 	panel borderColor: (Color black).
 	panel setProperty: #objectName toValue: 'panel'.
-	SaveButton := UiPushButton new.
+	SaveButton := SimpleButtonMorph new.
 	SaveButton changeTableLayout.
 	SaveButton extent: (85@20).
 	SaveButton position: (533@10).
@@ -52,19 +51,14 @@ initializePanel
 	SaveButton balloonText: ('').
 	SaveButton balloonColor: ((Color r: 0.934 g: 0.91 b: 0.836)).
 	SaveButton enabled: (true).
-	SaveButton setProperty: #iconByDesigner toValue: 'nil'.
-	SaveButton icon: (nil).
-	SaveButton text: ('Save & Close').
+	SaveButton label: ('Save & Close').
 	SaveButton color: (Color silver).
-	SaveButton checkable: (false).
-	SaveButton checked: (false).
-	SaveButton autoExclusive: (false).
 	SaveButton setProperty: #objectName toValue: 'SaveButton'.
-	panel addChild: SaveButton.
-	LastButton := UiPushButton new.
+	panel addMorph: SaveButton.
+	LastButton := SimpleButtonMorph new.
 	LastButton changeTableLayout.
 	LastButton extent: (102@20).
-	LastButton position: (275@10).
+	LastButton position: (255@10).
 	LastButton hResizing: (#shrinkWrap).
 	LastButton vResizing: (#shrinkWrap).
 	LastButton minWidth: (1).
@@ -85,16 +79,11 @@ initializePanel
 	LastButton balloonText: (nil).
 	LastButton balloonColor: ((Color r: 0.934 g: 0.91 b: 0.836)).
 	LastButton enabled: (true).
-	LastButton setProperty: #iconByDesigner toValue: 'UiDiagonaIcons icon0308Normal'.
-	LastButton icon: (UiDiagonaIcons icon0308Normal).
-	LastButton text: ('Last Conflict').
+	LastButton label: ('Last Conflict').
 	LastButton color: (Color silver).
-	LastButton checkable: (false).
-	LastButton checked: (false).
-	LastButton autoExclusive: (false).
 	LastButton setProperty: #objectName toValue: 'LastButton'.
-	panel addChild: LastButton.
-	NextButton := UiPushButton new.
+	panel addMorph: LastButton.
+	NextButton := SimpleButtonMorph new.
 	NextButton changeTableLayout.
 	NextButton extent: (105@20).
 	NextButton position: (160@10).
@@ -118,19 +107,14 @@ initializePanel
 	NextButton balloonText: ('').
 	NextButton balloonColor: ((Color r: 0.934 g: 0.91 b: 0.836)).
 	NextButton enabled: (true).
-	NextButton setProperty: #iconByDesigner toValue: 'UiDiagonaIcons icon0307Normal'.
-	NextButton icon: (UiDiagonaIcons icon0307Normal).
-	NextButton text: ('Next Conflict').
+	NextButton label: ('Next Conflict').
 	NextButton color: (Color silver).
-	NextButton checkable: (false).
-	NextButton checked: (false).
-	NextButton autoExclusive: (false).
 	NextButton setProperty: #objectName toValue: 'NextButton'.
-	panel addChild: NextButton.
-	AButton := UiPushButton new.
+	panel addMorph: NextButton.
+	AButton := SimpleButtonMorph new.
 	AButton changeTableLayout.
 	AButton extent: (63@20).
-	AButton position: (387@10).
+	AButton position: (367@10).
 	AButton hResizing: (#shrinkWrap).
 	AButton vResizing: (#shrinkWrap).
 	AButton minWidth: (1).
@@ -152,18 +136,14 @@ initializePanel
 	AButton balloonColor: ((Color r: 0.934 g: 0.91 b: 0.836)).
 	AButton enabled: (true).
 	AButton setProperty: #iconByDesigner toValue: 'nil'.
-	AButton icon: (nil).
-	AButton text: ('Choose A').
+	AButton label: ('Choose A').
 	AButton color: (Color silver).
-	AButton checkable: (false).
-	AButton checked: (false).
-	AButton autoExclusive: (false).
 	AButton setProperty: #objectName toValue: 'AButton'.
-	panel addChild: AButton.
-	BButton := UiPushButton new.
+	panel addMorph: AButton.
+	BButton := SimpleButtonMorph new.
 	BButton changeTableLayout.
 	BButton extent: (63@20).
-	BButton position: (460@10).
+	BButton position: (440@10).
 	BButton hResizing: (#shrinkWrap).
 	BButton vResizing: (#shrinkWrap).
 	BButton minWidth: (1).
@@ -185,15 +165,11 @@ initializePanel
 	BButton balloonColor: ((Color r: 0.934 g: 0.91 b: 0.836)).
 	BButton enabled: (true).
 	BButton setProperty: #iconByDesigner toValue: 'nil'.
-	BButton icon: (nil).
-	BButton text: ('Choose B').
+	BButton label: ('Choose B').
 	BButton color: (Color silver).
-	BButton checkable: (false).
-	BButton checked: (false).
-	BButton autoExclusive: (false).
 	BButton setProperty: #objectName toValue: 'BButton'.
-	panel addChild: BButton.
-	ConflictList := UiListView new.
+	panel addMorph: BButton.
+	ConflictList := PluggableListMorph new.
 	ConflictList extent: (140@380).
 	ConflictList position: (10@10).
 	ConflictList hResizing: (#rigid).
@@ -215,22 +191,10 @@ initializePanel
 	ConflictList frameOffsets: (0@0 corner: 0@0).
 	ConflictList balloonText: ('').
 	ConflictList balloonColor: ((Color r: 0.934 g: 0.91 b: 0.836)).
-	ConflictList widgetResizable: (true).
-	ConflictList horizontalScrollBarPolicy: (#alwaysOff).
-	ConflictList verticalScrollBarPolicy: (#asNeeded).
-	ConflictList outerBorderWidth: (0).
 	ConflictList scrollBarThickness: (9).
-	ConflictList modelClass: (nil).
-	ConflictList horizontalHeaderVisible: (false).
-	ConflictList verticalHeaderVisible: (false).
-	ConflictList selectionBehavior: (#selectRows).
-	ConflictList selectionMode: (UiViewSingleSelection).
-	ConflictList listOrientation: (#default).
-	ConflictList hAlignment: (#left).
-	ConflictList vAlignment: (#top).
 	ConflictList setProperty: #objectName toValue: 'ConflictList'.
-	panel addChild: ConflictList.
-	MergeA := UiScrollArea new.
+	panel addMorph: ConflictList.
+	MergeA := PluggableTextMorph new.
 	MergeA extent: (260@170).
 	MergeA position: (160@40).
 	MergeA hResizing: (#rigid).
@@ -252,14 +216,9 @@ initializePanel
 	MergeA frameOffsets: (0@0 corner: 0@0).
 	MergeA balloonText: (nil).
 	MergeA balloonColor: ((Color r: 0.934 g: 0.91 b: 0.836)).
-	MergeA widgetResizable: (false).
-	MergeA horizontalScrollBarPolicy: (#alwaysOn).
-	MergeA verticalScrollBarPolicy: (#alwaysOn).
-	MergeA outerBorderWidth: (0).
-	MergeA scrollBarThickness: (9).
 	MergeA setProperty: #objectName toValue: 'MergeA'.
-	panel addChild: MergeA.
-	MergeB := UiScrollArea new.
+	panel addMorph: MergeA.
+	MergeB := PluggableTextMorph new.
 	MergeB extent: (260@170).
 	MergeB position: (430@40).
 	MergeB hResizing: (#rigid).
@@ -281,14 +240,9 @@ initializePanel
 	MergeB frameOffsets: (0@0 corner: 0@0).
 	MergeB balloonText: (nil).
 	MergeB balloonColor: ((Color r: 0.934 g: 0.91 b: 0.836)).
-	MergeB widgetResizable: (false).
-	MergeB horizontalScrollBarPolicy: (#alwaysOn).
-	MergeB verticalScrollBarPolicy: (#alwaysOn).
-	MergeB outerBorderWidth: (0).
-	MergeB scrollBarThickness: (9).
 	MergeB setProperty: #objectName toValue: 'MergeB'.
-	panel addChild: MergeB.
-	MergeResult := ViSourceCodeEdit new.
+	panel addMorph: MergeB.
+	MergeResult := PluggableTextMorph new.
 	MergeResult extent: (530@170).
 	MergeResult position: (160@220).
 	MergeResult hResizing: (#rigid).
@@ -310,18 +264,5 @@ initializePanel
 	MergeResult frameOffsets: (0@0 corner: 0@0).
 	MergeResult balloonText: (nil).
 	MergeResult balloonColor: ((Color r: 0.934 g: 0.91 b: 0.836)).
-	MergeResult widgetResizable: (true).
-	MergeResult horizontalScrollBarPolicy: (#alwaysOff).
-	MergeResult verticalScrollBarPolicy: (#asNeeded).
-	MergeResult outerBorderWidth: (1).
-	MergeResult scrollBarThickness: (9).
-	MergeResult theText: ('').
-	MergeResult readOnly: (false).
-	MergeResult autoConvert: (false).
-	MergeResult autoAccept: (false).
-	MergeResult acceptOnFocusLost: (false).
-	MergeResult scrollingMode: (#none).
-	MergeResult scrollingLimit: (10).
 	MergeResult setProperty: #objectName toValue: 'MergeResult'.
-	panel addChild: MergeResult.
-	panel setProperty: #uiClassName toValue: 'Merge'.
+	panel addMorph: MergeResult.
