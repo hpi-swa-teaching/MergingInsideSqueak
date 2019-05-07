@@ -11,31 +11,31 @@ initializePanel
 	SaveButton extent: (85@20).
 	SaveButton position: (533@10).
 	SaveButton label: ('Save & Close').
-	SaveButton color: (Color silver).
+	SaveButton color: (Color r: 204/255 g: 204/255 b: 204/255).
 	panel addMorph: SaveButton.
 	LastButton := SimpleButtonMorph new.
 	LastButton extent: (102@20).
 	LastButton position: (255@10).
 	LastButton label: ('Last Conflict').
-	LastButton color: (Color silver).
+	LastButton color: (Color r: 204/255 g: 204/255 b: 204/255).
 	panel addMorph: LastButton.
 	NextButton := SimpleButtonMorph new.
 	NextButton extent: (105@20).
 	NextButton position: (160@10).
 	NextButton label: ('Next Conflict').
-	NextButton color: (Color silver).
+	NextButton color: (Color r: 204/255 g: 204/255 b: 204/255).
 	panel addMorph: NextButton.
 	AButton := SimpleButtonMorph new.
 	AButton extent: (63@20).
 	AButton position: (367@10).
 	AButton label: ('Choose A').
-	AButton color: (Color silver).
+	AButton color: (Color r: 204/255 g: 204/255 b: 204/255).
 	panel addMorph: AButton.
 	BButton := SimpleButtonMorph new.
 	BButton extent: (63@20).
 	BButton position: (440@10).
 	BButton label: ('Choose B').
-	BButton color: (Color silver).
+	BButton color: (Color r: 204/255 g: 204/255 b: 204/255).
 	panel addMorph: BButton.
 	ConflictList := PluggableListMorph new.
 	ConflictList extent: (140@380).
