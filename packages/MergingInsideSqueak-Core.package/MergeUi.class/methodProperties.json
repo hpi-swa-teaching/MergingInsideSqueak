@@ -2,4 +2,13 @@
 	"class" : {
 		 },
 	"instance" : {
-		"initializePanel" : "Tim Strauss 5/6/2019 19:29" } }
+		"AButton" : "Tim Strauss 5/7/2019 08:38",
+		"BButton" : "Tim Strauss 5/7/2019 08:38",
+		"ConflictList" : "Tim Strauss 5/7/2019 08:38",
+		"LastButton" : "Tim Strauss 5/7/2019 08:38",
+		"MergeA" : "Tim Strauss 5/7/2019 08:38",
+		"MergeB" : "Tim Strauss 5/7/2019 08:38",
+		"MergeResult" : "Tim Strauss 5/7/2019 08:38",
+		"NextButton" : "Tim Strauss 5/7/2019 08:38",
+		"SaveButton" : "Tim Strauss 5/7/2019 08:38",
+		"initializePanel" : "Tim Strauss 5/7/2019 08:39" } }

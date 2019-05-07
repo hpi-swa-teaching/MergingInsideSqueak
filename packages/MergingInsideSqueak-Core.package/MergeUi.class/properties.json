@@ -6,7 +6,15 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
+		"SaveButton",
+		"LastButton",
+		"NextButton",
+		"AButton",
+		"BButton",
+		"ConflictList",
+		"MergeA",
+		"MergeB",
+		"MergeResult" ],
 	"name" : "MergeUi",
 	"pools" : [
 		 ],

@@ -1,4 +1,4 @@
 as yet unclassified
 ui
 
-	^ui ifNil: [ui := MergeUI new]
+	^ui ifNil: [ui := MergeUi new]
