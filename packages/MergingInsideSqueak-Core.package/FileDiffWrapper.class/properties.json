@@ -1,13 +1,14 @@
 {
 	"category" : "MergingInsideSqueak-Core",
 	"classinstvars" : [
-		 ],
+		"diff3block" ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"conflicts" ],
-	"name" : "MergeUi",
+		"diff3block",
+		"result" ],
+	"name" : "FileDiffWrapper",
 	"pools" : [
 		 ],
 	"super" : "CodeHolder",

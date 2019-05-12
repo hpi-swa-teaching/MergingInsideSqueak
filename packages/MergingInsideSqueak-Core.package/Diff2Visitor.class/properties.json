@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"conflicts" ],
-	"name" : "MergeUi",
+		 ],
+	"name" : "Diff2Visitor",
 	"pools" : [
 		 ],
-	"super" : "CodeHolder",
+	"super" : "Diff3ExclusiveVisitor",
 	"type" : "normal" }
