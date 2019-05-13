@@ -1,4 +1,0 @@
-partAHandler
-getPartAText
-
-	^textA
