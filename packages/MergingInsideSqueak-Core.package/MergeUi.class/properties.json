@@ -6,7 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
+		"textA",
+		"textB",
+		"ui" ],
 	"name" : "MergeUi",
 	"pools" : [
 		 ],
