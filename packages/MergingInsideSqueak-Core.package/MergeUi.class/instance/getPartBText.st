@@ -1,4 +1,0 @@
-partBHandler
-getPartBText
-
-	^textB

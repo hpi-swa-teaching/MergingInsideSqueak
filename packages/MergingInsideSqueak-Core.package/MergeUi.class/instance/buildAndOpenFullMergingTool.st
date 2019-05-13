@@ -13,9 +13,7 @@ buildAndOpenFullMergingTool
 	}.
 	self setMultiWindowFor: windowSpec.
 	
-	ui := builder build: windowSpec.
-	
-	builder open: ui.
+	builder open: (builder build: windowSpec).
 	
 	^self 
 	
