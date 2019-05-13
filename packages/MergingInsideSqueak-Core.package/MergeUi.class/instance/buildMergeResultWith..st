@@ -4,7 +4,6 @@ buildMergeResultWith: aBuilder
 	| textSpec |
 	textSpec := aBuilder pluggableCodePaneSpec new.
 	textSpec
-		model: self currentConflict;
-		getText: #resultText.
+		model: self.
 	
 	^textSpec
