@@ -4,6 +4,7 @@ buildMergePartBWith: aBuilder
 	| textSpec |
 	textSpec := aBuilder pluggableCodePaneSpec new.
 	textSpec
-		model: self.
+		model: self;
+		getText: #getPartBText.
 	
 	^textSpec

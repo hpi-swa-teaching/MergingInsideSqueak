@@ -1,4 +1,4 @@
 as yet unclassified
 tearDown
 
-	"uiController delete."
+	uiController close
