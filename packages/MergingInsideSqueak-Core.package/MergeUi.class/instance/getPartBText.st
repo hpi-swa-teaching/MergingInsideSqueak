@@ -1,0 +1,4 @@
+partBHandler
+getPartBText
+
+	^textB

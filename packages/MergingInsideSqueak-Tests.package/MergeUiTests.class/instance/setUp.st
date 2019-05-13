@@ -1,4 +1,4 @@
 as yet unclassified
 setUp
 
-	uiController := MergeUi new.
+	uiController := MergeUi open.
