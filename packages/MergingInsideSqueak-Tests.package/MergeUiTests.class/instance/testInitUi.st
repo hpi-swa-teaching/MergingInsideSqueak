@@ -1,4 +1,4 @@
 as yet unclassified
 testInitUi
 
-	self assert: uiController notNil.
+	self assert: uiController getUi notNil.
