@@ -1,0 +1,15 @@
+{
+	"category" : "MergingInsideSqueak-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"ui",
+		"controller" ],
+	"name" : "MergeUiView",
+	"pools" : [
+		 ],
+	"super" : "CodeHolder",
+	"type" : "normal" }

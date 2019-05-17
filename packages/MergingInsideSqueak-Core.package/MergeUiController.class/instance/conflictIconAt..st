@@ -1,0 +1,2 @@
+ConflictListHandler
+conflictIconAt: anIndex
