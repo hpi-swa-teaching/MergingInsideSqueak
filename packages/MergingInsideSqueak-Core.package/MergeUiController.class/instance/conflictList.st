@@ -1,0 +1,4 @@
+ConflictListHandler
+conflictList
+
+	^Array new

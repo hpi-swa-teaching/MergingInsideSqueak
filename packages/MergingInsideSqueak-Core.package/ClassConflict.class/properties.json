@@ -1,0 +1,15 @@
+{
+	"category" : "MergingInsideSqueak-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"methodConflicts",
+		"propertyConflicts" ],
+	"name" : "ClassConflict",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

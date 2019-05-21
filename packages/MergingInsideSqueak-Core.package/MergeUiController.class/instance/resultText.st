@@ -1,0 +1,4 @@
+resultHandler
+resultText
+
+	^'test'

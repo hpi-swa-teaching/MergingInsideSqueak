@@ -1,4 +1,4 @@
-as yet unclassified
+running
 setUp
-
-	uiController := MergeUi new.
+	
+	view := MergeUiView openWithMockData.

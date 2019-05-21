@@ -1,0 +1,4 @@
+accessing
+getLeft
+
+	^left

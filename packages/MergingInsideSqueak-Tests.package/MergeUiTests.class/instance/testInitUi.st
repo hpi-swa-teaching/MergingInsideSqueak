@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testInitUi
 
-	self assert: uiController notNil.
+	self assert: view getUi notNil.

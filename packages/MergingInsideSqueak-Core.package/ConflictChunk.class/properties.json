@@ -1,14 +1,16 @@
 {
-	"category" : "MergingInsideSqueak-Tests",
+	"category" : "MergingInsideSqueak-Core",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"view" ],
-	"name" : "MergeUiTests",
+		"right",
+		"selected",
+		"resolved" ],
+	"name" : "ConflictChunk",
 	"pools" : [
 		 ],
-	"super" : "TestCase",
+	"super" : "Chunk",
 	"type" : "normal" }

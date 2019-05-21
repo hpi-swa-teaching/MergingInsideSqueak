@@ -1,0 +1,4 @@
+ConflictListHandler
+conflictListIndex
+
+	^0

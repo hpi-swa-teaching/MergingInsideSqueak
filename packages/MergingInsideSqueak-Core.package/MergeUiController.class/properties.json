@@ -1,14 +1,14 @@
 {
-	"category" : "MergingInsideSqueak-Tests",
+	"category" : "MergingInsideSqueak-Core",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"view" ],
-	"name" : "MergeUiTests",
+		"conflicts" ],
+	"name" : "MergeUiController",
 	"pools" : [
 		 ],
-	"super" : "TestCase",
+	"super" : "CodeHolder",
 	"type" : "normal" }

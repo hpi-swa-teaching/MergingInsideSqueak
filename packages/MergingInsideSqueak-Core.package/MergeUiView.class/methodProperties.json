@@ -1,0 +1,24 @@
+{
+	"class" : {
+		"open" : "Tim Strauss 5/17/2019 11:01",
+		"openWithConflicts:" : "Tim Strauss 5/17/2019 11:18",
+		"openWithMockData" : "Tim Strauss 5/21/2019 11:46" },
+	"instance" : {
+		"buildAndOpenFullMergingTool" : "Tim Strauss 5/17/2019 11:30",
+		"buildConflictListWith:" : "Tim Strauss 5/17/2019 11:13",
+		"buildMergeButtonsWith:" : "Tim Strauss 5/17/2019 11:13",
+		"buildMergePartAWith:" : "Tim Strauss 5/21/2019 11:34",
+		"buildMergePartBWith:" : "Tim Strauss 5/21/2019 11:34",
+		"buildMergeResultWith:" : "Tim Strauss 5/21/2019 11:35",
+		"buttonHeight" : "Tim Strauss 5/17/2019 11:04",
+		"close" : "Tim Strauss 5/17/2019 11:25",
+		"conflictListFrame" : "Tim Strauss 5/17/2019 11:03",
+		"currentConflict" : "Tim Strauss 5/17/2019 11:13",
+		"getController" : "Tim Strauss 5/17/2019 11:11",
+		"getUi" : "Tim Strauss 5/17/2019 11:26",
+		"initialize" : "Tim Strauss 5/17/2019 11:10",
+		"mergeButtonsFrame" : "Tim Strauss 5/17/2019 11:05",
+		"mergePartAFrame" : "Tim Strauss 5/17/2019 11:04",
+		"mergePartBFrame" : "Tim Strauss 5/17/2019 11:04",
+		"mergeResultFrame" : "Tim Strauss 5/17/2019 11:03",
+		"setMultiWindowFor:" : "Tim Strauss 5/17/2019 11:06" } }
