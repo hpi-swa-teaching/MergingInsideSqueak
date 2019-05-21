@@ -1,0 +1,4 @@
+partBHandler
+partB
+
+	^'test'

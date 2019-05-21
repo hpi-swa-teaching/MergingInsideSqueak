@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"conflicts" ],
-	"name" : "MergeUiController",
+		 ],
+	"name" : "MergingInsideSqueakCoreServiceProvider",
 	"pools" : [
 		 ],
-	"super" : "CodeHolder",
+	"super" : "ServiceProvider",
 	"type" : "normal" }

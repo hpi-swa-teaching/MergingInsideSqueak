@@ -1,3 +1,5 @@
 running
 tearDown
+
+	view close
 	

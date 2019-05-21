@@ -6,9 +6,11 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"conflicts" ],
-	"name" : "MergeUiController",
+		"chunks",
+		"categoryConflict",
+		"name" ],
+	"name" : "ConflictingMethod",
 	"pools" : [
 		 ],
-	"super" : "CodeHolder",
+	"super" : "Object",
 	"type" : "normal" }

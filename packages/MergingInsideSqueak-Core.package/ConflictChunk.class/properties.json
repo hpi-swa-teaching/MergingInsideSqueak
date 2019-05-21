@@ -6,9 +6,11 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"conflicts" ],
-	"name" : "MergeUiController",
+		"right",
+		"selected",
+		"resolved" ],
+	"name" : "ConflictChunk",
 	"pools" : [
 		 ],
-	"super" : "CodeHolder",
+	"super" : "Chunk",
 	"type" : "normal" }

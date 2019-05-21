@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"conflicts" ],
-	"name" : "MergeUiController",
+		"left" ],
+	"name" : "Chunk",
 	"pools" : [
 		 ],
-	"super" : "CodeHolder",
+	"super" : "Object",
 	"type" : "normal" }

@@ -1,14 +1,15 @@
 {
 	"class" : {
 		"open" : "Tim Strauss 5/17/2019 11:01",
-		"openWithConflicts:" : "Tim Strauss 5/17/2019 11:18" },
+		"openWithConflicts:" : "Tim Strauss 5/17/2019 11:18",
+		"openWithMockData" : "Tim Strauss 5/21/2019 11:46" },
 	"instance" : {
 		"buildAndOpenFullMergingTool" : "Tim Strauss 5/17/2019 11:30",
 		"buildConflictListWith:" : "Tim Strauss 5/17/2019 11:13",
 		"buildMergeButtonsWith:" : "Tim Strauss 5/17/2019 11:13",
-		"buildMergePartAWith:" : "Tim Strauss 5/17/2019 11:02",
-		"buildMergePartBWith:" : "Tim Strauss 5/17/2019 11:02",
-		"buildMergeResultWith:" : "Tim Strauss 5/17/2019 11:02",
+		"buildMergePartAWith:" : "Tim Strauss 5/21/2019 11:34",
+		"buildMergePartBWith:" : "Tim Strauss 5/21/2019 11:34",
+		"buildMergeResultWith:" : "Tim Strauss 5/21/2019 11:35",
 		"buttonHeight" : "Tim Strauss 5/17/2019 11:04",
 		"close" : "Tim Strauss 5/17/2019 11:25",
 		"conflictListFrame" : "Tim Strauss 5/17/2019 11:03",

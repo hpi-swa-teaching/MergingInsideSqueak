@@ -2,6 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"setUp" : "Tim Strauss 5/17/2019 11:52",
-		"tearDown" : "Tim Strauss 5/17/2019 11:52",
-		"testInitUi" : "Tim Strauss 5/17/2019 18:51" } }
+		"setUp" : "Tim Strauss 5/21/2019 11:37",
+		"tearDown" : "Tim Strauss 5/21/2019 11:37",
+		"testInitConflicts" : "Tim Strauss 5/21/2019 11:49",
+		"testInitUi" : "Tim Strauss 5/21/2019 11:37" } }
