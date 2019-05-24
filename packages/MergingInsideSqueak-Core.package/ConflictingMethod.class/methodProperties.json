@@ -4,7 +4,9 @@
 	"instance" : {
 		"getCategoryConflict" : "Tim Strauss 5/21/2019 11:13",
 		"getChunks" : "Tim Strauss 5/21/2019 11:13",
+		"getLabel" : "Tim Strauss 5/24/2019 13:21",
 		"getName" : "Tim Strauss 5/21/2019 11:23",
+		"hasChildren" : "Tim Strauss 5/24/2019 13:17",
 		"setCategoryConflict:" : "Tim Strauss 5/21/2019 11:12",
 		"setChunks:" : "Tim Strauss 5/21/2019 11:12",
 		"setName:" : "Tim Strauss 5/21/2019 11:24" } }

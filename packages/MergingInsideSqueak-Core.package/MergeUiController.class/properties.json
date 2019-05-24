@@ -6,7 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"conflicts" ],
+		"conflicts",
+		"currentConflictingClass",
+		"currentConflictingMethod" ],
 	"name" : "MergeUiController",
 	"pools" : [
 		 ],

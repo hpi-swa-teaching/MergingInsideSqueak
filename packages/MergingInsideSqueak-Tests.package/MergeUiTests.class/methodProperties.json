@@ -2,7 +2,15 @@
 	"class" : {
 		 },
 	"instance" : {
+		"compareText:With:" : "Tim Strauss 5/24/2019 11:58",
+		"getConflictList" : "Tim Strauss 5/24/2019 12:14",
+		"getPartA" : "Tim Strauss 5/24/2019 11:03",
+		"getPartB" : "Tim Strauss 5/24/2019 11:08",
+		"getResult" : "Tim Strauss 5/24/2019 13:28",
 		"setUp" : "Tim Strauss 5/21/2019 11:37",
 		"tearDown" : "Tim Strauss 5/21/2019 11:37",
-		"testInitConflicts" : "Tim Strauss 5/21/2019 11:49",
-		"testInitUi" : "Tim Strauss 5/21/2019 11:37" } }
+		"testInitConflicts" : "Tim Strauss 5/24/2019 13:29",
+		"testInitUi" : "Tim Strauss 5/21/2019 11:37",
+		"testPartA" : "Tim Strauss 5/24/2019 11:58",
+		"testPartB" : "Tim Strauss 5/24/2019 11:58",
+		"testResult" : "Tim Strauss 5/24/2019 13:29" } }
