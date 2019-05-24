@@ -1,2 +1,0 @@
-ConflictListHandler
-conflictListIndex: anIndex

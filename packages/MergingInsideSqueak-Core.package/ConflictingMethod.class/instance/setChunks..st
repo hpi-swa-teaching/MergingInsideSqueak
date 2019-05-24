@@ -1,4 +1,5 @@
 accessing
 setChunks: aChunkList
 
-	chunks := aChunkList
+	chunks := aChunkList.
+	currentConflict := self getFirstMethodConflict.

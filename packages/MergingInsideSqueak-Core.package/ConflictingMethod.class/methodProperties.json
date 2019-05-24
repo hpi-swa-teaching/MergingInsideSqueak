@@ -2,11 +2,16 @@
 	"class" : {
 		 },
 	"instance" : {
+		"conflictingClass" : "Tim Strauss 5/24/2019 19:34",
+		"conflictingClass:" : "Tim Strauss 5/24/2019 19:34",
+		"currentConflict" : "Tim Strauss 5/24/2019 17:44",
 		"getCategoryConflict" : "Tim Strauss 5/21/2019 11:13",
 		"getChunks" : "Tim Strauss 5/21/2019 11:13",
+		"getFirstMethodConflict" : "Tim Strauss 5/24/2019 17:42",
 		"getLabel" : "Tim Strauss 5/24/2019 13:21",
 		"getName" : "Tim Strauss 5/21/2019 11:23",
 		"hasChildren" : "Tim Strauss 5/24/2019 13:17",
+		"initialize" : "Tim Strauss 5/24/2019 17:45",
 		"setCategoryConflict:" : "Tim Strauss 5/21/2019 11:12",
-		"setChunks:" : "Tim Strauss 5/21/2019 11:12",
+		"setChunks:" : "Tim Strauss 5/24/2019 17:45",
 		"setName:" : "Tim Strauss 5/21/2019 11:24" } }

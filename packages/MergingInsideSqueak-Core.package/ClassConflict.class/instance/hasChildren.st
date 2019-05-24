@@ -1,4 +1,4 @@
 accessing
 hasChildren
 
-	^(self getPropertyConflicts addAll: self getMethodConflicts) size > 0
+	^(self getPropertyConflicts copy addAll: self getMethodConflicts) size > 0

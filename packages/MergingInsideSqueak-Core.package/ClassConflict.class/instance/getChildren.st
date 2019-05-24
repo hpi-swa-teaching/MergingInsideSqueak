@@ -1,4 +1,4 @@
 accessing
 getChildren
 
-	^self getPropertyConflicts addAll: self getMethodConflicts
+	^self getPropertyConflicts copy addAll: self getMethodConflicts

@@ -2,10 +2,10 @@
 	"class" : {
 		"open" : "Tim Strauss 5/17/2019 11:01",
 		"openWithConflicts:" : "Tim Strauss 5/17/2019 11:18",
-		"openWithMockData" : "Tim Strauss 5/24/2019 13:22" },
+		"openWithMockData" : "Tim Strauss 5/24/2019 19:45" },
 	"instance" : {
-		"buildAndOpenFullMergingTool" : "Tim Strauss 5/17/2019 11:30",
-		"buildConflictListWith:" : "Tim Strauss 5/24/2019 13:06",
+		"buildAndOpenFullMergingTool" : "Tim Strauss 5/24/2019 19:32",
+		"buildConflictListWith:" : "Tim Strauss 5/24/2019 19:37",
 		"buildMergeButtonsWith:" : "Tim Strauss 5/17/2019 11:13",
 		"buildMergePartAWith:" : "Tim Strauss 5/24/2019 10:55",
 		"buildMergePartBWith:" : "Tim Strauss 5/24/2019 11:08",
@@ -16,7 +16,7 @@
 		"currentConflict" : "Tim Strauss 5/17/2019 11:13",
 		"getController" : "Tim Strauss 5/17/2019 11:11",
 		"getUi" : "Tim Strauss 5/17/2019 11:26",
-		"initialize" : "Tim Strauss 5/17/2019 11:10",
+		"initialize" : "Tim Strauss 5/24/2019 18:27",
 		"mergeButtonsFrame" : "Tim Strauss 5/17/2019 11:05",
 		"mergePartAFrame" : "Tim Strauss 5/17/2019 11:04",
 		"mergePartBFrame" : "Tim Strauss 5/17/2019 11:04",
