@@ -10,6 +10,6 @@ testInitConflicts
 	self assert: ((conflicts at: 1) getMethodConflicts at: 1) getChunks size = 3.
 	self assert: (((conflicts at: 1) getMethodConflicts at: 1) getChunks at: 1) isConflict not.
 	self assert: (((conflicts at: 1) getMethodConflicts at: 1) getChunks at: 2) isConflict.
-	self assert: (((conflicts at: 1) getMethodConflicts at: 1) getChunks at: 2) getLeft = 'left'.
-	self assert: (((conflicts at: 1) getMethodConflicts at: 1) getChunks at: 2) getRight = 'right'.
+	self assert: (((conflicts at: 1) getMethodConflicts at: 1) getChunks at: 2) getLeft = '12'.
+	self assert: (((conflicts at: 1) getMethodConflicts at: 1) getChunks at: 2) getRight = '45'.
 	self assert: (((conflicts at: 1) getMethodConflicts at: 1) getChunks at: 3) isConflict not.

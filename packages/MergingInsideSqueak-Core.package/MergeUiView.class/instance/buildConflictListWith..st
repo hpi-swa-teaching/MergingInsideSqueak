@@ -9,6 +9,8 @@ buildConflictListWith: aBuilder
 		roots: #conflictList;
 		hasChildren: #classHasChildren:;
 		getChildren: #getChildrenOfClass:;
-		label: #labelOfObject:.
+		label: #labelOfObject:;
+		setSelected: #listItemPress:;
+		getSelectedPath: #selectedPath.
 	
 	^listSpec

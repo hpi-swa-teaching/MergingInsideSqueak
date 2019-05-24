@@ -8,7 +8,9 @@
 	"instvars" : [
 		"chunks",
 		"categoryConflict",
-		"name" ],
+		"currentConflict",
+		"name",
+		"class" ],
 	"name" : "ConflictingMethod",
 	"pools" : [
 		 ],

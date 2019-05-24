@@ -1,4 +1,0 @@
-ConflictListHandler
-conflictListIndex
-
-	^1
