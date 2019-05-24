@@ -2,13 +2,13 @@ building
 buildConflictListWith: aBuilder
 
 	| listSpec |
-	listSpec := aBuilder pluggableListSpec new.
+	listSpec := aBuilder pluggableTreeSpec new.
 	listSpec
 		model: controller;
-		list: #conflictList;
-		getIndex: #conflictListIndex;
-		setIndex: #conflictListIndex:;
-		icon: #conflictIconAt:;
-		keyPress: #conflictListKey:from:.
+		name: 'conflictList';
+		roots: #conflictList;
+		hasChildren: #classHasChildren:;
+		getChildren: #getChildrenOfClass:;
+		label: #labelOfObject:.
 	
 	^listSpec

@@ -2,7 +2,13 @@
 	"class" : {
 		 },
 	"instance" : {
+		"getChildren" : "Tim Strauss 5/24/2019 13:16",
+		"getLabel" : "Tim Strauss 5/24/2019 13:13",
 		"getMethodConflicts" : "Tim Strauss 5/21/2019 11:14",
 		"getPropertyConflicts" : "Tim Strauss 5/21/2019 11:14",
+		"hasChildren" : "Tim Strauss 5/24/2019 13:17",
+		"initialize" : "Tim Strauss 5/24/2019 13:15",
+		"nameOfClass" : "Tim Strauss 5/24/2019 13:09",
+		"nameOfClass:" : "Tim Strauss 5/24/2019 13:09",
 		"setMethodConflicts:" : "Tim Strauss 5/21/2019 11:13",
 		"setPropertyConflicts:" : "Tim Strauss 5/21/2019 11:13" } }

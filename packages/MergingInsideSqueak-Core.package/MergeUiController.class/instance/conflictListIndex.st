@@ -1,4 +1,4 @@
 ConflictListHandler
 conflictListIndex
 
-	^0
+	^1

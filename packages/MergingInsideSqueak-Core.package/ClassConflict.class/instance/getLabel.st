@@ -1,0 +1,4 @@
+accessing
+getLabel
+
+	^self nameOfClass

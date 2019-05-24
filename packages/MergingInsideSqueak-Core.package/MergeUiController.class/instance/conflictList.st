@@ -1,4 +1,4 @@
 ConflictListHandler
 conflictList
-
-	^Array new
+	
+	^conflicts

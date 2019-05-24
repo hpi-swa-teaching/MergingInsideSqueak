@@ -7,7 +7,8 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"methodConflicts",
-		"propertyConflicts" ],
+		"propertyConflicts",
+		"nameOfClass" ],
 	"name" : "ClassConflict",
 	"pools" : [
 		 ],
