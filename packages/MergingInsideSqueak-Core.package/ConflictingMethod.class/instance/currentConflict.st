@@ -1,4 +1,4 @@
 accessing
 currentConflict
 
-	^currentConflict
+	^chunks at: currentConflict

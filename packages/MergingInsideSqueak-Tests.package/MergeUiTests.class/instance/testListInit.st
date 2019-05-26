@@ -2,7 +2,7 @@ tests
 testListInit
 	| uiList listItems |
 	
-	uiList := self getConflictList.
+	uiList := view getConflictList.
 	listItems := uiList items.
 	self assert: listItems size == 4.
 	self assert: (listItems at: 1) getLabel = 'classA'.

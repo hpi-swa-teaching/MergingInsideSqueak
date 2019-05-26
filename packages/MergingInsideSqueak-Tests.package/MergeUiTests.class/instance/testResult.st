@@ -2,7 +2,7 @@ tests
 testResult
 	| uiResult expectedText |
 	
-	uiResult := self getResult.
+	uiResult := view getResult.
 	expectedText := Text new.
 	expectedText append: (Text string: 'method1', Character cr, Character cr, '	^test'  attribute: TextColor black).
 	expectedText append: (Text string: '?' attribute: TextColor red).

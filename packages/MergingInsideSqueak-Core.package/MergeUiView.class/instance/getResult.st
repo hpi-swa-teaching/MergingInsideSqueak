@@ -1,6 +1,6 @@
-resultHandler
+accessing
 getResult
 	|uiSubmorphs|
 
-	uiSubmorphs := view getUi submorphs.
+	uiSubmorphs := self getUi submorphs.
 	^uiSubmorphs detect: [:morph | morph nameForFindWindowFeature = 'result']

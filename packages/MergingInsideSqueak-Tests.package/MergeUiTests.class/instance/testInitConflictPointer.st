@@ -1,4 +1,4 @@
 tests
 testInitConflictPointer
 
-	self assert: view getController getCurrentConflictingMethod currentConflict == 2
+	self assert: view getController getCurrentConflictingMethod currentConflictNum == 2
