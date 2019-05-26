@@ -2,7 +2,7 @@ tests
 testPartB
 	| uiPartB expectedText |
 	
-	uiPartB := self getPartB.
+	uiPartB := view getPartB.
 	expectedText := Text new.
 	expectedText append: (Text string: 'method1', Character cr, Character cr, '	^test'  attribute: TextColor black).
 	expectedText append: (Text string: '45' attribute: TextColor blue).

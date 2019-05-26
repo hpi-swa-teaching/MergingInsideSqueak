@@ -17,6 +17,6 @@ buildAndOpenFullMergingTool
 		
 	builder open: ui.
 	
-	self getController getConflictList update: #selectedPath.
+	self getConflictList update: #selectedPath.
 	
 	^self 	
