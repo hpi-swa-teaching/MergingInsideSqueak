@@ -12,6 +12,7 @@ buildMergeButtonsWith: aBuilder
 		model: controller;
 		name: 'nextConflict';
 		label: 'Next Conflict';
+		action: #next;
 		help: 'Show next conflict' translated;
 		yourself.
 
@@ -19,6 +20,7 @@ buildMergeButtonsWith: aBuilder
 		model: controller;
 		label: 'Last Conflict';
 		name: 'lastConflict';
+		action: #last;
 		help: 'Show last conflict' translated;
 		yourself.
 	

@@ -9,7 +9,9 @@
 		"view",
 		"conflicts",
 		"currentConflictingClass",
-		"currentConflictingMethod" ],
+		"currentConflictingMethod",
+		"aIn",
+		"bIn" ],
 	"name" : "MergeUiController",
 	"pools" : [
 		 ],
