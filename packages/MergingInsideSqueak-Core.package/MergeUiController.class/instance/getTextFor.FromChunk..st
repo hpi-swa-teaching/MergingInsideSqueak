@@ -4,7 +4,7 @@ getTextFor: aSide FromChunk: aChunk
 	
 	textColor := self getTextColorFromChunk: aChunk ForSide: aSide.
 	aChunk isConflict
-		ifFalse: [^Text string: aChunk getText attribute: textColor]
+		ifFalse: [^Text fromString: aChunk getText]
 		ifTrue: [
 			aSide = #result
 				ifTrue: [
