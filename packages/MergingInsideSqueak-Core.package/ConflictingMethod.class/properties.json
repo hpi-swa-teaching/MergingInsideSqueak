@@ -14,5 +14,5 @@
 	"name" : "ConflictingMethod",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "Conflict",
 	"type" : "normal" }

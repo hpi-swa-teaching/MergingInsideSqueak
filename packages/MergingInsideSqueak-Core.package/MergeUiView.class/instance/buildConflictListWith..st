@@ -4,6 +4,7 @@ buildConflictListWith: aBuilder
 	| listSpec |
 	listSpec := aBuilder pluggableTreeSpec new.
 	listSpec
+		color: Color red;
 		model: controller;
 		name: 'conflictList';
 		roots: #conflictList;

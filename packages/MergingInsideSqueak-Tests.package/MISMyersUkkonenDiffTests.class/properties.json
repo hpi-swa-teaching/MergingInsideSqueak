@@ -1,5 +1,5 @@
 {
-	"category" : "MergingInsideSqueak-Core",
+	"category" : "MergingInsideSqueak-Tests",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
@@ -7,8 +7,8 @@
 	"commentStamp" : "",
 	"instvars" : [
 		 ],
-	"name" : "Diff2",
+	"name" : "MISMyersUkkonenDiffTests",
 	"pools" : [
 		 ],
-	"super" : "Diff3",
+	"super" : "Diff2Tests",
 	"type" : "normal" }

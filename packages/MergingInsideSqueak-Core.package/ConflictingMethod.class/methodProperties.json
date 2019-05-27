@@ -10,11 +10,10 @@
 		"getChunks" : "Tim Strauss 5/21/2019 11:13",
 		"getFirstMethodConflict" : "Tim Strauss 5/24/2019 17:42",
 		"getLabel" : "Tim Strauss 5/24/2019 13:21",
-		"getName" : "Tim Strauss 5/21/2019 11:23",
+		"getName" : "romnn 5/27/2019 15:14",
 		"hasChildren" : "Tim Strauss 5/24/2019 13:17",
 		"initialize" : "Tim Strauss 5/24/2019 17:45",
+		"isMethod" : "romnn 5/27/2019 14:24",
 		"setCategoryConflict:" : "Tim Strauss 5/21/2019 11:12",
 		"setChunks:" : "Tim Strauss 5/24/2019 17:45",
-		"setLastMethodConflict" : "Tim Strauss 5/26/2019 14:33",
-		"setName:" : "Tim Strauss 5/21/2019 11:24",
-		"setNextMethodConflict" : "Tim Strauss 5/26/2019 14:13" } }
+		"setName:" : "Tim Strauss 5/21/2019 11:24" } }

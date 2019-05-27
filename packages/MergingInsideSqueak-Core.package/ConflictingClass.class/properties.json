@@ -6,9 +6,11 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
-	"name" : "Diff2Conflict",
+		"methodConflicts",
+		"propertyConflicts",
+		"nameOfClass" ],
+	"name" : "ConflictingClass",
 	"pools" : [
 		 ],
-	"super" : "Diff3Conflict",
+	"super" : "Conflict",
 	"type" : "normal" }

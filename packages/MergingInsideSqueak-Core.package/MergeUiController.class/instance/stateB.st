@@ -4,5 +4,4 @@ stateB
 	
 	currentConflict := self getCurrentConflictingMethod currentConflict.
 	selectedParts := currentConflict getSelected.
-	selectedParts anySatisfy: [:selected | selected == #right].
-	^bIn
+	^selectedParts anySatisfy: [:selected | selected == #right]
