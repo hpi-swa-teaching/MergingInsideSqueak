@@ -1,0 +1,19 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"assertDiffWorksAsPatch:" : "romnn 5/27/2019 15:21",
+		"diffClass" : "romnn 5/27/2019 15:23",
+		"sampleDiff:" : "romnn 5/27/2019 15:22",
+		"testComm" : "romnn 5/27/2019 15:22",
+		"testCommPrefix" : "romnn 5/27/2019 15:22",
+		"testCommSuffix" : "romnn 5/27/2019 15:22",
+		"testDiffIndices" : "romnn 5/27/2019 15:36",
+		"testDiffPatch" : "romnn 5/27/2019 15:22",
+		"testDiffSuffix" : "romnn 5/27/2019 15:22",
+		"testLcs" : "romnn 5/27/2019 15:22",
+		"testLcs2" : "romnn 5/27/2019 15:22",
+		"testLcs2a" : "romnn 5/27/2019 15:22",
+		"testLcs2b" : "romnn 5/27/2019 15:22",
+		"testLcsHM" : "romnn 5/27/2019 15:22",
+		"testLcsHMb" : "romnn 5/27/2019 15:22" } }
