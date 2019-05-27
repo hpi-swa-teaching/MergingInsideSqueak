@@ -6,16 +6,16 @@ getTextColorFromChunk: aChunk ForSide: aSide
 			aSide == #result
 				ifTrue: [
 					aChunk isResolved
-						ifTrue: [^styler attributesFor: #keyword]
-						ifFalse: [^styler attributesFor: #invalid]
+						ifTrue: [^self resolvedConflictColor]
+						ifFalse: [^self mergeConflictColor]
 					]
 				ifFalse: [
 					aChunk isResolved
 						ifTrue: [
 							(aChunk getSelected anySatisfy: [:selected | selected == aSide])
-								ifTrue: [^Array with: TextColor green]
-								ifFalse: [^styler attributesFor: #invalid]
+								ifTrue: [^self takenColor]
+								ifFalse: [^self discardedColor]
 							]
-						ifFalse: [^styler attributesFor: #keyword]
+						ifFalse: [^self unresolvedConflictColor]
 					]
 			]

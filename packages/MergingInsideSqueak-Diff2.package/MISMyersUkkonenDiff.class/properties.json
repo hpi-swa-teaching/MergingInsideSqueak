@@ -1,0 +1,14 @@
+{
+	"category" : "MergingInsideSqueak-Diff2",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"lcs" ],
+	"name" : "MISMyersUkkonenDiff",
+	"pools" : [
+		 ],
+	"super" : "MISGenericDiff",
+	"type" : "normal" }

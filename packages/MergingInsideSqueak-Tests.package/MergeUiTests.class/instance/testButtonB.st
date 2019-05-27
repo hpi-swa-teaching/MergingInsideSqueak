@@ -7,11 +7,11 @@ testButtonB
 	button := view getButtonB.
 	expectedPartAText := Text new.
 	expectedPartAText append: (Text fromString: 'method1', Character cr, Character cr, '	^test').
-	expectedPartAText append: ((Text string: '12' attributes: (styler attributesFor: #invalid)) addAttribute: TextEmphasis underlined).
+	expectedPartAText append: ((Text string: '12' attributes: (controller discardedColor)) addAttribute: TextEmphasis underlined).
 	expectedPartAText append: (Text fromString: '3').
 	expectedPartBText := Text new.
 	expectedPartBText append: (Text fromString: 'method1', Character cr, Character cr, '	^test').
-	expectedPartBText append: (Text string: '45' attributes: (Array with: TextColor green with: TextEmphasis underlined)).
+	expectedPartBText append: ((Text string: '45' attributes: (controller takenColor)) addAttribute: TextEmphasis underlined).
 	expectedPartBText append: (Text fromString: '3').
 	
 	self assert: button actionSelector == #chooseB.

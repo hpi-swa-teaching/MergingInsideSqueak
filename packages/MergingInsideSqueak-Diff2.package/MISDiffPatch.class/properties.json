@@ -1,0 +1,15 @@
+{
+	"category" : "MergingInsideSqueak-Diff2",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"chunks",
+		"snippets" ],
+	"name" : "MISDiffPatch",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

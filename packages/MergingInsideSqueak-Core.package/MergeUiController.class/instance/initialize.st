@@ -6,4 +6,5 @@ initialize
 	currentConflictingMethod := 1.
 	aIn := false.
 	bIn := false.
-	styler := SHTextStylerST80 new applyUserInterfaceTheme
+	(SHTextStylerST80 canUnderstand: #applyUserInterfaceTheme) ifTrue: [
+		styler := SHTextStylerST80 new applyUserInterfaceTheme]
