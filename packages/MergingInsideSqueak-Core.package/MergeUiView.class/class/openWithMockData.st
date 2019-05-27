@@ -2,7 +2,7 @@ initialize
 openWithMockData
 	|conflicts classConflict1 classConflict2 conflictingMethod1 conflictingMethod2 conflictingMethod3|
 	
-	classConflict1 := ClassConflict new.
+	classConflict1 := ConflictingClass new.
 	classConflict1 nameOfClass: 'classA'.
 	conflictingMethod1 :=  ConflictingMethod new conflictingClass: classConflict1.
 	conflictingMethod3 :=  ConflictingMethod new conflictingClass: classConflict1.
@@ -19,7 +19,7 @@ openWithMockData
 			with: ((ConflictChunk new setLeft: '12342145') setRight: '9')).
 	conflictingMethod3 setName: 'method2'.
 	
-	classConflict2 := ClassConflict new.
+	classConflict2 := ConflictingClass new.
 	classConflict2 nameOfClass: 'classB'.
 	conflictingMethod2 :=  ConflictingMethod new  conflictingClass: classConflict2.
 	classConflict2 setMethodConflicts: (OrderedCollection with: conflictingMethod2).
