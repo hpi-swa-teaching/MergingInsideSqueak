@@ -4,8 +4,8 @@ testPartA
 	
 	uiPartA := view getPartA.
 	expectedText := Text new.
-	expectedText append: (Text string: 'method1', Character cr, Character cr, '	^test' attribute: TextColor black).
-	expectedText append: (Text string: '12' attributes: (Array with: TextColor blue with: TextEmphasis underlined)).
-	expectedText append: (Text string: '3' attribute: TextColor black).
+	expectedText append: (Text fromString: 'method1', Character cr, Character cr, '	^test').
+	expectedText append: ((Text string: '12' attributes: (styler attributesFor: #keyword)) addAttribute: TextEmphasis underlined).
+	expectedText append: (Text fromString: '3').
 	
 	self assert: (self compareText: uiPartA getText With: expectedText).

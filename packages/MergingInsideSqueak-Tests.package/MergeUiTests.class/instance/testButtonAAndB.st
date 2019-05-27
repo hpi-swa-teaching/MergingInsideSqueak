@@ -6,22 +6,22 @@ testButtonAAndB
 	uiPartB := view getPartB.
 	
 	partANotSelectedText := Text new.
-	partANotSelectedText append: (Text string: 'method1', Character cr, Character cr, '	^test' attribute: TextColor black).
-	partANotSelectedText append: (Text string: '12' attributes: (Array with: TextColor red with: TextEmphasis underlined)).
-	partANotSelectedText append: (Text string: '3' attribute: TextColor black).
+	partANotSelectedText append: (Text fromString: 'method1', Character cr, Character cr, '	^test').
+	partANotSelectedText append: ((Text string: '12' attributes: (styler attributesFor: #invalid)) addAttribute: TextEmphasis underlined).
+	partANotSelectedText append: (Text fromString: '3').
 	partBSelectedText := Text new.
-	partBSelectedText append: (Text string: 'method1', Character cr, Character cr, '	^test' attribute: TextColor black).
+	partBSelectedText append: (Text fromString: 'method1', Character cr, Character cr, '	^test').
 	partBSelectedText append: (Text string: '45' attributes: (Array with: TextColor green with: TextEmphasis underlined)).
-	partBSelectedText append: (Text string: '3' attribute: TextColor black).
+	partBSelectedText append: (Text fromString: '3').
 	
 	partASelectedText := Text new.
-	partASelectedText append: (Text string: 'method1', Character cr, Character cr, '	^test' attribute: TextColor black).
+	partASelectedText append: (Text fromString: 'method1', Character cr, Character cr, '	^test').
 	partASelectedText append: (Text string: '12' attributes: (Array with: TextColor green with: TextEmphasis underlined)).
-	partASelectedText append: (Text string: '3' attribute: TextColor black).
+	partASelectedText append: (Text fromString: '3').
 	partBNotSelectedText := Text new.
-	partBNotSelectedText append: (Text string: 'method1', Character cr, Character cr, '	^test' attribute: TextColor black).
-	partBNotSelectedText append: (Text string: '45' attributes: (Array with: TextColor red with: TextEmphasis underlined)).
-	partBNotSelectedText append: (Text string: '3' attribute: TextColor black).
+	partBNotSelectedText append: (Text fromString: 'method1', Character cr, Character cr, '	^test').
+	partBNotSelectedText append: ((Text string: '45' attributes: (styler attributesFor: #invalid)) addAttribute: TextEmphasis underlined).
+	partBNotSelectedText append: (Text fromString: '3').
 	
 	currentConflict := view getController getCurrentConflictingMethod currentConflict.
 	view getController chooseA.

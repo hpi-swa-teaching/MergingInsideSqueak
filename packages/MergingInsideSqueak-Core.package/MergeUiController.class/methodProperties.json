@@ -2,6 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
+		"aboutToStyle:" : "Tim Strauss 5/27/2019 14:16",
 		"chooseA" : "Tim Strauss 5/26/2019 14:28",
 		"chooseB" : "Tim Strauss 5/26/2019 14:29",
 		"classHasChildren:" : "Tim Strauss 5/24/2019 13:18",
@@ -13,9 +14,9 @@
 		"getChildrenOfClass:" : "Tim Strauss 5/24/2019 13:18",
 		"getConflictAt:" : "Tim Strauss 5/17/2019 11:13",
 		"getCurrentConflictingMethod" : "Tim Strauss 5/24/2019 17:43",
-		"getTextColorFromChunk:ForSide:" : "Tim Strauss 5/26/2019 10:52",
-		"getTextFor:FromChunk:" : "Tim Strauss 5/26/2019 11:19",
-		"initialize" : "Tim Strauss 5/26/2019 14:25",
+		"getTextColorFromChunk:ForSide:" : "Tim Strauss 5/27/2019 14:27",
+		"getTextFor:FromChunk:" : "Tim Strauss 5/27/2019 14:26",
+		"initialize" : "Tim Strauss 5/27/2019 14:17",
 		"labelOfObject:" : "Tim Strauss 5/24/2019 13:10",
 		"last" : "Tim Strauss 5/27/2019 13:23",
 		"listItemPress:" : "Tim Strauss 5/26/2019 09:43",
