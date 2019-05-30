@@ -5,25 +5,27 @@ testClickList
 	uiList := view getConflictList.
 	view getController currentConflictingClass: 2.
 	view getController currentConflictingMethod: 1.
-	uiList update: #selectedPath.	
-	
+	uiList update: #selectedPath.
 	uiPartA := view getPartA.
 	expectedTextA := Text new.
-	expectedTextA append: (Text string: 'method1', Character cr, Character cr, '	^test' attribute: TextColor black).
+	expectedTextA append: (Text string: 'method1', Character cr, Character cr, '	1+' attribute: TextColor black).
 	expectedTextA append: (Text string: '31298' attribute: TextColor blue).
-	expectedTextA append: (Text string: '7' attribute: TextColor black).
+	expectedTextA append: (Text string: '', Character cr, '	^7'  attribute: TextColor black).
+	expectedTextA append: (Text string: '398' attribute: TextColor blue).
 	self assert: (self compareText: uiPartA getText With: expectedTextA).
 	
 	uiPartB := view getPartB.
 	expectedTextB := Text new.
-	expectedTextB append: (Text string: 'method1', Character cr, Character cr, '	^test'  attribute: TextColor black).
+	expectedTextB append: (Text string: 'method1', Character cr, Character cr, '	1+'  attribute: TextColor black).
 	expectedTextB append: (Text string: '45' attribute: TextColor blue).
-	expectedTextB append: (Text string: '7' attribute: TextColor black).
+	expectedTextB append: (Text string: '', Character cr, '	^7'  attribute: TextColor black).
+	expectedTextB append: (Text string: '45' attribute: TextColor blue).
 	self assert: (self compareText: uiPartB getText With: expectedTextB).
 	
 	uiResult := view getResult.
 	expectedText := Text new.
-	expectedText append: (Text string: 'method1', Character cr, Character cr, '	^test'  attribute: TextColor black).
+	expectedText append: (Text string: 'method1', Character cr, Character cr, '	1+'  attribute: TextColor black).
 	expectedText append: (Text string: '?' attribute: TextColor red).
-	expectedText append: (Text string: '7' attribute: TextColor black).
+	expectedText append: (Text string: '', Character cr, '	^7'  attribute: TextColor black).
+	expectedText append: (Text string: '?' attribute: TextColor red).
 	self assert: (self compareText: uiResult getText With: expectedText).
