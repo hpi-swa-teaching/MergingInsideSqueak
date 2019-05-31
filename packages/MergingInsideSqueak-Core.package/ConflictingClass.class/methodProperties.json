@@ -1,0 +1,15 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"getChildren" : "Tim Strauss 5/24/2019 17:26",
+		"getLabel" : "Tim Strauss 5/24/2019 13:13",
+		"getMethodConflicts" : "Tim Strauss 5/21/2019 11:14",
+		"getPropertyConflicts" : "Tim Strauss 5/21/2019 11:14",
+		"hasChildren" : "Tim Strauss 5/24/2019 17:26",
+		"initialize" : "Tim Strauss 5/24/2019 13:15",
+		"isMethod" : "lvp 5/27/2019 18:33",
+		"nameOfClass" : "Tim Strauss 5/24/2019 13:09",
+		"nameOfClass:" : "Tim Strauss 5/24/2019 13:09",
+		"setMethodConflicts:" : "Tim Strauss 5/21/2019 11:13",
+		"setPropertyConflicts:" : "Tim Strauss 5/21/2019 11:13" } }

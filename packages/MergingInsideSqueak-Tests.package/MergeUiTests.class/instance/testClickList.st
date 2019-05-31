@@ -5,8 +5,7 @@ testClickList
 	uiList := view getConflictList.
 	view getController currentConflictingClass: 2.
 	view getController currentConflictingMethod: 1.
-	uiList update: #selectedPath.	
-	
+	uiList update: #selectedPath.
 	uiPartA := view getPartA.
 	expectedTextA := Text new.
 	expectedTextA append: (Text string: 'method1', Character cr, Character cr, '	1+' attribute: TextColor black).

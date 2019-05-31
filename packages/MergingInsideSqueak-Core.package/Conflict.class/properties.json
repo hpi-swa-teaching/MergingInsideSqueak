@@ -6,13 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"chunks",
-		"categoryConflict",
-		"currentConflict",
-		"name",
-		"class" ],
-	"name" : "ConflictingMethod",
+		 ],
+	"name" : "Conflict",
 	"pools" : [
 		 ],
-	"super" : "Conflict",
+	"super" : "Object",
 	"type" : "normal" }
