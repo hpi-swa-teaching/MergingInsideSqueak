@@ -6,8 +6,11 @@ baseline: spec
 		do: [
 			spec
 				package: 'MergingInsideSqueak-Core';
-				package: 'MergingInsideSqueak-Tests' with: [spec requires: #('MergingInsideSqueak-Core')];
-				yourself.
+				package: 'MergingInsideSqueak-Diff2';
+				package: 'MergingInsideSqueak-Tests' with: [
+					spec requires: #('MergingInsideSqueak-Core');
+						requires: #('MergingInsideSqueak-Diff2')
+			]; yourself.
 			spec
 				group: 'default' with: #('MergingInsideSqueak-Core');
 				group: 'tests' with: #('MergingInsideSqueak-Tests')];
