@@ -2,7 +2,7 @@ building
 buildAndOpenFullMergingTool
 
 	| builder windowSpec |
-	builder := ToolBuilder default.
+	builder := MyMorphicToolBuilder new.
 	
 	windowSpec := self buildWindowWith: builder specs: {
 		(self conflictListFrame) -> [self buildConflictListWith: builder].
@@ -13,6 +13,7 @@ buildAndOpenFullMergingTool
 	}.
 	self setMultiWindowFor: windowSpec.
 	
+	self halt.
 	ui := builder build: windowSpec.
 		
 	builder open: ui.

@@ -6,5 +6,8 @@ partB
 	conflictingMethod := conflictingClass getMethodConflicts at: currentConflictingMethod.
 	chunks := conflictingMethod getChunks.
 	uiText := Text new.
-	chunks do: [:chunk | uiText append: (self getTextFor: #right FromChunk: chunk)].
+	chunks doWithIndex: [:chunk :index | |appendText|
+		appendText := self getTextFor: #right FromChunk: chunk.
+		index = self getCurrentConflictingMethod currentConflictNum ifTrue: [appendText addAttribute: TextEmphasis underlined].
+		uiText append: appendText].
 	^uiText

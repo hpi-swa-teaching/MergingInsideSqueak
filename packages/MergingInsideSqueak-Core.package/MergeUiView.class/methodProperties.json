@@ -2,10 +2,10 @@
 	"class" : {
 		"open" : "Tim Strauss 5/17/2019 11:01",
 		"openWithConflicts:" : "Tim Strauss 5/17/2019 11:18",
-		"openWithMockData" : "romnn 5/27/2019 14:26" },
+		"openWithMockData" : "lvp 5/27/2019 18:32" },
 	"instance" : {
-		"buildAndOpenFullMergingTool" : "Tim Strauss 5/26/2019 09:47",
-		"buildConflictListWith:" : "romnn 5/27/2019 14:58",
+		"buildAndOpenFullMergingTool" : "romnn 5/27/2019 21:44",
+		"buildConflictListWith:" : "romnn 5/27/2019 21:23",
 		"buildMergeButtonsWith:" : "Tim Strauss 5/26/2019 10:59",
 		"buildMergePartAWith:" : "Tim Strauss 5/24/2019 10:55",
 		"buildMergePartBWith:" : "Tim Strauss 5/24/2019 11:08",

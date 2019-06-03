@@ -1,7 +1,8 @@
 ConflictListHandler
 listItemPress: aItem
 
-	aItem isMethod ifFalse: [^nil].
+	aItem isMethod ifFalse: [^ nil].
+		
 	currentConflictingClass := conflicts indexOf: aItem conflictingClass.
 	currentConflictingMethod := (conflicts at: currentConflictingClass) getMethodConflicts indexOf: aItem.
 	self view getPartA update: #partA.

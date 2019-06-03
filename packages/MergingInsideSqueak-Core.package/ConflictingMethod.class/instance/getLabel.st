@@ -1,4 +1,4 @@
 accessing
 getLabel
 
-	^self getName
+	^Text string: 'Test' attribute: TextColor red "self getName"
