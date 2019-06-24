@@ -1,4 +1,4 @@
 ConflictListHandler
 getChildrenOfClass: aClass
 	
-	^aClass getChildren.
+	^aClass children.

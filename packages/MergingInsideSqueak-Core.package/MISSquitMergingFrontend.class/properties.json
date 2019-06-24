@@ -1,0 +1,14 @@
+{
+	"category" : "MergingInsideSqueak-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "MISSquitMergingFrontend",
+	"pools" : [
+		 ],
+	"super" : "SquitMergingFrontend",
+	"type" : "normal" }

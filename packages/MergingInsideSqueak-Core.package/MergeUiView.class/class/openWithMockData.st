@@ -10,13 +10,13 @@ openWithMockData
 	conflictingMethod1 setChunks: 
 		(OrderedCollection 
 			with: (Chunk new setText: 'method1', Character cr, Character cr, '	^test')
-			with: ((ConflictChunk new setLeft: '12') setRight: '45')
+			with: ((ConflictChunk new left: '12') right: '45')
 			with: (Chunk new setText: '3')).
 	conflictingMethod1 setName: 'method1'.
 	conflictingMethod3 setChunks: 
 		(OrderedCollection 
 			with: (Chunk new setText: 'method2', Character cr, Character cr, '	^')
-			with: ((ConflictChunk new setLeft: '12342145') setRight: '9')).
+			with: ((ConflictChunk new left: '12342145') right: '9')).
 	conflictingMethod3 setName: 'method2'.
 	
 	classConflict2 := ConflictingClass new.
@@ -26,9 +26,9 @@ openWithMockData
 	conflictingMethod2 setChunks: 
 		(OrderedCollection 
 			with: (Chunk new setText: 'method1', Character cr, Character cr, '	1+')
-			with: ((ConflictChunk new setLeft: '31298') setRight: '45')
+			with: ((ConflictChunk new left: '31298') right: '45')
 			with: (Chunk new setText: '', Character cr, '	^7')
-			with: ((ConflictChunk new setLeft: '398') setRight: '45')).
+			with: ((ConflictChunk new left: '398') right: '45')).
 	conflictingMethod2 setName: 'method1'.
 	
 	conflicts := OrderedCollection with: classConflict1 with: classConflict2.

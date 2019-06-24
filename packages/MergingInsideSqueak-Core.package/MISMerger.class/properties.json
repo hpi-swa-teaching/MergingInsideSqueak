@@ -1,0 +1,15 @@
+{
+	"category" : "MergingInsideSqueak-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"patch",
+		"base" ],
+	"name" : "MISMerger",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

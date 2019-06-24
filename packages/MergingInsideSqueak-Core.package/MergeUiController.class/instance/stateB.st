@@ -2,6 +2,6 @@ buttonHandler
 stateB
 	| currentConflict selectedParts |
 	
-	currentConflict := self getCurrentConflictingMethod currentConflict.
-	selectedParts := currentConflict getSelected.
+	currentConflict := self getCurrentConflictingMethod change currentConflict.
+	selectedParts := currentConflict selected.
 	^selectedParts anySatisfy: [:selected | selected == #right]

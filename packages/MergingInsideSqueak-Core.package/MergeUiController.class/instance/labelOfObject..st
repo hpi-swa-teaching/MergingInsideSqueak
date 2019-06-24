@@ -1,4 +1,4 @@
 ConflictListHandler
 labelOfObject: aObject
 
-	^aObject getLabel
+	^aObject label

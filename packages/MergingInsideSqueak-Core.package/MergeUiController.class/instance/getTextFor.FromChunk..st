@@ -21,8 +21,8 @@ getTextFor: aSide FromChunk: aChunk
 					]
 				ifFalse: [
 					aSide = #left
-						ifTrue: [^Text string: aChunk getLeft attribute: textColor]
-						ifFalse: [^Text string: aChunk getRight attribute: textColor]
+						ifTrue: [^Text string: aChunk left attribute: textColor]
+						ifFalse: [^Text string: aChunk right attribute: textColor]
 				]	
 			]
 			

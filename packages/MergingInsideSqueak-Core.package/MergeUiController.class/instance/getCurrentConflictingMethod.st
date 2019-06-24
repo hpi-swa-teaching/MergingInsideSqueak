@@ -1,4 +1,5 @@
 accessing
 getCurrentConflictingMethod
 
-	^(conflicts at: currentConflictingClass) getMethodConflicts at: currentConflictingMethod
+	"^(conflicts at: currentConflictingClass) getMethodConflicts at: currentConflictingMethod"
+	^self currentMethod
