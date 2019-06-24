@@ -2,7 +2,7 @@ building
 buildConflictListWith: aBuilder
 
 	| listSpec |
-	listSpec := ColoredPluggableTreeSpec new.
+	listSpec := PluggableTreeSpec new.
 	listSpec
 		model: controller;
 		"nodeClass: IndentingListItemMorph; ""ObjectExplorerWrapper;"
@@ -10,7 +10,6 @@ buildConflictListWith: aBuilder
 		roots: #conflictList;
 		hasChildren: #classHasChildren:;
 		getChildren: #getChildrenOfClass:;
-		labelColor: #colorOfObject:;
 		label: #labelOfObject:;
 		setSelected: #listItemPress:;
 		getSelectedPath: #selectedPath.

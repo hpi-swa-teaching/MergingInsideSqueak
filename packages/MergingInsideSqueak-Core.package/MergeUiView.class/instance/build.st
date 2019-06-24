@@ -2,7 +2,7 @@ building
 build
 
 	| builder windowSpec |
-	builder := MyMorphicToolBuilder new.
+	builder := MorphicToolBuilder new.
 	
 	windowSpec := self buildWindowWith: builder specs: {
 		(self conflictListFrame) -> [self buildConflictListWith: builder].
