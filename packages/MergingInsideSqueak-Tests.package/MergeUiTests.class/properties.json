@@ -6,7 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"view" ],
+		"view",
+		"styler",
+		"controller" ],
 	"name" : "MergeUiTests",
 	"pools" : [
 		 ],

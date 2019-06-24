@@ -1,14 +1,21 @@
 accessing
 getTextColorFromChunk: aChunk ForSide: aSide
-
-	^aChunk isConflict
-		ifFalse: [^TextColor black]
+	
+	aChunk isConflict
 		ifTrue: [
-			^aChunk isResolved
+			aSide == #result
 				ifTrue: [
-					(aChunk getSelected anySatisfy: [:selected | selected == aSide])
-						ifTrue: [^TextColor green]
-						ifFalse: [^TextColor red]
+					aChunk isResolved
+						ifTrue: [^self resolvedConflictColor]
+						ifFalse: [^self mergeConflictColor]
 					]
-				ifFalse: [^TextColor blue]
+				ifFalse: [
+					aChunk isResolved
+						ifTrue: [
+							(aChunk getSelected anySatisfy: [:selected | selected == aSide])
+								ifTrue: [^self takenColor]
+								ifFalse: [^self discardedColor]
+							]
+						ifFalse: [^self unresolvedConflictColor]
+					]
 			]
