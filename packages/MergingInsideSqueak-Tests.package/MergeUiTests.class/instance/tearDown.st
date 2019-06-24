@@ -1,5 +1,5 @@
 running
 tearDown
 
-	"view close"
+	view close
 	

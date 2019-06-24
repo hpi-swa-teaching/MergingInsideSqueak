@@ -28,4 +28,3 @@ testClickList
 	expectedText append: ((Text string: '?' attributes: (controller mergeConflictColor)) addAttribute: TextEmphasis underlined).
 	expectedText append: (Text fromString: '', Character cr, '	^7').
 	expectedText append: (Text string: '?' attributes: (controller mergeConflictColor)).
-	self assert: (self compareText: uiResult getText With: expectedText).
