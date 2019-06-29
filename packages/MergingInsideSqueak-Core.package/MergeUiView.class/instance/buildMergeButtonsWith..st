@@ -1,7 +1,7 @@
 building
 buildMergeButtonsWith: aBuilder
 
-	| panelSpec next last a b save |
+	| panelSpec next previous a b save |
 	panelSpec := aBuilder pluggablePanelSpec new
 		name: 'panel';
 		layout: #horizontal;
@@ -12,16 +12,16 @@ buildMergeButtonsWith: aBuilder
 		model: controller;
 		name: 'nextConflict';
 		label: 'Next Conflict';
-		action: #next;
+		action: #nextConflict;
 		help: 'Show next conflict' translated;
 		yourself.
 
-	last := aBuilder pluggableButtonSpec new
+	previous := aBuilder pluggableButtonSpec new
 		model: controller;
-		label: 'Last Conflict';
-		name: 'lastConflict';
-		action: #last;
-		help: 'Show last conflict' translated;
+		label: 'Previous Conflict';
+		name: 'previousConflict';
+		action: #previousConflict;
+		help: 'Show previous conflict' translated;
 		yourself.
 	
 	a := aBuilder pluggableButtonSpec new
@@ -50,7 +50,7 @@ buildMergeButtonsWith: aBuilder
 		yourself.
 		
 	panelSpec children addAll: {
-		next. last. a. b. save.
+		next. previous. a. b. save.
 	}.
 	
 	^panelSpec

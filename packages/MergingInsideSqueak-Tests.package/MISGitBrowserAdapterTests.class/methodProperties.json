@@ -1,0 +1,9 @@
+{
+	"class" : {
+		"createWorkingCopyWithName:andDirectory:forRepository:" : "romnn 6/9/2019 00:41" },
+	"instance" : {
+		"addAndSelectTemporarySquitWorkingCopy" : "romnn 6/8/2019 23:57",
+		"newRepository" : "romnn 6/6/2019 13:25",
+		"setUp" : "romnn 6/29/2019 00:43",
+		"tearDown" : "romnn 6/6/2019 13:28",
+		"testOpensMerger" : "romnn 6/6/2019 13:36" } }

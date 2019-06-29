@@ -1,16 +1,15 @@
 building
 buildConflictListWith: aBuilder
 
-	| listSpec |
-	listSpec := aBuilder pluggableTreeSpec new.
-	listSpec
+	^PluggableTreeSpec new
 		model: controller;
+		autoDeselect: false;
 		name: 'conflictList';
-		roots: #conflictList;
+		roots: #conflicts;
+		label: #labelOfChange:;
 		hasChildren: #classHasChildren:;
-		getChildren: #getChildrenOfClass:;
-		label: #labelOfObject:;
-		setSelected: #listItemPress:;
-		getSelectedPath: #selectedPath.
-	
-	^listSpec
+		getChildren: #childrenOfClass:;
+		setSelected: #handleChangeSelection:;
+		setSelectedPath: #selectedPath:;
+		getSelectedPath: #selectedPath;
+		yourself

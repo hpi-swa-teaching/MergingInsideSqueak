@@ -1,0 +1,14 @@
+{
+	"category" : "MergingInsideSqueak-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"operations" ],
+	"name" : "MISSourceHolderSet",
+	"pools" : [
+		 ],
+	"super" : "KeyedSet",
+	"type" : "normal" }

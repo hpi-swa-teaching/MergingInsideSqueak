@@ -1,0 +1,21 @@
+{
+	"category" : "MergingInsideSqueak-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"chunks",
+		"source",
+		"timestamp",
+		"category",
+		"classIsMeta",
+		"className",
+		"actualClass",
+		"conflicts" ],
+	"name" : "MISSourceHolder",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

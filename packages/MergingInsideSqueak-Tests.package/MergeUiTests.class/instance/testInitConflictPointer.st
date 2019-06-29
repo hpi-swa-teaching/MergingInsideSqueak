@@ -1,4 +1,5 @@
 tests
 testInitConflictPointer
 
-	self assert: view getController getCurrentConflictingMethod currentConflictNum == 2
+	" This test name is not understandable "
+	"self assert: self currentConflict currentConflictNum == 2"

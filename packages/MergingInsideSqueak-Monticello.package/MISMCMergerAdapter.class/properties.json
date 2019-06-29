@@ -1,0 +1,16 @@
+{
+	"category" : "MergingInsideSqueak-Monticello",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "MISMonticelloConverter classTrait",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "MISMCMergerAdapter",
+	"pools" : [
+		 ],
+	"super" : "MCThreeWayMerger",
+	"traitcomposition" : "MISMonticelloConverter",
+	"type" : "normal" }
