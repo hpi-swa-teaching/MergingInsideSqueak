@@ -1,9 +1,9 @@
 {
 	"class" : {
-		"fromChunks:" : "romnn 6/22/2019 15:41" },
+		"fromChunks:" : "romnn 6/28/2019 19:52" },
 	"instance" : {
-		"actualClass" : "romnn 6/22/2019 20:28",
-		"actualClass:" : "romnn 6/23/2019 00:29",
+		"actualClass" : "romnn 6/28/2019 13:07",
+		"actualClass:" : "romnn 6/28/2019 13:07",
 		"category" : "romnn 6/22/2019 20:25",
 		"category:" : "romnn 6/22/2019 20:25",
 		"children" : "romnn 6/24/2019 11:30",
@@ -13,13 +13,16 @@
 		"classIsMeta:" : "romnn 6/22/2019 20:27",
 		"className" : "romnn 6/22/2019 20:28",
 		"className:" : "romnn 6/22/2019 20:27",
+		"conflictAt:" : "romnn 6/28/2019 21:59",
+		"conflictCount" : "romnn 6/28/2019 22:38",
+		"conflictIndexAt:" : "romnn 6/28/2019 22:19",
 		"currentConflict" : "romnn 6/23/2019 01:04",
 		"hasChildren" : "romnn 6/23/2019 01:30",
 		"isClassSource" : "romnn 6/22/2019 16:09",
 		"isMethodSource" : "romnn 6/22/2019 16:09",
 		"label" : "romnn 6/24/2019 11:15",
-		"source" : "romnn 6/22/2019 20:23",
-		"source:" : "romnn 6/22/2019 20:24",
+		"source" : "romnn 6/28/2019 19:48",
+		"source:" : "romnn 6/28/2019 21:33",
 		"summary" : "romnn 6/24/2019 13:15",
 		"timestamp" : "romnn 6/22/2019 20:24",
 		"timestamp:" : "romnn 6/22/2019 20:25" } }

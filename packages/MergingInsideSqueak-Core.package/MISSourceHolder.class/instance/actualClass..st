@@ -1,4 +1,4 @@
 nil
-actualClass: aClass
+actualClass: aMISClass
 
-	actualClass := aClass
+	actualClass := aMISClass

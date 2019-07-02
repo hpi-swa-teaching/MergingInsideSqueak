@@ -12,9 +12,6 @@ build
 		(self mergeButtonsFrame) -> [self buildMergeButtonsWith: builder]
 	}.
 	self setMultiWindowFor: windowSpec.
-	
 	ui := builder build: windowSpec.
-	
-	"self getConflictList update: #selectedPath."
-	
+	self conflictListMorph update: #selectedPath.
 	^ui 	

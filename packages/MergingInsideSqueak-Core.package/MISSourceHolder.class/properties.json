@@ -11,7 +11,9 @@
 		"timestamp",
 		"category",
 		"classIsMeta",
-		"className" ],
+		"className",
+		"actualClass",
+		"conflicts" ],
 	"name" : "MISSourceHolder",
 	"pools" : [
 		 ],
