@@ -3,5 +3,6 @@ OrderedDictionary {
 	'packages\/MergingInsideSqueak-Tests.package' : #SquotCypressCodeSerializer,
 	'packages\/BaselineOfMergingInsideSqueak.package' : #SquotCypressCodeSerializer,
 	'packages\/MergingInsideSqueak-Monticello.package' : #SquotCypressCodeSerializer,
-	'packages\/MergingInsideSqueak-Diff2.package' : #SquotCypressCodeSerializer
+	'packages\/MergingInsideSqueak-Diff2.package' : #SquotCypressCodeSerializer,
+	'packages\/Squot-Core.package' : #SquotCypressCodeSerializer
 }

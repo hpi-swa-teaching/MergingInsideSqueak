@@ -1,0 +1,22 @@
+{
+	"category" : "Squot-Core",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "TSquotMutableObjectContainer classTrait",
+	"classvars" : [
+		 ],
+	"commentStamp" : "jr 8/18/2018 16:53",
+	"instvars" : [
+		"objects",
+		"paths",
+		"environment",
+		"additionalInfo",
+		"objectRegistry",
+		"objectGraphs",
+		"loadOrder" ],
+	"name" : "SquotImageStore",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"traitcomposition" : "TSquotMutableObjectContainer",
+	"type" : "normal" }
