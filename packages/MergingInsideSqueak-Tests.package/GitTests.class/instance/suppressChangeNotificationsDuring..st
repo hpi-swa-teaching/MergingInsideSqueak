@@ -1,0 +1,3 @@
+as yet unclassified
+suppressChangeNotificationsDuring: aBlock
+	^ self changeLogSuppressor suppressChangeNotificationsDuring: aBlock

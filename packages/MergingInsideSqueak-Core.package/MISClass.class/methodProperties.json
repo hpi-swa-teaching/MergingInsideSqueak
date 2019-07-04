@@ -2,7 +2,9 @@
 	"class" : {
 		 },
 	"instance" : {
+		"=" : "Tim Strauss 7/2/2019 17:11",
 		"children" : "romnn 6/24/2019 14:39",
+		"diffAgainst:" : "Tim Strauss 7/2/2019 19:02",
 		"hasChildren" : "romnn 6/23/2019 01:26",
 		"isClassSource" : "romnn 6/22/2019 16:11",
 		"methods" : "romnn 6/23/2019 00:32",

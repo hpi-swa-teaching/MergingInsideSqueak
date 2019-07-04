@@ -7,7 +7,8 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"patch",
-		"base" ],
+		"base",
+		"target" ],
 	"name" : "MISDiffer",
 	"pools" : [
 		 ],

@@ -3,6 +3,6 @@ openWithConflicts: aConflictCollection
 	|newView|
 	
 	newView := self new.
-	newView getController conflicts: aConflictCollection.
-	^newView buildAndOpenFullMergingTool
+	newView controller conflicts: aConflictCollection.
+	^newView buildAndOpen
 	
