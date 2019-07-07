@@ -11,7 +11,8 @@ patchIt
 		] ifFound: [:targetClass |
 			baseClass methods do: [:baseMethod |
 				targetClass methods detect: [:targetMethod |
-					targetMethod methodName = baseMethod	methodName				
+					targetMethod methodName = baseMethod	methodName 
+					and: [targetMethod classIsMeta = baseMethod classIsMeta]			
 				] ifFound: [:targetMethod |
 					baseMethod = targetMethod ifFalse: [ | diffChunks chunks conflictingMethod conflictingClass |
 						conflictingClasses detect: [:listedClass | listedClass = baseClass] ifFound: [:foundClass |

@@ -1,6 +1,8 @@
 building
 buildAndOpen
-
+	| builder |
+	
+	builder := MorphicToolBuilder new.
 	ui := self build.
-	MorphicToolBuilder new open: ui.
+	builder runModal: (builder open: ui).
 	^self
