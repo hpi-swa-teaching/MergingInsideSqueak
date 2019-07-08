@@ -1,0 +1,3 @@
+initialize-release
+initializeDefaultStoreInfoFor: anObject
+	anObject squotInitializeStoreInfo: storeInfo.

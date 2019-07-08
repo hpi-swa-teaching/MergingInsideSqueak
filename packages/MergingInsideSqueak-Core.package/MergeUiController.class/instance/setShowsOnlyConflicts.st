@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 setShowsOnlyConflicts
 
 	showsOnlyConflicts := true

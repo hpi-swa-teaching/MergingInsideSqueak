@@ -1,0 +1,4 @@
+accessing
+currentChange
+
+	^currentChange

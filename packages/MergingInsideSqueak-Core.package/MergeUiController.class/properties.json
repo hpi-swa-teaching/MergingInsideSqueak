@@ -8,10 +8,13 @@
 	"instvars" : [
 		"view",
 		"conflicts",
-		"currentConflictingClass",
-		"currentConflictingMethod",
 		"patch",
-		"showsOnlyConflicts" ],
+		"showsOnlyConflicts",
+		"currentChange",
+		"recentConflictIndices",
+		"selectedParent",
+		"selectedChild",
+		"selectedPath" ],
 	"name" : "MergeUiController",
 	"pools" : [
 		 ],

@@ -2,36 +2,40 @@ initialize
 initWithMockData
 	|conflicts classConflict1 classConflict2 conflictingMethod1 conflictingMethod2 conflictingMethod3 |
 	
-	classConflict1 := ConflictingClass new.
-	classConflict1 nameOfClass: 'classA'.
-	conflictingMethod1 :=  ConflictingMethod new conflictingClass: classConflict1.
-	conflictingMethod3 :=  ConflictingMethod new conflictingClass: classConflict1.
-	classConflict1 setMethodConflicts: (OrderedCollection with: conflictingMethod1 with: conflictingMethod3).
-	conflictingMethod1 setChunks: 
+	classConflict1 := MISClass new.
+	classConflict1 className: 'classA'.
+	conflictingMethod1 :=  MISMethod new actualClass: classConflict1.
+	conflictingMethod3 :=  MISMethod new actualClass: classConflict1.
+	classConflict1 methods: (OrderedCollection
+		with: (MISPatchModification initializeWithChange: conflictingMethod1)
+		with: (MISPatchModification initializeWithChange: conflictingMethod3)).
+	conflictingMethod1 source: 
 		(OrderedCollection 
-			with: (Chunk new setText: 'method1', Character cr, Character cr, '	^test')
-			with: ((ConflictChunk new left: '12') right: '45')
-			with: (Chunk new setText: '3')).
-	conflictingMethod1 setName: 'method1'.
-	conflictingMethod3 setChunks: 
+			with: (MISCleanChunk text: 'method1', Character cr, Character cr,'	^test')
+			with: (MISConflictChunk left: '12' right: '45')
+			with: (MISCleanChunk text: '3')).
+	conflictingMethod1 selector: 'method1'.
+	conflictingMethod3 source: 
 		(OrderedCollection 
-			with: (Chunk new setText: 'method2', Character cr, Character cr, '	^')
-			with: ((ConflictChunk new left: '12342145') right: '9')).
-	conflictingMethod3 setName: 'method2'.
+			with: (MISCleanChunk
+				text: 'method2', Character cr, Character cr, '	^')
+			with: (MISConflictChunk left: '12342145' right: '9')).
+	conflictingMethod3 selector: 'method2'.
 	
-	classConflict2 := ConflictingClass new.
-	classConflict2 nameOfClass: 'classB'.
-	conflictingMethod2 :=  ConflictingMethod new  conflictingClass: classConflict2.
-	classConflict2 setMethodConflicts: (OrderedCollection with: conflictingMethod2).
-	conflictingMethod2 setChunks: 
+	classConflict2 := MISClass new.
+	classConflict2 className: 'classB'.
+	conflictingMethod2 :=  MISClass new actualClass: classConflict2.
+	classConflict2 methods: (OrderedCollection with: (MISPatchModification initializeWithChange: conflictingMethod2)).
+	conflictingMethod2 source: 
 		(OrderedCollection 
-			with: (Chunk new setText: 'method1', Character cr, Character cr, '	1+')
-			with: ((ConflictChunk new left: '31298') right: '45')
-			with: (Chunk new setText: '', Character cr, '	^7')
-			with: ((ConflictChunk new left: '398') right: '45')).
-	conflictingMethod2 setName: 'method1'.
+			with: (MISCleanChunk text: 'method1', Character cr, Character cr, '	1+')
+			with: (MISConflictChunk left: '31298' right: '45')
+			with: (MISCleanChunk text: '', Character cr, '	^7')
+			with: (MISConflictChunk left: '398' right: '45')).
+	conflictingMethod2 className: 'method1'.
 	
-	conflicts := OrderedCollection with: classConflict1 with: classConflict2.
+	conflicts := OrderedCollection
+		with: (MISPatchModification initializeWithChange: classConflict1)
+		with: (MISPatchModification initializeWithChange: classConflict2).
 	
 	^self initWithConflicts: conflicts
-	

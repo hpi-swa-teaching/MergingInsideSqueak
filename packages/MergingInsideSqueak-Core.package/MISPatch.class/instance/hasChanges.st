@@ -1,3 +1,4 @@
 as yet unclassified
 hasChanges
-	^ operations isEmpty not
+	
+	^operations isEmpty not

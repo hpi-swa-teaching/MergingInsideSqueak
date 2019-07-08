@@ -1,3 +1,4 @@
 as yet unclassified
-initializeWithSources: aCollectionOfMISSources
-	self sources: aCollectionOfMISSources
+initializeWithSources: aCollectionOfMISSourceHolders
+	
+	self sources: aCollectionOfMISSourceHolders

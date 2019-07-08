@@ -2,6 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"convertMCDefinitionToMISSourceHolder:" : "romnn 6/22/2019 21:14",
-		"convertMCMethodDefinitionToMISMethod:" : "romnn 6/22/2019 20:23",
-		"convertMCOperationToMISPatchOperation:" : "romnn 6/22/2019 21:16" } }
+		"convertMCDefinitionToMISSourceHolder:" : "romnn 7/3/2019 13:13",
+		"convertMCDefinitionsToMISSnapshot:" : "romnn 7/8/2019 13:33",
+		"convertMCMethodDefinitionToMISMethod:" : "romnn 7/4/2019 12:15",
+		"convertMCOperationToMISPatchOperation:" : "romnn 7/8/2019 00:22" } }

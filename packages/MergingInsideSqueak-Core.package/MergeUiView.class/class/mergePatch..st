@@ -3,7 +3,7 @@ mergePatch: aMISPatch
 
 	| instance |
 	instance := self new.
-	instance getController patch: aMISPatch.
+	instance controller patch: aMISPatch.
 	^ instance
 
 	

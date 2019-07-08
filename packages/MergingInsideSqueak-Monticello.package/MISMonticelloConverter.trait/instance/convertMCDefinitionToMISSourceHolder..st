@@ -2,6 +2,6 @@ as yet unclassified
 convertMCDefinitionToMISSourceHolder: aMCDefinition
 
 	aMCDefinition isMethodDefinition ifTrue: [
-		^ self convertMCMethodDefinitionToMISMethod: aMCDefinition
+		^self convertMCMethodDefinitionToMISMethod: aMCDefinition
 		].
 	^nil
