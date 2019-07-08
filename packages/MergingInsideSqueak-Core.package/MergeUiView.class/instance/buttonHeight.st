@@ -1,4 +1,4 @@
 constants
 buttonHeight
 
-	^40
+	^45
