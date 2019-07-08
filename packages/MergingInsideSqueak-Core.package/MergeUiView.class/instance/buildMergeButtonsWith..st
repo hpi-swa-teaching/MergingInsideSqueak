@@ -27,7 +27,7 @@ buildMergeButtonsWith: aBuilder
 	a := aBuilder pluggableButtonSpec new
 		model: controller;
 		name: 'buttonA';
-		label: 'Choose A';
+		label: 'Choose Local (Left)';
 		state: #stateA;
 		action: #chooseA;
 		help: 'Choose solution A for this conflict' translated;
@@ -36,7 +36,7 @@ buildMergeButtonsWith: aBuilder
 	b := aBuilder pluggableButtonSpec new
 		model: controller;
 		name: 'buttonB';
-		label: 'Choose B';
+		label: 'Choose Remote (Right)';
 		state: #stateB;
 		action: #chooseB;
 		help: 'Choose solution B for this conflict' translated;
@@ -46,6 +46,7 @@ buildMergeButtonsWith: aBuilder
 		model: controller;
 		name: 'saveButton';
 		label: 'Save & Close';
+		action: #save;
 		help: 'Save and close the merge' translated;
 		yourself.
 		

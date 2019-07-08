@@ -5,6 +5,9 @@ buildMergePartBWith: aBuilder
 	textSpec := aBuilder pluggableCodePaneSpec new.
 	textSpec
 		model: controller;
+		askBeforeDiscardingEdits: false;
+		indicateUnacceptedChanges: false;
+		readOnly: true;
 		name: 'partB';
 		getText: #partB.
 	

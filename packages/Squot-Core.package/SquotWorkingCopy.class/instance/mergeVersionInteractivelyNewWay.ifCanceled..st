@@ -1,6 +1,6 @@
 loading and unloading
 mergeVersionInteractivelyNewWay: aVersion ifCanceled: cancelBlock
-	| baseSourceHolders targetSourceHolders patch |
+	| baseSourceHolders targetSourceHolders patch mergedSnapshot |
 	
 	baseSourceHolders := self getSourceHoldersFor: (self baseVersion).
 	targetSourceHolders := self getSourceHoldersFor: aVersion.
@@ -8,5 +8,6 @@ mergeVersionInteractivelyNewWay: aVersion ifCanceled: cancelBlock
 		base: (MISSnapshot fromSources: baseSourceHolders);
 		target: (MISSnapshot fromSources: targetSourceHolders);
 		patchIt.
-	MergeUiView openWithConflicts: patch.
+	mergedSnapshot := MergeUiView openWithConflicts: patch.
+	self updateToMergedObjects: mergedSnapshot.
 	

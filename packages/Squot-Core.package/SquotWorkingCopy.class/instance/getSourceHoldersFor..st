@@ -14,7 +14,7 @@ getSourceHoldersFor: aVersion
 				misDefinition := definition convertToMISDefinition.
 				definition isClassDefinition ifTrue: [
 					(sourceHolders contains: [:classDefinition | classDefinition = misDefinition]) ifFalse: [
-						sourceHolders add: misDefinition.
+						sourceHolders add: (misDefinition package: key; yourself).
 					]
 				].
 				definition isMethodDefinition ifTrue: [
@@ -27,6 +27,7 @@ getSourceHoldersFor: aVersion
 					ifFalse: [ | misClassDefinition |
 						misClassDefinition := MISClass new 
 							className: definition className;
+							package: key;
 							methods: (OrderedCollection with: misDefinition)
 							yourself.
 						misClassDefinition actualClass: misDefinition.	
