@@ -1,4 +1,4 @@
 as yet unclassified
 methods
 
-	^methods ifNil: [^methods := OrderedCollection new]
+	^methods ifNil: [^methods := SortedCollection new]
