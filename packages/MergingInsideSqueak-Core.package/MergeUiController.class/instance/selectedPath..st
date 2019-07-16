@@ -1,6 +1,7 @@
 model-access
 selectedPath: aCollectionOfMISPatches
 	
+	self resetAllAOrBButtons.
 	"self handleChangeSelection: (self conflicts at: 1)."
 	selectedPath := aCollectionOfMISPatches.
 	selectedParent := aCollectionOfMISPatches at: 1 ifAbsent: [nil].

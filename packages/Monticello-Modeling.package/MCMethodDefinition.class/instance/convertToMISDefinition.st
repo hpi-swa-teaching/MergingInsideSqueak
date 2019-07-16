@@ -6,5 +6,5 @@ convertToMISDefinition
 		className: self className;
 		methodName: self selector asString;
 		classIsMeta: self classIsMeta;
-		source: (OrderedCollection with: (Chunk new text: self source));
+		source: (OrderedCollection with: (MISCleanChunk new text: self source));
 		yourself.

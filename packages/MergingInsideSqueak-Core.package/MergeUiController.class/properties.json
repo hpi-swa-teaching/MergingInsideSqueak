@@ -14,7 +14,9 @@
 		"recentConflictIndices",
 		"selectedParent",
 		"selectedChild",
-		"selectedPath" ],
+		"selectedPath",
+		"allA",
+		"allB" ],
 	"name" : "MergeUiController",
 	"pools" : [
 		 ],

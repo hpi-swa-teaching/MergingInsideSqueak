@@ -1,0 +1,4 @@
+model-access
+stateAllB
+	
+	^allB

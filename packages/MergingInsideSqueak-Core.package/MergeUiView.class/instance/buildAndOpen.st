@@ -5,4 +5,5 @@ buildAndOpen
 	builder := MorphicToolBuilder new.
 	ui := self build.
 	builder runModal: (builder open: ui).
-	^self currentStateAsSnapshot
+	^ self controller areAllResolved ifTrue: [self currentStateAsSnapshot]
+		ifFalse: [^nil]

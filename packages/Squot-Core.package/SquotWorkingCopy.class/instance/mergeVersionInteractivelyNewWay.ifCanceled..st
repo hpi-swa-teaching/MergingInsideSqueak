@@ -9,5 +9,5 @@ mergeVersionInteractivelyNewWay: aVersion ifCanceled: cancelBlock
 		target: (MISSnapshot fromSources: targetSourceHolders);
 		patchIt.
 	mergedSnapshot := MergeUiView openWithConflicts: patch.
-	self updateToMergedObjects: mergedSnapshot.
+	mergedSnapshot notNil ifTrue: [self updateToMergedObjects: mergedSnapshot.]
 	

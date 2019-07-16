@@ -1,6 +1,7 @@
 as yet unclassified
-diffWithParent
-	| sampleClass packageInfo latestVersion target |
+testSourceHolderGeneration
+	| sampleClass packageInfo latestVersion target actualSourceHolder expectedSourceHolder |
+	self halt.
 	self suppressChangeNotificationsDuring: [sampleClass := classFactory newClass].
 	sampleClass compileSilently: 'firstMethod ^ self' classified: 'methods of first version'.
 	packageInfo := PackageInfo named: classFactory packageName.
@@ -15,6 +16,5 @@ diffWithParent
 	workingCopy saveNewVersionMessage: 'second version' interactive: false.
 	latestVersion := workingCopy baseVersion.
 	target := latestVersion parents first.
-	workingCopy mergeVersionInteractively: target ifCanceled: [].
-	self halt.
+	actualSourceHolder := workingCopy getSourceHoldersFor: latestVersion.
 	

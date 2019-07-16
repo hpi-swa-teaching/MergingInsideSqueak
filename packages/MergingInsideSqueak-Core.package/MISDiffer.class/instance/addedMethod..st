@@ -1,4 +1,6 @@
 as yet unclassified
 addedMethod: aMISMethod
-
-	^MISPatchAddition initializeWithChange: aMISMethod
+	| ownerClass |
+	ownerClass := self patchedClass: aMISMethod actualClass.
+	self halt.
+	ownerClass methods add: (MISPatchAddition initializeWithChange: aMISMethod)
