@@ -1,4 +1,5 @@
 actions
 chooseAllB
 	
-	self chooseASiteForAllConflicts: #right
+	allB := allB not.
+	self chooseASiteForAllConflicts: #right As: allB
