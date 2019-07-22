@@ -1,15 +1,13 @@
-as yet unclassified
+serialising
 convertMCOperationToMISPatchOperation: aMCOperation
 
-	| definition |
-	definition := self convertMCDefinitionToMISSourceHolder: aMCOperation.
-	aMCOperation isAddition ifTrue: [
-		^MISPatchAddition new modification: definition
-	].
-	aMCOperation isRemoval ifTrue: [
-		^MISPatchRemoval new modification: definition
-	].
-	aMCOperation isModification ifTrue: [
-		^MISPatchModification new modification: definition
-	].
-	^nil
+  aMCOperation isAddition ifTrue: [
+    ^MISPatchAddition new initializeWithChange: (self convertMCDefinitionToMISSourceHolder: aMCOperation definition)
+  ].
+  aMCOperation isRemoval ifTrue: [
+    ^MISPatchRemoval new initializeWithChange: (self convertMCDefinitionToMISSourceHolder: aMCOperation definition)
+  ].
+  aMCOperation isModification ifTrue: [
+	^MISPatchModification new initializeWithBase: (self convertMCDefinitionToMISSourceHolder: aMCOperation obsoletion) target: (self convertMCDefinitionToMISSourceHolder: aMCOperation modification) 
+  ].
+  ^nil

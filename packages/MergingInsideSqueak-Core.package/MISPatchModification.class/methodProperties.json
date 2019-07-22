@@ -2,7 +2,10 @@
 	"class" : {
 		"of:to:" : "romnn 6/22/2019 21:53" },
 	"instance" : {
-		"initializeWithBase:target:" : "romnn 6/24/2019 10:59",
+		"base" : "lvp 7/8/2019 14:30",
+		"initializeWithBase:target:" : "lvp 7/8/2019 14:27",
 		"initializeWithChange:" : "romnn 6/24/2019 11:31",
 		"isModification" : "romnn 6/22/2019 17:28",
-		"operationName" : "romnn 6/24/2019 13:28" } }
+		"labelColor" : "lvp 7/23/2019 00:11",
+		"operationName" : "romnn 6/24/2019 13:28",
+		"target" : "lvp 7/8/2019 14:31" } }

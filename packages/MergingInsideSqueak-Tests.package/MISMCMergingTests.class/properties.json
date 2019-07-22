@@ -1,0 +1,14 @@
+{
+	"category" : "MergingInsideSqueak-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "MISMCMergingTests",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

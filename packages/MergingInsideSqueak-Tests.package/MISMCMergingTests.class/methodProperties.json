@@ -1,0 +1,8 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"assertMerge:with:base:gives:conflicts:" : "lvp 7/5/2019 00:27",
+		"setUp" : "lvp 7/5/2019 00:27",
+		"tearDown" : "lvp 7/5/2019 00:27",
+		"testAncestorMerge" : "lvp 7/5/2019 00:26" } }

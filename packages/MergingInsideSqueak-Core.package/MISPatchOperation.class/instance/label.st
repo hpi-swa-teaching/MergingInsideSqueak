@@ -1,4 +1,4 @@
 as yet unclassified
 label
-
-	^self change label , ' (' , self operationName , ')'
+	
+	^Text string: self change label , ' (' , self operationName , ')' attribute: self labelColor. 

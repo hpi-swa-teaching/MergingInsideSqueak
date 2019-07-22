@@ -1,7 +1,6 @@
 ConflictListHandler
 save
 	| allResolved |
-
 	allResolved := true.
 	self conflicts do: [:conflict | | conflictingClass |
 		conflictingClass := conflict change.
