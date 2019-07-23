@@ -2,10 +2,11 @@
 	"class" : {
 		 },
 	"instance" : {
+		"aboutToStyle:" : "lvp 7/23/2019 17:29",
 		"childrenOfClass:" : "romnn 6/28/2019 23:00",
 		"chooseA" : "romnn 6/28/2019 20:48",
 		"chooseB" : "romnn 6/28/2019 20:48",
-		"chooseSide:" : "romnn 6/28/2019 22:16",
+		"chooseSide:" : "lvp 7/23/2019 17:55",
 		"classHasChildren:" : "Tim Strauss 5/24/2019 13:18",
 		"conflicts" : "romnn 6/28/2019 22:56",
 		"conflicts:" : "Tim Strauss 5/21/2019 11:39",
