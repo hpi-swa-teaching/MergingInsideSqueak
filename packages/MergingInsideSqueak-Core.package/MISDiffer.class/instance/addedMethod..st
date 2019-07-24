@@ -1,5 +1,9 @@
 as yet unclassified
 addedMethod: aMISMethod
-	| ownerClass |
+	| ownerClass addedMethod |
 	ownerClass := self patchedClass: aMISMethod actualClass.
-	ownerClass methods add: (MISPatchAddition initializeWithChange: aMISMethod)
+	
+	addedMethod := aMISMethod copy.
+	addedMethod source: (OrderedCollection with: (MISConflictChunk left: '' right: (addedMethod source at: 1) text)).
+	
+	ownerClass methods add: (MISPatchAddition initializeWithChange: addedMethod)

@@ -1,2 +1,0 @@
-creating new versions
-createNewMISClassFrom: aMethodDefinition

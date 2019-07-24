@@ -1,0 +1,20 @@
+{
+	"class" : {
+		"mergeBase:target:workingCopy:" : "Tim Strauss 7/22/2019 16:52" },
+	"instance" : {
+		"addClassDefinition:FromPackage:Into:" : "Tim Strauss 7/22/2019 16:56",
+		"addDefinition:FromPackage:Into:" : "Tim Strauss 7/22/2019 17:27",
+		"addMethodDefinition:FromPackage:Into:" : "Tim Strauss 7/22/2019 16:56",
+		"baseVersion" : "Tim Strauss 7/22/2019 16:50",
+		"baseVersion:" : "Tim Strauss 7/22/2019 16:49",
+		"createNewMISClassFrom:AndPackage:" : "Tim Strauss 7/22/2019 16:57",
+		"forArtifacts:Do:" : "Tim Strauss 7/22/2019 16:55",
+		"getSourceHoldersFor:" : "Tim Strauss 7/25/2019 01:25",
+		"mergeVersions" : "Tim Strauss 7/25/2019 01:25",
+		"putMISMethod:To:" : "Tim Strauss 7/24/2019 19:28",
+		"sources:containsMethod:" : "Tim Strauss 7/24/2019 20:15",
+		"targetVersion" : "Tim Strauss 7/22/2019 16:49",
+		"targetVersion:" : "Tim Strauss 7/22/2019 16:49",
+		"updateToMergedObjects:" : "Tim Strauss 7/24/2019 20:17",
+		"workingCopy" : "Tim Strauss 7/22/2019 16:50",
+		"workingCopy:" : "Tim Strauss 7/22/2019 16:49" } }
