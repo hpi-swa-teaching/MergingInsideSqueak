@@ -1,4 +1,4 @@
 as yet unclassified
-fromChunks: aCollectionOfChunks
+fromChunks: aCollectionOfMISChunks
 
-	^self new chunks: aCollectionOfChunks
+	^self new source: aCollectionOfMISChunks

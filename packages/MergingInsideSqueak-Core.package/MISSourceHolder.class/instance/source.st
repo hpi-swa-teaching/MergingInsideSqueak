@@ -1,4 +1,4 @@
 as yet unclassified
 source
 
-	^source
+	^source ifNil: [OrderedCollection with: MISCleanChunk new ]

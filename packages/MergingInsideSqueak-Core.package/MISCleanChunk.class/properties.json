@@ -1,0 +1,17 @@
+{
+	"category" : "MergingInsideSqueak-Core",
+	"classinstvars" : [
+		"text" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"right",
+		"selected",
+		"resolved",
+		"text" ],
+	"name" : "MISCleanChunk",
+	"pools" : [
+		 ],
+	"super" : "Chunk",
+	"type" : "normal" }

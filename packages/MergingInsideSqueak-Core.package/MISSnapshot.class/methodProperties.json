@@ -1,7 +1,8 @@
 {
 	"class" : {
-		"patchRelativeToBase:" : "romnn 6/22/2019 16:16" },
+		"fromSources:" : "Tim Strauss 7/2/2019 17:56" },
 	"instance" : {
-		"initializeWithSources:" : "romnn 6/22/2019 16:15",
+		"initializeWithSources:" : "romnn 7/4/2019 14:37",
+		"patchRelativeToBase:" : "romnn 7/7/2019 16:59",
 		"sources" : "romnn 6/22/2019 16:15",
 		"sources:" : "romnn 6/22/2019 16:15" } }

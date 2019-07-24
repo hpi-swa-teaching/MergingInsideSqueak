@@ -11,7 +11,11 @@
 		"timestamp",
 		"category",
 		"classIsMeta",
-		"className" ],
+		"className",
+		"actualClass",
+		"conflicts",
+		"comment",
+		"commentStamp" ],
 	"name" : "MISSourceHolder",
 	"pools" : [
 		 ],

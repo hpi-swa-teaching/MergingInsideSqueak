@@ -1,11 +1,10 @@
 building
 buildMergePartAWith: aBuilder
 
-	| textSpec |
-	textSpec := aBuilder pluggableCodePaneSpec new.
-	textSpec
+	^aBuilder pluggableCodePaneSpec new
 		model: controller;
+		askBeforeDiscardingEdits: false;
+		indicateUnacceptedChanges: false;
+		readOnly: true;
 		name: 'partA';
 		getText: #partA.
-	
-	^textSpec

@@ -1,4 +1,0 @@
-accessing
-getPropertyConflicts
-
-	^propertyConflicts

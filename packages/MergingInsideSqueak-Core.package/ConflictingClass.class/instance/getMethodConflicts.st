@@ -1,4 +1,0 @@
-accessing
-getMethodConflicts
-
-	^methodConflicts

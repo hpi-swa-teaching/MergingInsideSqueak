@@ -1,11 +1,7 @@
 building
 buildMergeResultWith: aBuilder
 
-	| textSpec |
-	textSpec := aBuilder pluggableCodePaneSpec new.
-	textSpec
+	^aBuilder pluggableCodePaneSpec new
 		model: controller;
 		name: 'result';
-		getText: #resultText.
-	
-	^textSpec
+		getText: #resultText

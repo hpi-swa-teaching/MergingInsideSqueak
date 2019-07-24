@@ -1,17 +1,15 @@
 building
 buildConflictListWith: aBuilder
 
-	| listSpec |
-	listSpec := PluggableTreeSpec new.
-	listSpec
+	^PluggableTreeSpec new
 		model: controller;
-		"nodeClass: IndentingListItemMorph; ""ObjectExplorerWrapper;"
+		autoDeselect: false;
 		name: 'conflictList';
-		roots: #conflictList;
+		roots: #conflicts;
+		label: #labelOfChange:;
 		hasChildren: #classHasChildren:;
-		getChildren: #getChildrenOfClass:;
-		label: #labelOfObject:;
-		setSelected: #listItemPress:;
-		getSelectedPath: #selectedPath.
-	
-	^listSpec
+		getChildren: #childrenOfClass:;
+		setSelected: #handleChangeSelection:;
+		setSelectedPath: #selectedPath:;
+		getSelectedPath: #selectedPath;
+		yourself

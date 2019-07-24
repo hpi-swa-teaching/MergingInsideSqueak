@@ -1,4 +1,4 @@
-as yet unclassified
+actions
 toggleShowsOnlyConflicts
 
 	showsOnlyConflicts := showsOnlyConflicts not

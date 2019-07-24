@@ -3,6 +3,6 @@ initWithConflicts: aCollectionOfConflicts
 
 	| instance |
 	instance := self new.
-	instance getController conflicts: aCollectionOfConflicts.
+	instance controller conflicts: aCollectionOfConflicts.
 	^ instance
 	

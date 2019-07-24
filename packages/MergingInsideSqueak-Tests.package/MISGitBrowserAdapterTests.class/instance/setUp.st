@@ -1,5 +1,5 @@
 as yet unclassified
 setUp
-	browser := SquitBrowser new mergeFrontend: MISSquitMergingFrontend.
+	browser := SquitBrowser new "mergeFrontend: MISSquitMergingFrontend."
 	
 	
