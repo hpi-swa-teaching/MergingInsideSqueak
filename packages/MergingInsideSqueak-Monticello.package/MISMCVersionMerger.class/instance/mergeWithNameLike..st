@@ -19,4 +19,6 @@ mergeWithNameLike: baseName
 		self save: merger conflicts withName: baseName.
 		self halt.
 		"merger loadWithNameLike: baseName."
-		records do: [:ea | ea updateWorkingCopy]].
+		records do: [:record |
+			self halt.
+			record updateWorkingCopy]].
