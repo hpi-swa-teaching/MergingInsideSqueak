@@ -2,13 +2,14 @@
 	"class" : {
 		 },
 	"instance" : {
-		"convertMCClassDefinitionToMISClass:" : "romnn 7/24/2019 19:22",
-		"convertMCMethodDefinitionToMISMethod:" : "romnn 7/24/2019 20:18",
-		"convertMCSnapshotToMISSnapshot:" : "romnn 7/24/2019 18:14",
-		"convertMISClassToMCClassDefinition:" : "romnn 7/24/2019 20:02",
-		"initialize" : "romnn 7/23/2019 21:19",
-		"merge" : "romnn 7/23/2019 16:47",
-		"mergeWithNameLike:" : "romnn 7/24/2019 23:01",
-		"patchMergeRecord:" : "romnn 7/23/2019 17:50",
+		"calculateChanges" : "romnn 7/25/2019 17:25",
+		"calculateProvisions" : "romnn 7/25/2019 17:23",
+		"convertMISSourceHolderToMCDefinition:" : "MCWorkingCopyTest 7/25/2019 15:23",
+		"initialize" : "romnn 7/25/2019 17:23",
+		"loaderFor:" : "romnn 7/25/2019 17:30",
+		"merge" : "romnn 7/25/2019 17:26",
+		"mergeWithNameLike:" : "romnn 7/25/2019 17:26",
+		"patchMergeRecord:" : "romnn 7/25/2019 17:33",
 		"provisions" : "romnn 7/23/2019 22:30",
-		"save:withName:" : "romnn 7/24/2019 19:10" } }
+		"save:" : "romnn 7/25/2019 17:31",
+		"save:withName:" : "romnn 7/25/2019 17:31" } }

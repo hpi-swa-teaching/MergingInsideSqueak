@@ -1,3 +1,3 @@
 as yet unclassified
-base: aMISSnapshot target: targetMISSnapshot ancestor: ancestorMISSnapshot
-	^ self base: aMISSnapshot patch: (targetMISSnapshot patchRelativeToBase: ancestorMISSnapshot)
+base: baseMISSnapshot target: targetMISSnapshot ancestor: ancestorMISSnapshot
+	^ self base: baseMISSnapshot patch: (targetMISSnapshot patchRelativeToBase: ancestorMISSnapshot)

@@ -1,13 +1,15 @@
 {
 	"class" : {
-		"base:patch:" : "romnn 6/28/2019 13:09",
-		"base:target:ancestor:" : "romnn 6/28/2019 13:10",
+		"base:patch:" : "MonticelloAdapterTests2 7/25/2019 01:07",
+		"base:target:" : "MonticelloAdapterTests2 7/25/2019 01:06",
+		"base:target:ancestor:" : "MonticelloAdapterTests2 7/25/2019 01:06",
 		"merge" : "romnn 6/28/2019 13:09" },
 	"instance" : {
 		"addedClass:" : "romnn 7/7/2019 20:03",
 		"addedMethod:" : "Tim Strauss 7/8/2019 15:47",
 		"base" : "romnn 6/24/2019 10:14",
 		"base:" : "romnn 6/24/2019 10:14",
+		"calculatePatch" : "MonticelloAdapterTests2 7/25/2019 01:04",
 		"choosePatchForClass:" : "romnn 7/7/2019 23:47",
 		"classesDo:" : "romnn 7/24/2019 18:13",
 		"conflicts" : "romnn 6/24/2019 10:12",
@@ -15,7 +17,7 @@
 		"differ" : "romnn 7/7/2019 20:12",
 		"methodsIn:and:do:" : "Tim Strauss 7/8/2019 15:30",
 		"modifiedMethod:to:" : "Tim Strauss 7/8/2019 15:50",
-		"patch" : "romnn 6/24/2019 10:13",
+		"patch" : "MonticelloAdapterTests2 7/25/2019 01:05",
 		"patch:" : "romnn 6/24/2019 10:13",
 		"patchIt" : "romnn 7/22/2019 21:37",
 		"patchOperations" : "romnn 7/7/2019 23:23",

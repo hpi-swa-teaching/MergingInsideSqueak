@@ -1,4 +1,4 @@
 as yet unclassified
 text
 
-	^text ifNil: [^'']
+	^right ifNil: [^'']

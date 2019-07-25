@@ -1,0 +1,15 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"assertMerge:with:base:gives:conflicts:" : "romnn 7/25/2019 00:26",
+		"change:toReturn:" : "romnn 7/25/2019 15:12",
+		"clearPackageCache" : "romnn 7/25/2019 14:36",
+		"handleConflict:" : "romnn 7/25/2019 00:26",
+		"merge:" : "romnn 7/25/2019 15:11",
+		"mockClassA" : "romnn 7/25/2019 15:13",
+		"mockSnapshot" : "romnn 7/25/2019 14:33",
+		"setUp" : "romnn 7/25/2019 14:40",
+		"tearDown" : "romnn 7/25/2019 00:28",
+		"testAncestorMerge" : "romnn 7/25/2019 15:12",
+		"testSourceHolderGeneration" : "romnn 7/25/2019 14:29" } }

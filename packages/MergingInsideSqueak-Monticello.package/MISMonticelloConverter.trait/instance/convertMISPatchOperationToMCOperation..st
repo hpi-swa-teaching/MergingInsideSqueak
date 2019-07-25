@@ -1,6 +1,8 @@
 as yet unclassified
 convertMISPatchOperationToMCOperation: aMISPatchOperation
 	
+	^aMISPatchOperation convertToMCOperations
+	"
 	aMISPatchOperation isAddition ifTrue: [
 		^OrderedCollection with: (MCAddition of: (self convertMISSourceHolderToMCDefinition: aMISPatchOperation change))
 	].
@@ -13,4 +15,4 @@ convertMISPatchOperationToMCOperation: aMISPatchOperation
 		^definitions collect: [:def |
 			MCModification of: def to: def]
 	].
-	^nil
+	^nil"

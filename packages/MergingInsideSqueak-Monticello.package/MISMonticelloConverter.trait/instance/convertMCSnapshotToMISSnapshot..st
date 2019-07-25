@@ -1,8 +1,14 @@
 as yet unclassified
 convertMCSnapshotToMISSnapshot: aMCSnapshot
 
-	| sources sourceClasses |
-	sources := aMCSnapshot definitions collect: [ :definition |
+	"sourceClasses := Dictionary new.
+	self sources: aMCSnapshot definitions do: [:source |
+		self addSource: source to: sourceClasses
+		]."
+	"self halt."
+	^MISSnapshot fromMCSnapshot: aMCSnapshot.
+	
+	"sources := aMCSnapshot definitions collect: [ :definition |
 		self convertMCDefinitionToMISSourceHolder: definition ].
 	sourceClasses := Dictionary new.
 	sources := (sources reject: [:source | source isNil]) sort.
@@ -10,32 +16,29 @@ convertMCSnapshotToMISSnapshot: aMCSnapshot
 		sourceClasses keys detect: [ :sourceClass | sourceClass className = source className ]
 			ifFound: [ :matchingSourceClass | 
 				source isClassSource ifTrue: [
-						"Update with Class information"
+						
 						sourceClasses at: source put: (sourceClasses at: matchingSourceClass).
 						sourceClasses removeKey: matchingSourceClass
 					] ifFalse: [
-						"Add the new method"
+						
 						(sourceClasses at: matchingSourceClass) add: source
 					]
 			] ifNone: [
 				source isClassSource ifTrue: [
-						"Update with Class information"
+						
 						sourceClasses at: source put: (OrderedCollection new)
 					] ifFalse: [
-						"Add the new method"
+						
 						sourceClasses at: (MISClass new className: source className) put: (OrderedCollection with: source)
 					]
 			]
 	].
-	self halt.
 
-	" Add the methods to their class "
 	sources := OrderedCollection new.
 	sourceClasses keysAndValuesDo: [:class :methods |
-		"class actualClass: class."
 		methods do: [ :method | method actualClass: class ].
 		class methods: methods.
 		sources add: class
 	].
 	
-	^MISSnapshot new initializeWithSources: sources
+	^MISSnapshot new initializeWithSources: sources"

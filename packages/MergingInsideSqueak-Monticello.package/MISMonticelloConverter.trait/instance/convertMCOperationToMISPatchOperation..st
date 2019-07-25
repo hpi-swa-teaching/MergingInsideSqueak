@@ -1,7 +1,8 @@
 as yet unclassified
 convertMCOperationToMISPatchOperation: aMCOperation
-
-	aMCOperation isAddition ifTrue: [
+	
+	^aMCOperation convertToMISPatchOperation
+	"aMCOperation isAddition ifTrue: [
 		^MISPatchAddition new initializeWithChange: (self convertMCDefinitionToMISSourceHolder: aMCOperation definition)
 	].
 	aMCOperation isRemoval ifTrue: [
@@ -10,4 +11,4 @@ convertMCOperationToMISPatchOperation: aMCOperation
 	aMCOperation isModification ifTrue: [
 		^MISPatchModification new initializeWithChange: (self convertMCDefinitionToMISSourceHolder: aMCOperation modification)
 	].
-	^nil
+	^nil"

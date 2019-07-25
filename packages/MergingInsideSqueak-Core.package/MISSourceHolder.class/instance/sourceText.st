@@ -5,4 +5,6 @@ sourceText
 		ifTrue: [
 			self symbolsToString: (self source inject: String empty into: [ :acc :chunk |
 				acc , (self symbolsToString: chunk text) ])
- 		] ifFalse: [nil]
+ 		] ifFalse: [
+			self source inject: String empty into: [ :acc :chunk |
+				acc , (self symbolsToString: chunk remote)]]

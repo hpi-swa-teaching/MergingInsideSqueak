@@ -1,8 +1,11 @@
 as yet unclassified
 merge
-	self halt.
-	records do: [:ea | merger addBaseSnapshot: ea packageSnapshot].
-	records do: [:ea | merger applyPatch: ea mergePatch].
-	self resolveConflicts ifTrue:
-		[merger load.
-		records do: [:ea | ea updateWorkingCopy]].
+
+	self calculateProvisions.
+	self calculateChanges.
+	merger conflicts: changes.
+	self resolveConflicts ifTrue: [
+		"Merge conflicts have been resolved successfully by the user"
+		self save: merger conflicts.
+		records do: [:record |
+			record updateWorkingCopy]].
