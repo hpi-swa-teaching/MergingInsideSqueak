@@ -8,11 +8,11 @@ baseline: spec
 				package: 'MergingInsideSqueak-Core';
 				package: 'MergingInsideSqueak-Diff2';
 				package: 'MergingInsideSqueak-Monticello';
-                        package: 'Squit-Core';
+                        "package: 'Squit-Core';" 
 				package: 'Squot-Tests-Tools';
 				package: 'MergingInsideSqueak-Tests' with: [spec requires: #('default')];
 				yourself.
 			spec
-				group: 'default' with: #('MergingInsideSqueak-Core' 'MergingInsideSqueak-Diff2' 'Squot-Tests-Tools' 'Squit-Core' );
+				group: 'default' with: #('MergingInsideSqueak-Core' 'MergingInsideSqueak-Diff2' 'Squot-Tests-Tools'" 'Squit-Core'" );
 				group: 'tests' with: #('MergingInsideSqueak-Tests')];
 				yourself
