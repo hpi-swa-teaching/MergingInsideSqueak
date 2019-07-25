@@ -1,6 +1,7 @@
 {
 	"class" : {
-		"fromSources:" : "Tim Strauss 7/2/2019 17:56" },
+		"fromSources:" : "Tim Strauss 7/2/2019 17:56",
+		"standardTestExample" : "Tim Strauss 7/25/2019 16:26" },
 	"instance" : {
 		"=" : "Tim Strauss 7/25/2019 12:08",
 		"initializeWithSources:" : "romnn 7/4/2019 14:37",
