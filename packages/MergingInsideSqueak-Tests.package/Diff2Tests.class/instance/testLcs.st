@@ -2,5 +2,4 @@ as yet unclassified
 testLcs
 	| lcs |
 	lcs := (self sampleDiff: self diffClass) longestCommonSubsequence asArray.
-	self assert: [lcs = {1->1. 3->2. 4->4. 6->6. 7->7. 8->8. 9->9}].
-"({file1index:7, file2index:7, chain:{file1index:6, file2index:6, chain:{file1index:5, file2index:5, chain:{file1index:3, file2index:3, chain:{file1index:2, file2index:1, chain:{file1index:0, file2index:0, chain:{file1index:-1, file2index:-1, chain:null}}}}}}})"
+	self assert: [lcs = {1->1 . 2->2 . 3->3 . 4->4 . 9->5 . 10->6 . 11->7 . 12->8 . 13->9 . 14->10 . 15->19 . 16->20 . 17->21 . 18->22 . 22->26 . 23->27 . 24->28 . 25->29 . 26->30 . 27->31 . 28->32 . 29->33 . 30->34 . 31->35 . 32->36 . 33->37 . 34->38 . 35->39 . 36->40 . 37->41 . 38->42 . 39->43 . 40->44 . 41->45 . 42->46 . 43->47 . 44->48 . 45->49}].

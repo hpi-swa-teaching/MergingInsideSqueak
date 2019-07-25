@@ -2,15 +2,21 @@
 	"class" : {
 		 },
 	"instance" : {
-		"addCommonBlock:ifNonEmptyTo:" : "romnn 5/26/2019 17:27",
-		"comm" : "romnn 5/26/2019 17:26",
+		"addCommonBlock:ifNonEmptyTo:" : "lvp 7/25/2019 01:13",
+		"comm" : "lvp 7/25/2019 01:08",
 		"diff" : "romnn 5/26/2019 17:37",
-		"diffIndices" : "romnn 5/26/2019 17:37",
+		"diffIndices" : "lvp 7/23/2019 19:30",
 		"emptyCaches" : "romnn 5/26/2019 17:27",
 		"file1" : "romnn 5/26/2019 17:26",
 		"file1:" : "romnn 5/26/2019 17:26",
+		"file1EndingConflict" : "lvp 7/24/2019 17:43",
 		"file2" : "romnn 5/26/2019 17:26",
 		"file2:" : "romnn 5/26/2019 17:26",
+		"file2EndingConflict" : "lvp 7/24/2019 17:43",
+		"fileEndingConflict:in:" : "lvp 7/24/2019 17:41",
+		"findNextLineBreakStartingAt:in:" : "lvp 7/25/2019 01:08",
+		"lineBlock" : "lvp 7/24/2019 18:07",
+		"lineBlock:" : "lvp 7/24/2019 18:07",
 		"longestCommonSubsequence" : "romnn 5/26/2019 17:27",
-		"maybeAddCommonBlock:to:p1:p2:limit1:limit2:" : "romnn 5/26/2019 17:27",
-		"maybeAddDiffChunkTo:p1:p2:limit1:limit2:" : "romnn 5/26/2019 17:37" } }
+		"maybeAddDiffChunkTo:p1:p2:limit1:limit2:" : "lvp 7/23/2019 19:40",
+		"maybeAddLineBlockTo:p1:p2:limit1:limit2:" : "lvp 7/25/2019 01:42" } }

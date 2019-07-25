@@ -1,8 +1,13 @@
 as yet unclassified
 testCommPrefix
-	| c |
-	c := self diffClass new
-			file1: #(d e f a b c);
-			file2: #(a b c).
-	c := c comm.
-	self assert: [c = {#different->(#(d e f)->#()) . #common->#(a b c)}].
+	| is should |
+	is := self diffClass new
+			file1: 'The red brown fox' , Character cr , 
+			'jumped over' , Character cr , 
+			'the rolling log';
+			file2: 'jumped over' , Character cr , 
+			'the rolling log'; comm.
+	should := {#different->('The red brown fox
+jumped over'->'jumped over') . #common->'the rolling log'}.
+
+	self assert: is = should.

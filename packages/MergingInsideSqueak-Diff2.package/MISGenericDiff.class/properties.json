@@ -7,7 +7,10 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"file1",
-		"file2" ],
+		"file2",
+		"file1EndingConflict",
+		"file2EndingConflict",
+		"lineBlock" ],
 	"name" : "MISGenericDiff",
 	"pools" : [
 		 ],

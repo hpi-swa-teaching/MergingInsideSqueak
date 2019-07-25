@@ -1,5 +1,7 @@
 as yet unclassified
 testComm
-	| c |
-	c := (self sampleDiff: self diffClass) comm.
-	self assert: [c = {#common->#(#The) . #different->(#(#red)->#()) . #common->#(#brown) . #different->(#()->#(#spotted)) . #common->#(#fox) . #different->(#(#jumped)->#(#leaped)) . #common->#(#over #the #rolling #log)}].
+	
+	| is should |
+	is := (self sampleDiff: self diffClass) comm.
+	should := {#different->('The red brown fox'->'The brown spotted fox') . #different->('jumped over'->'leaped over'). 				#common->'the rolling log'}.
+	self assert: is = should.
