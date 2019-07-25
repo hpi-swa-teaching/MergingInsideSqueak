@@ -1,0 +1,14 @@
+{
+	"category" : "MergingInsideSqueak-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "MISStyler",
+	"pools" : [
+		 ],
+	"super" : "SHTextStylerST80",
+	"type" : "normal" }

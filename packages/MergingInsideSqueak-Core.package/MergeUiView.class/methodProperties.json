@@ -1,7 +1,7 @@
 {
 	"class" : {
 		"initWithConflicts:" : "romnn 6/29/2019 04:56",
-		"initWithMockData" : "lvp 7/23/2019 00:08",
+		"initWithMockData" : "lvp 7/25/2019 16:37",
 		"mergePatch:" : "lvp 7/7/2019 22:23",
 		"open" : "Tim Strauss 5/17/2019 11:01",
 		"openWithConflicts:" : "Tim Strauss 7/2/2019 21:39",
@@ -12,9 +12,9 @@
 		"buildConflictListWith:" : "lvp 7/12/2019 22:37",
 		"buildGeneralButtonsWith:" : "Tim Strauss 7/8/2019 12:03",
 		"buildMergeButtonsWith:" : "Tim Strauss 7/8/2019 08:58",
-		"buildMergePartAWith:" : "Tim Strauss 7/8/2019 08:41",
-		"buildMergePartBWith:" : "Tim Strauss 7/8/2019 08:48",
-		"buildMergeResultWith:" : "Tim Strauss 5/24/2019 11:08",
+		"buildMergePartAWith:" : "lvp 7/25/2019 14:11",
+		"buildMergePartBWith:" : "lvp 7/25/2019 14:13",
+		"buildMergeResultWith:" : "lvp 7/25/2019 14:13",
 		"buildMergedClassFrom:" : "Tim Strauss 7/8/2019 09:25",
 		"buildMergedMethodFrom:" : "Tim Strauss 7/8/2019 11:40",
 		"buildPartAButtonsWith:" : "Tim Strauss 7/8/2019 12:10",

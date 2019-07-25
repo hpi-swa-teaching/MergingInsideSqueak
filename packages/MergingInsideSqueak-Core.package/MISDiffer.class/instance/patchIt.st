@@ -1,7 +1,7 @@
 as yet unclassified
 patchIt
 	| patchOperations differ conflictingClasses |
-	
+	self halt.
 	patchOperations := OrderedCollection new.
 	conflictingClasses := OrderedCollection new.
 	differ := MISMyersUkkonenDiff new.

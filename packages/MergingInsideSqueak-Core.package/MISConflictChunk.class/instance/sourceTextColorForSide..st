@@ -3,6 +3,6 @@ sourceTextColorForSide: aSide
 
 	^self isResolved ifTrue: [
 			(self selectedSides anySatisfy: [ :selected | selected = aSide ])
-				ifTrue: [^TextColor green]
-				ifFalse: [^TextColor red]
-		] ifFalse: [^TextColor blue]
+				ifTrue: [^MergeTextColor green]
+				ifFalse: [^MergeTextColor red]
+		] ifFalse: [^MergeTextColor blue]

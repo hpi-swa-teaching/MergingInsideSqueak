@@ -3,7 +3,7 @@
 		"left:right:" : "romnn 6/28/2019 12:36" },
 	"instance" : {
 		"attributedText" : "romnn 6/28/2019 21:01",
-		"attributedTextForSide:" : "romnn 6/28/2019 21:01",
+		"attributedTextForSide:" : "lvp 7/25/2019 15:50",
 		"isConflict" : "romnn 6/28/2019 19:58",
 		"isResolved" : "romnn 6/28/2019 19:38",
 		"left" : "romnn 6/28/2019 18:27",
@@ -14,9 +14,9 @@
 		"selectSide:" : "romnn 6/28/2019 20:49",
 		"selected" : "romnn 6/29/2019 00:25",
 		"selectedSides" : "romnn 6/28/2019 18:59",
-		"sourceTextColorForSide:" : "lvp 7/23/2019 17:54",
-		"textColor" : "romnn 6/28/2019 12:51",
-		"textColorForSide:" : "romnn 6/28/2019 21:03",
+		"sourceTextColorForSide:" : "lvp 7/25/2019 16:04",
+		"textColor" : "lvp 7/25/2019 16:02",
+		"textColorForSide:" : "lvp 7/25/2019 16:05",
 		"textForSide:" : "romnn 6/29/2019 00:28",
 		"toggleSide:" : "romnn 6/28/2019 20:49",
 		"unselectSide:" : "romnn 6/28/2019 21:00" } }

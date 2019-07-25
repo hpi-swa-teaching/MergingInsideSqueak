@@ -1,0 +1,14 @@
+{
+	"category" : "MergingInsideSqueak-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"shoutSchouldPreserve" ],
+	"name" : "MergeTextColor",
+	"pools" : [
+		 ],
+	"super" : "TextColor",
+	"type" : "normal" }
