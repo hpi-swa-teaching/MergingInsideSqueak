@@ -1,5 +1,6 @@
 initialize
-openWithMockData
+openWithMockDataForTest
 	
 	^self initWithMockData
+		testRun: true;
 		buildAndOpen
