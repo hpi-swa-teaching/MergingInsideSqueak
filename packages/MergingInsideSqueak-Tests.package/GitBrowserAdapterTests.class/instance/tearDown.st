@@ -1,8 +1,7 @@
 as yet unclassified
 tearDown
-	self suppressChangeNotificationsDuring:
-		[classFactory cleanUp.
-		workingCopy unload].
+        classFactory cleanUp.
+        workingCopy unload.
 	(MCWorkingCopy allManagers
 		detect: [:each | each packageName = classFactory packageName] ifNone: [])
 		ifNotNil: [:createdWorkingCopy | createdWorkingCopy unregister].
