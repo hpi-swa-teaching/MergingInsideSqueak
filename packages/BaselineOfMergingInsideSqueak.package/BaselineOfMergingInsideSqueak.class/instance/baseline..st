@@ -8,10 +8,10 @@ baseline: spec
 				package: 'MergingInsideSqueak-Core';
 				package: 'MergingInsideSqueak-Diff2';
 				package: 'MergingInsideSqueak-Monticello';
+				package: 'Sqout-Tests-Tools';
 				package: 'MergingInsideSqueak-Tests' with: [spec requires: #('default')];
-				package: 'Sqout-Tests-Tools' with: [spec requires: #('default')];
 				yourself.
 			spec
-				group: 'default' with: #('MergingInsideSqueak-Core' 'MergingInsideSqueak-Diff2');
-				group: 'tests' with: #('MergingInsideSqueak-Tests' 'Sqout-Tests-Tools')];
+				group: 'default' with: #('MergingInsideSqueak-Core' 'MergingInsideSqueak-Diff2' 'Sqout-Tests-Tools');
+				group: 'tests' with: #('MergingInsideSqueak-Tests')];
 				yourself
