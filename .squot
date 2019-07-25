@@ -7,5 +7,5 @@ OrderedDictionary {
 	'packages\/Squot-Core.package' : #SquotCypressCodeSerializer,
 	'packages\/Monticello-Base.package' : #SquotCypressCodeSerializer,
 	'packages\/Monticello-Modeling.package' : #SquotCypressCodeSerializer,
-	'Squot-Tests-Tools.package' : #SquotCypressCodeSerializer
+	'packages\/Squot-Tests-Tools.package' : #SquotCypressCodeSerializer
 }
