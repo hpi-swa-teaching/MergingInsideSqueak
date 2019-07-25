@@ -12,5 +12,5 @@ baseline: spec
 				yourself.
 			spec
 				group: 'default' with: #('MergingInsideSqueak-Core' 'MergingInsideSqueak-Diff2');
-				group: 'tests' with: #('MergingInsideSqueak-Tests')];
+				group: 'tests' with: #('MergingInsideSqueak-Tests' 'Sqout-Tests-Tools')];
 				yourself
