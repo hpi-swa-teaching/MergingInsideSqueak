@@ -6,18 +6,23 @@ updateToMergedObjects: aMergedSnapshot
 	aMergedSnapshot sources do: [:mergedClass | | operations |
 		operations := OrderedCollection new.  
 		aPackageInfo := self workingCopy store objectAt: mergedClass package.
-		artifacts at: mergedClass package ifPresent: [:artifact |
-			mergedClass methods do: [:mergedMethod | 
-				(self sources: baseSources containsMethod: mergedMethod) ifTrue: [
-					(self sources: targetSources containsMethod: mergedMethod) ifTrue: [
-						operations add: (self putMISMethod: mergedMethod To: artifact)						
-					] ifFalse: [
-					
-					]	
-				] ifFalse: [
-				
-				].
-			]	
-		] ifAbsent: [].
+		mergedClass methods do: [:mergedMethod | 
+			((self sources: baseSources containsMethod: mergedMethod) and: [self sources: targetSources containsMethod: mergedMethod]) ifTrue: [
+				 operations add: (self createMethodModificationOf: mergedMethod)		
+			] ifFalse: [
+				operations add: (self createMethodAdditionOf: mergedMethod)				
+			].	
+		].
+		(MCPatch operations: operations) squotApplyToLoaded: aPackageInfo
+	].
+	baseSources sources do: [:baseClass | | operations |
+		operations := OrderedCollection new.  
+		aPackageInfo := self workingCopy store objectAt: baseClass package.
+		baseClass methods select: [:baseMethod |
+			(self sources: aMergedSnapshot containsMethod: baseMethod) not
+		] thenDo: [:baseMethod |
+			operations add: (self createMethodRemovalOf: baseMethod)	
+		].
 		(MCPatch operations: operations) squotApplyToLoaded: aPackageInfo
 	]
+	

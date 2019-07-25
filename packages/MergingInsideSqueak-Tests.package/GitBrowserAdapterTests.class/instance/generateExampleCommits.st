@@ -18,7 +18,6 @@ generateExampleCommits
 	sampleClass compileSilently: 'firstMethod
 		^ 123' classified: 'methods of first version'.
 	sampleClass compileSilently: 'firstMethod2 ^ 123' classified: 'methods of first version'.
-	self suppressChangeNotificationsDuring: [classFactory newClass].
 	sampleClass removeSelector: #firstMethod3.
 	
 	workingCopy saveNewVersionMessage: 'second version' interactive: false.	

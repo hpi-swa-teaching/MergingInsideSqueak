@@ -1,10 +1,16 @@
 as yet unclassified
 testUpdating
-	| latestVersion actualSourceHolder |
+	| targetVersion targetSources SquotAdapter |
 	
-	latestVersion := workingCopy baseVersion.
-	actualSourceHolder := SquotMISAdapter new getSourceHoldersFor: latestVersion.
-	self assert: actualSourceHolder sources size = 2.
-	actualSourceHolder := SquotMISAdapter new getSourceHoldersFor: latestVersion parents first .
-	self assert: actualSourceHolder sources size = 1.
-	self assert: (actualSourceHolder sources at: 1) methods size = 2.
+	SquotAdapter := SquotMISAdapter new
+						baseVersion: workingCopy baseVersion;
+						targetVersion: workingCopy baseVersion parents first;
+						workingCopy: workingCopy.
+	SquotAdapter 
+		baseSources: (SquotAdapter getSourceHoldersFor: workingCopy baseVersion);
+		targetSources: (SquotAdapter getSourceHoldersFor: workingCopy baseVersion parents first).
+	targetVersion := workingCopy baseVersion parents first.
+	targetSources := SquotAdapter getSourceHoldersFor: targetVersion.
+	SquotAdapter updateToMergedObjects: targetSources.
+	workingCopy saveNewVersionMessage: 'merged version' interactive: false.
+	self assert: targetSources = (SquotAdapter getSourceHoldersFor: workingCopy baseVersion).

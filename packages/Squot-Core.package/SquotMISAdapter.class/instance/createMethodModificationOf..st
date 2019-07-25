@@ -1,8 +1,8 @@
 update
-putMISMethod:  aMISMethod To: anArtifact
+createMethodModificationOf:  aMISMethod
 	| modification |
 	
-	anArtifact content startShadow definitions doWithIndex: [:definition :index | 
+	(self getBaseArtifactFor: aMISMethod actualClass package) content startShadow definitions doWithIndex: [:definition :index | 
 		(definition isMethodDefinition
 		and: [definition classIsMeta = aMISMethod classIsMeta
 		and: [definition selector asString = aMISMethod methodName
