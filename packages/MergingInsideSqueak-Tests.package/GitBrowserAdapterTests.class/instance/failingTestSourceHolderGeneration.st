@@ -1,5 +1,5 @@
 as yet unclassified
-testSourceHolderGeneration
+failingTestSourceHolderGeneration
 	| latestVersion actualSourceHolder |
 	
 	latestVersion := workingCopy baseVersion.

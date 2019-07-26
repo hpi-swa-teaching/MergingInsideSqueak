@@ -1,5 +1,5 @@
 as yet unclassified
-testUpdating
+failingTestUpdating
 	| targetVersion targetSources SquotAdapter |
 	
 	SquotAdapter := SquotMISAdapter new
