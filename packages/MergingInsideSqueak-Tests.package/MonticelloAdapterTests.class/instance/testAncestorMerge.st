@@ -1,7 +1,7 @@
 as yet unclassified
 testAncestorMerge
 	<timeout: 30 "seconds">
-	| base revA revB revC |
+	"| base revA revB revC |
 
 	base := self snapshot.
 	self change: #a toReturn: 'a1'.
@@ -11,4 +11,4 @@ testAncestorMerge
 	self change: #c toReturn: 'c1'.
 	revC :=  self snapshot.	
 
-	self should: [revA merge] raise: MCNoChangesException.
+	self should: [revA merge] raise: MCNoChangesException."

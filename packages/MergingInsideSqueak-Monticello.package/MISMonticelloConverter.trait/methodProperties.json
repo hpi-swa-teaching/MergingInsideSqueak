@@ -2,9 +2,6 @@
 	"class" : {
 		 },
 	"instance" : {
-		"addClassDefinition:to:" : "romnn 7/25/2019 18:26",
-		"addMethodDefinition:to:" : "romnn 7/25/2019 18:28",
-		"addSource:to:" : "romnn 7/25/2019 18:22",
 		"convertMCClassDefinitionToMISClass:" : "romnn 7/25/2019 17:38",
 		"convertMCDefinitionToMISSourceHolder:" : "romnn 7/25/2019 19:02",
 		"convertMCDefinitionsToMISSnapshot:" : "romnn 7/25/2019 19:03",
@@ -15,6 +12,4 @@
 		"convertMISMethodToMCMethodDefinition:" : "romnn 7/25/2019 20:20",
 		"convertMISPatchOperationToMCOperation:" : "romnn 7/25/2019 20:26",
 		"convertMISSnapshotToMCSnapshot:" : "romnn 7/23/2019 22:19",
-		"convertMISSourceHolderToMCDefinition:" : "romnn 7/25/2019 20:26",
-		"sources:do:" : "romnn 7/25/2019 18:16",
-		"sourcesDo:" : "romnn 7/25/2019 18:13" } }
+		"convertMISSourceHolderToMCDefinition:" : "romnn 7/25/2019 20:26" } }

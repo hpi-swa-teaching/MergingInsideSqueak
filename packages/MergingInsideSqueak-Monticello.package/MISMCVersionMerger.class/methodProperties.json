@@ -1,7 +1,8 @@
 {
 	"class" : {
-		 },
+		"base:" : "abc 7/26/2019 04:37" },
 	"instance" : {
+		"base:" : "abc 7/26/2019 04:36",
 		"calculateChanges" : "romnn 7/25/2019 17:25",
 		"calculateProvisions" : "romnn 7/25/2019 17:23",
 		"convertMISSourceHolderToMCDefinition:" : "MCWorkingCopyTest 7/25/2019 15:23",
@@ -12,4 +13,5 @@
 		"patchMergeRecord:" : "romnn 7/25/2019 17:33",
 		"provisions" : "romnn 7/23/2019 22:30",
 		"save:" : "romnn 7/25/2019 17:31",
-		"save:withName:" : "romnn 7/25/2019 17:31" } }
+		"save:withName:" : "romnn 7/25/2019 17:31",
+		"saveSnapshot:" : "abc 7/26/2019 04:39" } }

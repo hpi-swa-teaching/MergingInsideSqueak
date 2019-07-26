@@ -5,7 +5,7 @@ setUp
 	| repos1 |
 	self clearPackageCache.
 	repositoryGroup := MCRepositoryGroup new.
-	workingCopy := MCWorkingCopy forPackage: self mockPackage.
+	workingCopy := MCWorkingCopy forPackage: self mockPackage"(MCPackage named: 'MISMonticelloTest-000')" "self mockPackage".
 	versions := Dictionary new.
 	"versions2 := Dictionary new."
 	repos1 := MCDictionaryRepository new dictionary: versions.

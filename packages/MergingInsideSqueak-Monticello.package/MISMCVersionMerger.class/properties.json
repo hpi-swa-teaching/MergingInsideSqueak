@@ -8,7 +8,8 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"provisions",
-		"changes" ],
+		"changes",
+		"baseSnapshot" ],
 	"name" : "MISMCVersionMerger",
 	"pools" : [
 		 ],
