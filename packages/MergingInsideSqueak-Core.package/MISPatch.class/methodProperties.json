@@ -1,9 +1,9 @@
 {
 	"class" : {
-		"operations:" : "romnn 6/22/2019 23:55" },
+		"operations:" : "romnn 7/4/2019 14:34" },
 	"instance" : {
-		"applyTo:" : "romnn 6/22/2019 21:33",
-		"hasChanges" : "romnn 6/22/2019 21:34",
+		"applyTo:" : "romnn 7/4/2019 14:35",
+		"hasChanges" : "romnn 7/4/2019 14:35",
 		"initializeWithBase:target:" : "romnn 6/22/2019 21:49",
 		"initializeWithOperations:" : "romnn 6/22/2019 21:33",
-		"operations" : "romnn 6/22/2019 21:33" } }
+		"operations" : "romnn 7/4/2019 14:35" } }

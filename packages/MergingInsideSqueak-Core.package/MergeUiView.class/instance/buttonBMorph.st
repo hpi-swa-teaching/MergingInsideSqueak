@@ -1,4 +1,4 @@
 accessing
 buttonBMorph
 
-	^self panel submorphs detect: [:morph | morph nameForFindWindowFeature = 'buttonB']
+	^self panelB submorphs detect: [:morph | morph nameForFindWindowFeature = 'buttonB']

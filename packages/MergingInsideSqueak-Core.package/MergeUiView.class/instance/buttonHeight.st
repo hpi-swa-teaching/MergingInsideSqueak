@@ -1,4 +1,0 @@
-constants
-buttonHeight
-
-	^40
