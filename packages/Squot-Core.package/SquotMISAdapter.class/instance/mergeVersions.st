@@ -8,6 +8,6 @@ mergeVersions
 		base: baseSources;
 		target: targetSources;
 		patchIt.
-	mergedSnapshot := MergeUiView openWithConflicts: patch.
+	mergedSnapshot := MISMergeUiView openWithConflicts: patch.
 	mergedSnapshot notNil ifTrue: [self updateToMergedObjects: mergedSnapshot.]
 	

@@ -1,4 +1,4 @@
 accessing
 attributedText
 
-	^self subclassResponsibility
+	^Text fromString: self text

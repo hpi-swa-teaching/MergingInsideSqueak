@@ -4,7 +4,9 @@ handleChangeSelection: aChange
 	currentChange := aChange.
 	self resetAllAOrBButtons.
 	selectedPath := aChange.
-	selectedParent := selectedPath change actualClass.
 	selectedChild := aChange.
+	selectedPath ifNotNilDo: [:path |
+		selectedParent := path change actualClass.
+		].
 	self updateSourceViews.
 	self view conflictListMorph update: #selected.

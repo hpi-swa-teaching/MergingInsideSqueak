@@ -1,4 +1,4 @@
 class initialization
 openWithConflicts: aConflictCollection
 	
-	^self initWithConflicts: aConflictCollection; buildAndOpen
+	^(self initWithConflicts: aConflictCollection) buildAndOpen
