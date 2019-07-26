@@ -2,7 +2,7 @@ converting
 convertToMISDefinition
 	
 	^MISMethod new 
-		source: (OrderedCollection with: (Chunk new text: self source));
+		source: (OrderedCollection with: (MISChunk new text: self source));
 		category:	self category;
 		timestamp: self timeStamp;
 		className: self className;

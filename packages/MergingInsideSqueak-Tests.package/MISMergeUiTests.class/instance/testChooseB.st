@@ -12,5 +12,5 @@ testChooseB
 	self assert: currentConflict selectedSides size == 1.
 	self assert: (currentConflict selectedSides at: 1) == #right.
 	self assert: currentConflict isResolved.
-	self assert: (self areEqualText: view partAMorph getText and: (self caseOneExpectedPart: '	^test123' withColor: MergeTextColor red underlined: true)).
-	self assert: (self areEqualText: view partBMorph getText and: (self caseOneExpectedPart: '	^test453' withColor: MergeTextColor green underlined: true)).
+	self assert: (self areEqualText: view partAMorph getText and: (self caseOneExpectedPart: '	^test123' withColor: MISMergeTextColor red underlined: true)).
+	self assert: (self areEqualText: view partBMorph getText and: (self caseOneExpectedPart: '	^test453' withColor: MISMergeTextColor green underlined: true)).

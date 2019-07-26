@@ -1,7 +1,7 @@
 building
 buildAndOpen
-	| builder |
 	
+	| builder |
 	builder := MorphicToolBuilder new.
 	windowMorph := self build.
 	(testRun notNil and: [testRun]) ifTrue: [^self] ifFalse: [

@@ -1,7 +1,7 @@
 snapshot-creation
 buildMergedClassFrom: aConflictingClass
-	| conflictingMethods mergedMethods |
 	
+	| conflictingMethods mergedMethods |
 	conflictingMethods := aConflictingClass methods.
 	mergedMethods := OrderedCollection new.
 	conflictingMethods do: [:conflictingMethod | | mergedMethod |

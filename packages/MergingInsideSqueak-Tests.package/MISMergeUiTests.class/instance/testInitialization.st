@@ -1,4 +1,4 @@
 tests
 testInitialization
 
-	self assert: view ui notNil
+	self assert: view window notNil

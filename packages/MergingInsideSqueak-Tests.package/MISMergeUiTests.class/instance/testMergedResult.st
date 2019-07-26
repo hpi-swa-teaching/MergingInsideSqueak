@@ -3,7 +3,7 @@ testMergedResult
 	| conflictSnapshot resolvedSnapshot view testClass testMethod |
 	
 	conflictSnapshot := MISSnapshot standardTestExample.
-	view := MergeUiView new.
+	view := MISMergeUiView new.
 	view controller conflicts: conflictSnapshot sources.
 	resolvedSnapshot := view currentStateAsSnapshot.
 	self assert: resolvedSnapshot sources size = 1.

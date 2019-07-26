@@ -1,7 +1,7 @@
 framing
 partAButtonsFrame
 
-	^ LayoutFrame new 
+	^LayoutFrame new 
 		leftFraction: 0.3 offset: 0;
 		topFraction: 0 offset: 0;
 		rightFraction: 0.65 offset: 0;

@@ -1,5 +1,6 @@
 snapshot-creation
 buildMergedMethodFrom: aConflictingMethod
+	
 	| methodDefinition |
 	methodDefinition := MISCleanChunk text: ''.
 	aConflictingMethod source do: [:chunk | 
