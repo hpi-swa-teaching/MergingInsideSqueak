@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 classIsMeta: aBoolean
 
 	classIsMeta := aBoolean

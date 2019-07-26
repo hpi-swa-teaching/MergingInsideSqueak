@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 classInstanceVarNames: aCollectionOfStrings
 
 	classInstanceVarNames := aCollectionOfStrings

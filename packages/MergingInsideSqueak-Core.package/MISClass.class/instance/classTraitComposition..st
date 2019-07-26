@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 classTraitComposition: aCollection
 
 	classTraitComposition := aCollection 

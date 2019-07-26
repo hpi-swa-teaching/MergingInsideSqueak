@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 conflictAt: anIndex
 	
 	(self conflictAtIndex: anIndex) ifNotNilDo: [ :index | ^self source at: index ifAbsent: [^nil] ].

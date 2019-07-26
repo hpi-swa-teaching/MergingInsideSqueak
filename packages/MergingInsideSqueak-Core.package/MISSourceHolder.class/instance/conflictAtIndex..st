@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 conflictAtIndex: anIndex
 
 	conflicts ifNotNil: [^conflicts at: anIndex ].

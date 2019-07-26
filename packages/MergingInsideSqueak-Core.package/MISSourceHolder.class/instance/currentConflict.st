@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 currentConflict
 
 	^self chunks at: 1

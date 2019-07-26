@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 sourceText
 
 	^(self source allSatisfy: [ :chunk | chunk isResolved ])

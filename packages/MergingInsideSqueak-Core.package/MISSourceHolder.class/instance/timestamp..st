@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 timestamp: aTimestampString
 
 	timestamp := aTimestampString

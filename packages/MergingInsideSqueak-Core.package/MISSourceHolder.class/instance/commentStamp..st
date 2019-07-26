@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 commentStamp: aTimestamp
 
 	commentStamp := aTimestamp

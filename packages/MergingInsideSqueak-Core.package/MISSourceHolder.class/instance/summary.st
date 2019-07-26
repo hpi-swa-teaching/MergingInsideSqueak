@@ -1,4 +1,4 @@
-nil
+accessing
 summary
 	
 	^self subclassResponsibility

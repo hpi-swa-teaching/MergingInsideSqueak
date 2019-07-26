@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 methods: aCollectionOfMethods
 	
 	methods := aCollectionOfMethods

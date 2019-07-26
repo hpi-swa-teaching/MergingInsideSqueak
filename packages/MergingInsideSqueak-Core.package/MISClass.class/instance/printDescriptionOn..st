@@ -1,4 +1,4 @@
-as yet unclassified
+printing
 printDescriptionOn: aStream
 
 	aStream print: self summary

@@ -1,4 +1,4 @@
-as yet unclassified
+instance creation
 fromChunks: aCollectionOfMISChunks
 
 	^self new source: aCollectionOfMISChunks

@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 sortKey
 
 	^self summary

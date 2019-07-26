@@ -1,4 +1,4 @@
-as yet unclassified
+instance creation
 fromMethod: aMISMethod andPackage: aPackageName
 	
 	| misClassDefinition |

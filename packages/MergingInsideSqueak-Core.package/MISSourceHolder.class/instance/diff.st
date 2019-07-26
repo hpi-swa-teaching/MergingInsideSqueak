@@ -1,6 +1,5 @@
-as yet unclassified
+diffing
 diff
 
 	self source: (self source inject: OrderedCollection new into: [:acc :chunk | 
-			acc , chunk diff 
-		])
+			acc , chunk diff])
