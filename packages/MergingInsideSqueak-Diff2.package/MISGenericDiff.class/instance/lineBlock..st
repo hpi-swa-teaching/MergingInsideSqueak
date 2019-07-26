@@ -1,4 +1,4 @@
-as yet unclassified
+linediffing
 lineBlock: aCollection
 	
 	lineBlock := aCollection.

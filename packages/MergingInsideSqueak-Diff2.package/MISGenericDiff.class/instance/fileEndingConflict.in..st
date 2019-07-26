@@ -1,4 +1,4 @@
-as yet unclassified
+linediffing
 fileEndingConflict: anIndex in: aFile
 
 	aFile = file1

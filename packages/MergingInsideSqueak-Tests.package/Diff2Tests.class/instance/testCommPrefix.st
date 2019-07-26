@@ -6,7 +6,7 @@ testCommPrefix
 			'jumped over' , Character cr , 
 			'the rolling log';
 			file2: 'jumped over' , Character cr , 
-			'the rolling log'; comm.
+			'the rolling log'; lineBasedDiff.
 	should := {#different->(('The red brown fox', Character cr)->'') . 
 				#common->('jumped over', Character cr) . 
 				#common->'the rolling log'}.

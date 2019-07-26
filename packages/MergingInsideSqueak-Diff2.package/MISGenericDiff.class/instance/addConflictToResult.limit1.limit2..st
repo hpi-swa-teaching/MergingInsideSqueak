@@ -1,4 +1,4 @@
-as yet unclassified
+linediffing
 addConflictToResult: aCollection limit1: aLimit limit2: anOtherLimit
 		
 	((self sameLineBreak: aLimit and: (file1EndingConflict+1)) and: [(self sameLineBreak: anOtherLimit and: (file2EndingConflict+1))])				
@@ -21,7 +21,7 @@ addConflictToResult: aCollection limit1: aLimit limit2: anOtherLimit
 					self fileEndingConflict: (self findNextLineBreakStartingAt: file1EndingConflict+1 in: file1) in: file1.
 					self lineBlock: OrderedCollection new.
 						
-					self maybeAddLineBlockTo: aCollection p1: file1EndingConflict p2: file2EndingConflict 
+					self maybeAddCommonLineBlockTo: aCollection p1: file1EndingConflict p2: file2EndingConflict 
 					limit1: aLimit limit2: anOtherLimit
 				]
 				ifTrue: [
@@ -31,7 +31,7 @@ addConflictToResult: aCollection limit1: aLimit limit2: anOtherLimit
 					self fileEndingConflict: (self findNextLineBreakStartingAt: file2EndingConflict+1 in: file2) in: file2.
 					self lineBlock: OrderedCollection new.
 						
-					self maybeAddLineBlockTo: aCollection p1: file1EndingConflict p2: file2EndingConflict 
+					self maybeAddCommonLineBlockTo: aCollection p1: file1EndingConflict p2: file2EndingConflict 
 					limit1: aLimit limit2: anOtherLimit. 
 				]
 			].

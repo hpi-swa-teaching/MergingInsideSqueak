@@ -1,4 +1,4 @@
-as yet unclassified
+linediffing
 findNextLineBreakStartingAt: aEntryPoint in: aFile
 
 	| offset file |
