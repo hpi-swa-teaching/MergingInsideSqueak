@@ -1,4 +1,4 @@
-as yet unclassified
+comparing
 = anotherMISPatchOperation
 	
 	^self change = anotherMISPatchOperation change

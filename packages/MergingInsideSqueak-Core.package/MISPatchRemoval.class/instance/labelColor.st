@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 labelColor
 
-	^ TextColor red
+	^TextColor red

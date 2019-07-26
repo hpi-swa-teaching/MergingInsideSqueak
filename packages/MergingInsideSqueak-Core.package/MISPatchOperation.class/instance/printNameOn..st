@@ -1,4 +1,4 @@
-as yet unclassified
+printing
 printNameOn: aStream
 
 	^super printOn: aStream

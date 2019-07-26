@@ -1,4 +1,4 @@
-as yet unclassified
+initialize-release
 initializeWithBase: baseMISSnapshot target: targetMISSnapshot
 
 	base := baseMISSnapshot.

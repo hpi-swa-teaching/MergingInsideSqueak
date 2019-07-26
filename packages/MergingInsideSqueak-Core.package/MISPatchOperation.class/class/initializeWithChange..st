@@ -1,4 +1,4 @@
-as yet unclassified
-initializeWithChange: aMISSourceHolder
+instance creation
+initializeWithChange: aSourceCodeHolder
 
-	^self new change: aMISSourceHolder
+	^self new initializeWithChange: aSourceCodeHolder

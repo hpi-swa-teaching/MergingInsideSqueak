@@ -1,4 +1,4 @@
-as yet unclassified
+converting
 convertToMCOperations
 
-	^SubclassResponsibility
+	^self subclassResponsibility
