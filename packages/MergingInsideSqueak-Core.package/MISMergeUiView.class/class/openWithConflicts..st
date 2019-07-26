@@ -1,7 +1,4 @@
-initialize
+class initialization
 openWithConflicts: aConflictCollection
 	
-	|newView|
-	newView := self new.
-	newView controller conflicts: aConflictCollection.
-	^newView buildAndOpen
+	^self initWithConflicts: aConflictCollection; buildAndOpen

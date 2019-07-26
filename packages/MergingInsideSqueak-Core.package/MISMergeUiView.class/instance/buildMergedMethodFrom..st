@@ -1,4 +1,4 @@
-accessing
+snapshot-creation
 buildMergedMethodFrom: aConflictingMethod
 	| methodDefinition |
 	methodDefinition := MISCleanChunk text: ''.

@@ -1,7 +1,7 @@
-initialize
+class initialization
 initWithMockData
-	|conflicts classConflict1 classConflict2 conflictingMethod1 conflictingMethod2 conflictingMethod3 |
 	
+	|conflicts classConflict1 classConflict2 conflictingMethod1 conflictingMethod2 conflictingMethod3 |
 	classConflict1 := MISClass new.
 	classConflict1 className: 'classA'.
 	conflictingMethod1 :=  MISMethod new actualClass: classConflict1.

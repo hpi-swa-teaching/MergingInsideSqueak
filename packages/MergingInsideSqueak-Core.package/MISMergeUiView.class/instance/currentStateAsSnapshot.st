@@ -1,4 +1,4 @@
-accessing
+snapshot-creation
 currentStateAsSnapshot
 	| conflicts mergedClasses |
 	

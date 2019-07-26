@@ -1,4 +1,4 @@
-accessing
+snapshot-creation
 buildMergedClassFrom: aConflictingClass
 	| conflictingMethods mergedMethods |
 	

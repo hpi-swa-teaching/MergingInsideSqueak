@@ -1,4 +1,4 @@
-initialize
+class initialization
 openWithMockData
 	
-	^self initWithMockData showModally
+	^self initWithMockData buildAndOpen

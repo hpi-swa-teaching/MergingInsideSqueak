@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 window
 	windowMorph ifNil: [
 		windowMorph := self buildWindow.

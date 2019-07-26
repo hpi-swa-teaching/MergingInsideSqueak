@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 labelString
 
 	^windowTitle ifNil: [self class name]

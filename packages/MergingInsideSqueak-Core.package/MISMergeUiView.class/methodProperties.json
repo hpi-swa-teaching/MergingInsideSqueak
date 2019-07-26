@@ -1,12 +1,12 @@
 {
 	"class" : {
 		"defaultExtent" : "lvp 7/26/2019 20:16",
-		"initWithConflicts:" : "romnn 6/29/2019 04:56",
-		"initWithMockData" : "lvp 7/25/2019 16:37",
+		"initWithConflicts:" : "romnn 7/26/2019 21:09",
+		"initWithMockData" : "romnn 7/26/2019 21:09",
 		"mergePatch:" : "romnn 7/3/2019 13:11",
-		"open" : "Tim Strauss 5/17/2019 11:01",
-		"openWithConflicts:" : "romnn 7/26/2019 17:38",
-		"openWithMockData" : "romnn 7/23/2019 19:29",
+		"open" : "romnn 7/26/2019 21:09",
+		"openWithConflicts:" : "romnn 7/26/2019 21:10",
+		"openWithMockData" : "romnn 7/26/2019 21:11",
 		"openWithMockDataForTest" : "Tim Strauss 7/25/2019 12:23" },
 	"instance" : {
 		"answer:" : "romnn 7/23/2019 19:24",
@@ -57,5 +57,4 @@
 		"showModally" : "romnn 7/23/2019 19:39",
 		"submorphs" : "romnn 7/23/2019 19:30",
 		"testRun:" : "Tim Strauss 7/25/2019 12:22",
-		"ui" : "romnn 6/29/2019 04:47",
 		"window" : "romnn 7/23/2019 19:42" } }

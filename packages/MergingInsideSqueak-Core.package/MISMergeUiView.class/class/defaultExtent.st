@@ -1,4 +1,4 @@
-as yet unclassified
+constants
 defaultExtent
 	
 	^1000@700

@@ -1,4 +1,4 @@
-as yet unclassified
+actions
 showModally
 	modalProcess := Processor activeProcess.
 	self window openInWorldExtent: self class defaultExtent.

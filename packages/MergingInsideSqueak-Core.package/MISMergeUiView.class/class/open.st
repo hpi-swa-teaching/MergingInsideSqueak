@@ -1,4 +1,4 @@
-initialize
+class initialization
 open
 
-	^self new buildAndOpenFullMergingTool
+	^self new buildAndOpen
