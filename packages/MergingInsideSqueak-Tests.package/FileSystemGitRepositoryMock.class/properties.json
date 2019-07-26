@@ -1,0 +1,14 @@
+{
+	"category" : "MergingInsideSqueak-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "FileSystemGitRepositoryMock",
+	"pools" : [
+		 ],
+	"super" : "FileSystemGitRepository",
+	"type" : "normal" }

@@ -1,13 +1,4 @@
-partBHandler
+model-access
 partB
-	| chunks uiText conflictingClass conflictingMethod |
 	
-	conflictingClass := conflicts at: currentConflictingClass.
-	conflictingMethod := conflictingClass getMethodConflicts at: currentConflictingMethod.
-	chunks := conflictingMethod getChunks.
-	uiText := Text new.
-	chunks doWithIndex: [:chunk :index | |appendText|
-		appendText := self getTextFor: #right FromChunk: chunk.
-		index = self getCurrentConflictingMethod currentConflictNum ifTrue: [appendText addAttribute: TextEmphasis underlined].
-		uiText append: appendText].
-	^uiText
+	^self textForSide: #right

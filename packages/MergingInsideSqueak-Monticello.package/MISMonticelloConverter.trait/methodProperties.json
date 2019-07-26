@@ -1,0 +1,8 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"convertMCDefinitionToMISSourceHolder:" : "romnn 7/3/2019 13:13",
+		"convertMCDefinitionsToMISSnapshot:" : "romnn 7/8/2019 13:33",
+		"convertMCMethodDefinitionToMISMethod:" : "romnn 7/4/2019 12:15",
+		"convertMCOperationToMISPatchOperation:" : "romnn 7/8/2019 00:22" } }

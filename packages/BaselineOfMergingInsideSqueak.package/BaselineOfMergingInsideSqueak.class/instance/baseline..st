@@ -7,6 +7,7 @@ baseline: spec
 			spec
 				package: 'MergingInsideSqueak-Core';
 				package: 'MergingInsideSqueak-Diff2';
+				package: 'MergingInsideSqueak-Monticello';
 				package: 'MergingInsideSqueak-Tests' with: [spec requires: #('default')];
 				yourself.
 			spec

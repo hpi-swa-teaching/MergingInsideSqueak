@@ -1,0 +1,4 @@
+accessing
+setShowsOnlyConflicts
+
+	showsOnlyConflicts := true

@@ -1,8 +1,11 @@
 initialize
 openWithConflicts: aConflictCollection
 	|newView|
-	
-	newView := self new.
-	newView getController conflicts: aConflictCollection.
-	^newView buildAndOpenFullMergingTool
+	(aConflictCollection notNil and: [aConflictCollection notEmpty]) ifTrue: [
+		newView := self new.
+		newView controller conflicts: aConflictCollection.
+		^newView buildAndOpen
+	] ifFalse: [
+		^nil
+	]
 	

@@ -7,7 +7,8 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"ui",
-		"controller" ],
+		"controller",
+		"testRun" ],
 	"name" : "MergeUiView",
 	"pools" : [
 		 ],

@@ -1,4 +1,0 @@
-ConflictListHandler
-conflictList
-	
-	^conflicts

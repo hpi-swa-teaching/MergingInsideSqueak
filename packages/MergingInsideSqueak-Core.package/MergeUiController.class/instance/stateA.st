@@ -1,8 +1,11 @@
-buttonHandler
+model-access
 stateA
-	| currentConflict selectedParts |
 	
-	currentConflict := self getCurrentConflictingMethod currentConflict.
-	selectedParts := currentConflict getSelected.
-	selectedParts anySatisfy: [:selected | selected == #left].
-	^aIn
+	self currentChange ifNil: [^false].
+	"| currentConflict selectedParts |
+	self halt.
+	self currentMethod ifNil: [^false].
+	currentConflict := self currentMethod change currentConflict.
+	selectedParts := currentConflict selected.
+	^selectedParts anySatisfy: [:selected | selected == #left]"
+	^false

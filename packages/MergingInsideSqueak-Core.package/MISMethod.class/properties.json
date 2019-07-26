@@ -1,0 +1,15 @@
+{
+	"category" : "MergingInsideSqueak-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"selector",
+		"methodName" ],
+	"name" : "MISMethod",
+	"pools" : [
+		 ],
+	"super" : "MISSourceHolder",
+	"type" : "normal" }
