@@ -5,6 +5,7 @@ buildMergePartAWith: aBuilder
 		model: controller;
 		askBeforeDiscardingEdits: false;
 		indicateUnacceptedChanges: false;
+		stylerClass: MISStyler;
 		readOnly: true;
 		name: 'partA';
 		getText: #partA.

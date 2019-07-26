@@ -6,6 +6,7 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
+		"testRun",
 		"controller",
 		"modalProcess",
 		"modalValue",
