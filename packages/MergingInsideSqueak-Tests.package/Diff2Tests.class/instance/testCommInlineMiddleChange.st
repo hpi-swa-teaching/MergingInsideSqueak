@@ -1,15 +1,15 @@
 as yet unclassified
-testCommSuffix
+testCommInlineMiddleChange
 	| is should |
 	is := self diffClass new
 			file1: 'The red brown fox' , Character cr , 
-			'jumped over' , Character cr , 
+			'jumped big over' , Character cr , 
 			'the rolling log';
 			file2: 'The red brown fox' , Character cr , 
-			'jumped over'; comm.
-			
+			'jumped over' , Character cr , 
+			'the rolling log'; comm.
 	should := {#common->('The red brown fox', Character cr) . 
-				#common->('jumped over') . 
-				#different->('the rolling log'->'')}.
-			
+				#different->(('jumped big over', Character cr)->('jumped over', Character cr)) . 
+				#common->'the rolling log'}.
+
 	self assert: is = should.

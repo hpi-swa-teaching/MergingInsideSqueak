@@ -9,9 +9,9 @@ testCommEmptyInline
 			file2: 'The red brown fox' , Character cr , 
 			'jumped over' , Character cr , 
 			'the rolling log'; comm.
-	should := {#common->'The red brown fox', Character cr . 
-				#different->(Character cr ->'') . 
-				#common->'jumped over', Character cr . 
+	should := {#common->('The red brown fox', Character cr) . 
+				#different->(('', Character cr)->'') . 
+				#common->('jumped over', Character cr) . 
 				#common->'the rolling log'}.
 
 	self assert: is = should.

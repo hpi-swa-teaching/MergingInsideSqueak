@@ -26,8 +26,8 @@ comm
 		p1 := entry key.
 		p2 := entry value.].
 	
-	file1EndingConflict > p1 and: [file2EndingConflict > p2];
-			ifTrue: [self maybeAddLineBlockTo: result p1: p1 p2: p2 limit1: file1 size +1 limit2: file2 size +1.
+	file1EndingConflict < (file1 size) and: [file2EndingConflict < (file2 size)];
+			ifTrue: [ self maybeAddLineBlockTo: result p1: p1 p2: p2 limit1: file1 size +1 limit2: file2 size +1.
 					self addCommonBlock: lineBlock ifNonEmptyTo: result].
 
 	^ result asArray

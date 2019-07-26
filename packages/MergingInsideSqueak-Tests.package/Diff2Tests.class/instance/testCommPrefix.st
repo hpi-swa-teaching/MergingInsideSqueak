@@ -7,8 +7,8 @@ testCommPrefix
 			'the rolling log';
 			file2: 'jumped over' , Character cr , 
 			'the rolling log'; comm.
-	should := {#different->('The red brown fox', Character cr->'') . 
-				#common->'jumped over', Character cr . 
+	should := {#different->(('The red brown fox', Character cr)->'') . 
+				#common->('jumped over', Character cr) . 
 				#common->'the rolling log'}.
 
 	self assert: is = should.

@@ -17,4 +17,7 @@ maybeAddLineBlockTo: result p1: p1 p2: p2 limit1: limit1 limit2: limit2
 						
 						"]."
 				]
-			ifFalse: [lineBlock add: limit1].
+			ifFalse: [
+				(file1 size < limit1)
+					ifFalse: [lineBlock add: limit1].
+				].
