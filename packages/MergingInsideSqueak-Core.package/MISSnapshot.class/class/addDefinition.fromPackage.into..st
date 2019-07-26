@@ -1,6 +1,7 @@
 as yet unclassified
 addDefinition: aMISDefinition fromPackage: aPackageName into: aSourceHolderCollection
 	
+	aMISDefinition ifNil: [^nil].
 	aMISDefinition isClassSource ifTrue: [
 		self addClassDefinition: aMISDefinition fromPackage: aPackageName into: aSourceHolderCollection.
 	].

@@ -1,4 +1,4 @@
 as yet unclassified
 fromSquotVersion: aSquotVersion
 
-	^self new fromSquotArtifacts: aSquotVersion artifacts.
+	^self fromSquotArtifacts: aSquotVersion artifacts.

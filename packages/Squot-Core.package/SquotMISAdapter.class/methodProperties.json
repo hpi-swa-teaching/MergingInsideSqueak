@@ -2,9 +2,6 @@
 	"class" : {
 		"mergeBase:target:workingCopy:" : "Tim Strauss 7/22/2019 16:52" },
 	"instance" : {
-		"addClassDefinition:FromPackage:Into:" : "Tim Strauss 7/22/2019 16:56",
-		"addDefinition:FromPackage:Into:" : "Tim Strauss 7/22/2019 17:27",
-		"addMethodDefinition:FromPackage:Into:" : "Tim Strauss 7/22/2019 16:56",
 		"baseSources" : "Tim Strauss 7/25/2019 09:57",
 		"baseSources:" : "Tim Strauss 7/25/2019 09:57",
 		"baseVersion" : "Tim Strauss 7/22/2019 16:50",
@@ -12,10 +9,8 @@
 		"createMethodAdditionOf:" : "Tim Strauss 7/25/2019 11:43",
 		"createMethodModificationOf:" : "Tim Strauss 7/25/2019 11:42",
 		"createMethodRemovalOf:" : "Tim Strauss 7/25/2019 12:05",
-		"createNewMISClassFrom:AndPackage:" : "Tim Strauss 7/22/2019 16:57",
-		"forArtifacts:Do:" : "Tim Strauss 7/22/2019 16:55",
 		"getBaseArtifactFor:" : "Tim Strauss 7/25/2019 11:41",
-		"getSourceHoldersFor:" : "Tim Strauss 7/25/2019 01:25",
+		"getSourceHoldersFor:" : "romnn 7/26/2019 18:25",
 		"getTargetArtifactFor:" : "Tim Strauss 7/25/2019 11:39",
 		"mergeVersions" : "Tim Strauss 7/25/2019 01:25",
 		"sources:containsMethod:" : "Tim Strauss 7/25/2019 10:07",

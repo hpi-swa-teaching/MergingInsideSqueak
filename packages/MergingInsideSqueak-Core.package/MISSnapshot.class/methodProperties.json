@@ -2,13 +2,14 @@
 	"class" : {
 		"addClassDefinition:fromPackage:into:" : "romnn 7/25/2019 18:44",
 		"addClassDefinition:into:" : "romnn 7/25/2019 18:35",
-		"addDefinition:fromPackage:into:" : "romnn 7/25/2019 18:58",
+		"addDefinition:fromPackage:into:" : "romnn 7/26/2019 18:25",
 		"addMethodDefinition:fromPackage:into:" : "romnn 7/25/2019 18:42",
+		"artifacts:do:" : "romnn 7/26/2019 18:23",
 		"fromMCDefinitions:fromPackage:" : "romnn 7/25/2019 18:58",
 		"fromMCSnapshot:" : "abc 7/26/2019 13:01",
 		"fromSources:" : "romnn 7/25/2019 18:58",
-		"fromSquotArtifacts:" : "romnn 7/25/2019 18:56",
-		"fromSquotVersion:" : "romnn 7/25/2019 18:58",
+		"fromSquotArtifacts:" : "romnn 7/26/2019 18:25",
+		"fromSquotVersion:" : "romnn 7/26/2019 18:21",
 		"sources:do:" : "MCWorkingCopyTest 7/25/2019 18:48",
 		"standardTestExample" : "Tim Strauss 7/25/2019 16:26" },
 	"instance" : {
