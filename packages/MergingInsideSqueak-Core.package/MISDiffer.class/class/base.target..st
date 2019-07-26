@@ -1,4 +1,4 @@
-as yet unclassified
+instance creation
 base: baseMISSnapshot target: targetMISSnapshot
 	
 	^ self new

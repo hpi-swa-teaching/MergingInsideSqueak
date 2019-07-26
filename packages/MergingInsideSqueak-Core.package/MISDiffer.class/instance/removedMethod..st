@@ -1,5 +1,6 @@
-as yet unclassified
+patch-calculation
 removedMethod: aMISMethod
+	
 	| ownerClass removedMethod |
 	ownerClass := self patchedClass: aMISMethod actualClass.
 	removedMethod := aMISMethod copy.

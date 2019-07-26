@@ -1,5 +1,6 @@
-as yet unclassified
+patch-calculation
 addedMethod: aMISMethod
+	
 	| ownerClass addedMethod |
 	ownerClass := self patchedClass: aMISMethod actualClass.
 	

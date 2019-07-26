@@ -1,4 +1,4 @@
-as yet unclassified
+patch-calculation
 methodsIn: aBaseMISClass and: aTargetMISClass do: aBlock
 
 	aBaseMISClass methods do: [ :baseMethod |

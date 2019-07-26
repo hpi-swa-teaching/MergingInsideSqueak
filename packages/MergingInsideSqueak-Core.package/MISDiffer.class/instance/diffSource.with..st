@@ -1,4 +1,4 @@
-as yet unclassified
+diffing
 diffSource: aBaseMISSource with:  aTargetMISSource
 
 	| chunks diffChunks |
@@ -14,5 +14,4 @@ diffSource: aBaseMISSource with:  aTargetMISSource
 			chunks add: (MISConflictChunk left: chunk value key right: chunk value value)
 		]
 	].
-	" TODO: Also think about author, timestamp etc"
 	^MISPatchModification initializeWithChange: (aBaseMISSource copy source: chunks)

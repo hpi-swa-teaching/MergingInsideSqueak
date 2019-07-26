@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 patchOperations
 
 	^patchOperations ifNil: [^patchOperations := OrderedCollection new]
