@@ -1,3 +1,3 @@
-linediffing
+line-diffing
 lineBlock	
 	^ lineBlock

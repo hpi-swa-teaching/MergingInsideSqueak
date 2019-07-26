@@ -1,9 +1,11 @@
-as yet unclassified
+diff-testing
 testComm
-	
-	| is should |
-	is := (self sampleDiff: self diffClass) lineBasedDiff.
-	should := {#different->(('The red brown fox', Character cr)->('The brown spotted fox', Character cr)) .
-				#different->(('jumped over', Character cr)->('leaped over', Character cr)).
-				#common->'the rolling log'}.
-	self assert: is = should.
+	| c |
+	c := (self sampleDiff: self diffClass) comm.
+	self assert: [c = {	#common->#(#The) . 
+						#different->(#(#red)->#()) . 
+						#common->#(#brown) . 
+						#different->(#()->#(#spotted)) . 
+						#common->#(#fox) . 
+						#different->(#(#jumped)->#(#leaped)) . 
+						#common->#(#over #the #rolling #log)}].

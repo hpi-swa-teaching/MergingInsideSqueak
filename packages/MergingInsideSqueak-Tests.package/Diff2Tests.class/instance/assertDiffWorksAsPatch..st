@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 assertDiffWorksAsPatch: d
 	| p f2 |
 	p := d diff.

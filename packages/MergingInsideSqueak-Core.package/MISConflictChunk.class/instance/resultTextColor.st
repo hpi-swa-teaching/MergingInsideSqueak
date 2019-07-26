@@ -2,7 +2,7 @@ as yet unclassified
 resultTextColor
 
 	^self isResolved ifTrue: [
-				^TextColor blue
+				^MergeTextColor blue
 			] ifFalse: [
-				^TextColor red
+				^MergeTextColor red
 			]

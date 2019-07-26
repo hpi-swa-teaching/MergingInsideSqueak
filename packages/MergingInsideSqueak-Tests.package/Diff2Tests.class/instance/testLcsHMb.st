@@ -1,4 +1,4 @@
-as yet unclassified
+lcs-testing
 testLcsHMb
 	"Test case from Hunt & McIlroy 1976, reversed."
 	| lcs |

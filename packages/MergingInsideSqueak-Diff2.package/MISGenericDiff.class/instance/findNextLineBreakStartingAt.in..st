@@ -1,4 +1,4 @@
-linediffing
+line-diffing
 findNextLineBreakStartingAt: aEntryPoint in: aFile
 
 	| offset file |

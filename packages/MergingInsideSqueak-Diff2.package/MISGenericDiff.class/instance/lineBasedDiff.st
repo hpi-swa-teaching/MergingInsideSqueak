@@ -1,4 +1,4 @@
-linediffing
+line-diffing
 lineBasedDiff
 	"Returns a collection of similarities and differences between the two files. Each entry in the resulting collection is either (#common -> {...}) or (#different -> ({...} -> {...}))."
 	| result p1 p2 |

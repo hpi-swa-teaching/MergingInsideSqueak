@@ -1,4 +1,4 @@
-linediffing
+line-diffing
 fileEndingConflict: anIndex in: aFile
 
 	aFile = file1

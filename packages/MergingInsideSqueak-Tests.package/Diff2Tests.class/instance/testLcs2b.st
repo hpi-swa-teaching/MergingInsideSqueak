@@ -1,4 +1,4 @@
-as yet unclassified
+lcs-testing
 testLcs2b
 	"Based on testLcs2."
 	| lcs |

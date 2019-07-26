@@ -1,3 +1,3 @@
-as yet unclassified
+testing
 testDiffPatch
 	self assertDiffWorksAsPatch: (self sampleDiff: self diffClass).

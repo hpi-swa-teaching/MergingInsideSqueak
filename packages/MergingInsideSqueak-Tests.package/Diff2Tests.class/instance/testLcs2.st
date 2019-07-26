@@ -1,4 +1,4 @@
-as yet unclassified
+lcs-testing
 testLcs2
 	"Test case due to Levente Uzonyi."
 	| lcs |

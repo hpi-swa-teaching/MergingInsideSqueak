@@ -1,4 +1,4 @@
-linediffing
+line-diffing
 addConflictToResult: aCollection limit1: aLimit limit2: anOtherLimit
 		
 	((self sameLineBreak: aLimit and: (file1EndingConflict+1)) and: [(self sameLineBreak: anOtherLimit and: (file2EndingConflict+1))])				

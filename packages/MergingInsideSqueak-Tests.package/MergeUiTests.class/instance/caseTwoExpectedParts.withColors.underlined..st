@@ -9,4 +9,5 @@ caseTwoExpectedParts: aCollectionOfStrings withColors: aCollectionOfColors under
 	^Text new append:
 		(Text string: 'method1', Character cr, Character cr attribute: TextColor black),
 		(Text string: (aCollectionOfStrings at: 1) attributes: attributes1),
+		(Text string: '', Character cr attribute: TextColor black),
 		(Text string: (aCollectionOfStrings at: 2) attributes: attributes2).

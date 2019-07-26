@@ -1,4 +1,4 @@
-as yet unclassified
+lcs-testing
 testLcs2a
 	"Same test as testLcs2, but with file1 and file2 switched."
 	| lcs |
