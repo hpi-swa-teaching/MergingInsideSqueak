@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 sourceTextColorForSide: aSide
 
 	^self isResolved ifTrue: [

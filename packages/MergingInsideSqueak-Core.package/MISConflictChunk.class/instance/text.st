@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 text
 
 	^self selectedSides inject: Text new into: [ :acc :side |

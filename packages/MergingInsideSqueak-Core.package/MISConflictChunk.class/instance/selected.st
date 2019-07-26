@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 selected
 
 	^(self selectedSides isEmptyOrNil) ifTrue: [^''] ifFalse: [

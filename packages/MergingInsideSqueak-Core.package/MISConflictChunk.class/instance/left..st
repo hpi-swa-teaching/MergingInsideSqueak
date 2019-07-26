@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 left: aString
 
 	left := aString

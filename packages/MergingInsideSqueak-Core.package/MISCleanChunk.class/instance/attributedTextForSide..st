@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 attributedTextForSide: aSide
 
 	^self attributedText

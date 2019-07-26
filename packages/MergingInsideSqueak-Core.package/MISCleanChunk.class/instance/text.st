@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 text
 
 	^right ifNil: [^'']

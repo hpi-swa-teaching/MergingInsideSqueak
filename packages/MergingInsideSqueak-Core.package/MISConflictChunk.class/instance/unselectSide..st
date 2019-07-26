@@ -1,4 +1,4 @@
-as yet unclassified
+selecting
 unselectSide: aSide
 
 	selectedSides remove: aSide ifAbsent: []
