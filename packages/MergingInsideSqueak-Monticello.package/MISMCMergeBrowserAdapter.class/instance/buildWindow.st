@@ -3,4 +3,5 @@ buildWindow
 
 	| patch |
 	patch := MISPatch operations: items.
-	^(MergeUiView mergePatch: patch) build. "initWithMockData build."
+	window := (MergeUiView mergePatch: patch).
+	^window build

@@ -6,9 +6,12 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"ui",
 		"controller",
-		"testRun" ],
+		"modalProcess",
+		"modalValue",
+		"windowMorph",
+		"label",
+		"windowTitle" ],
 	"name" : "MergeUiView",
 	"pools" : [
 		 ],

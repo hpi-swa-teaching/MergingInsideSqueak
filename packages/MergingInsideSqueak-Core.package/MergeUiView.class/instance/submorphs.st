@@ -1,4 +1,4 @@
 accessing
 submorphs
 
-	^self ui submorphs
+	^self window submorphs

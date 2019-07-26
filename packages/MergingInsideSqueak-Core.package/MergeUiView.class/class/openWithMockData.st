@@ -1,5 +1,4 @@
 initialize
 openWithMockData
 	
-	^self initWithMockData
-		buildAndOpen
+	^self initWithMockData showModally

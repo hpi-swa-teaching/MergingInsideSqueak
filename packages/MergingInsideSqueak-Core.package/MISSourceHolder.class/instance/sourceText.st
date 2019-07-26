@@ -1,7 +1,10 @@
 as yet unclassified
 sourceText
 
-	^(self source allSatisfy: [ :chunk | chunk isConflict not ])
+	^(self source allSatisfy: [ :chunk | chunk isResolved ])
 		ifTrue: [
-			self source inject: String new into: [ :acc :chunk | acc, chunk text ]
- 		] ifFalse: [nil]
+			self symbolsToString: (self source inject: String empty into: [ :acc :chunk |
+				acc , (self symbolsToString: chunk text) ])
+ 		] ifFalse: [
+			self source inject: String empty into: [ :acc :chunk |
+				acc , (self symbolsToString: chunk remote)]]

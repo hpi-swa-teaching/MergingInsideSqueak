@@ -1,13 +1,18 @@
-deserialising
+as yet unclassified
 convertMISPatchOperationToMCOperation: aMISPatchOperation
 	
+	^aMISPatchOperation convertToMCOperations
+	"
 	aMISPatchOperation isAddition ifTrue: [
-		^MCAddition of: (self convertMISSourceHolderToMCDefinition: aMISPatchOperation change)
+		^OrderedCollection with: (MCAddition of: (self convertMISSourceHolderToMCDefinition: aMISPatchOperation change))
 	].
 	aMISPatchOperation isRemoval ifTrue: [
-		^MCRemoval of: (self convertMISSourceHolderToMCDefinition: aMISPatchOperation change) 
+		^OrderedCollection with: (MCRemoval of: (self convertMISSourceHolderToMCDefinition: aMISPatchOperation change))
 	].
 	aMISPatchOperation isModification ifTrue: [
-		^MCModification of: (self convertMISSourceHolderToMCDefinition: aMISPatchOperation base) to: (self convertMISSourceHolderToMCDefinition: aMISPatchOperation target).
+		| definitions |
+		definitions := self convertMISSourceHolderToMCDefinition: aMISPatchOperation change.
+		^definitions collect: [:def |
+			MCModification of: def to: def]
 	].
-	^nil
+	^nil"

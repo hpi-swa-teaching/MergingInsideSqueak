@@ -1,6 +1,6 @@
 as yet unclassified
 methodsIn: aBaseMISClass and: aTargetMISClass do: aBlock
-	
+
 	aBaseMISClass methods do: [ :baseMethod |
 		aTargetMISClass methods detect: [ :targetMethod |
 			baseMethod methodName = targetMethod methodName 

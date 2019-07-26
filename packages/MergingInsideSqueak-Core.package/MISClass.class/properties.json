@@ -7,7 +7,15 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"methods",
-		"package" ],
+		"package",
+		"superclassName",
+		"instanceVarNames",
+		"classVarNames",
+		"classInstanceVarNames",
+		"classTraitComposition",
+		"poolArray",
+		"type",
+		"traitComposition" ],
 	"name" : "MISClass",
 	"pools" : [
 		 ],

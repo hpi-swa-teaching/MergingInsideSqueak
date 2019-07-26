@@ -1,0 +1,16 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"mockMCClass" : "abc 7/26/2019 13:24",
+		"mockMCMethod" : "abc 7/26/2019 13:35",
+		"mockMCMethodWithSource:" : "abc 7/26/2019 13:36",
+		"mockMISClass" : "abc 7/26/2019 13:54",
+		"mockMISMethod" : "abc 7/26/2019 14:14",
+		"mockMISMethodWithSource:" : "abc 7/26/2019 14:18",
+		"testMCAdditionConversion" : "abc 7/26/2019 13:31",
+		"testMCClassDefinitionConversion" : "abc 7/26/2019 13:25",
+		"testMCMethodDefinitionConversion" : "abc 7/26/2019 13:25",
+		"testMCModificationConversion" : "abc 7/26/2019 13:46",
+		"testMCRemovalConversion" : "abc 7/26/2019 13:32",
+		"testMISRemovalConversion" : "abc 7/26/2019 14:37" } }

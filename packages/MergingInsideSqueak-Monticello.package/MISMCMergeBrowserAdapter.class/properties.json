@@ -7,7 +7,8 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"mergeUI" ],
+		"mergeUI",
+		"window" ],
 	"name" : "MISMCMergeBrowserAdapter",
 	"pools" : [
 		 ],

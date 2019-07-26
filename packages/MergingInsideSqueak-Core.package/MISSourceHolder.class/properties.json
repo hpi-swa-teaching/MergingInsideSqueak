@@ -13,7 +13,9 @@
 		"classIsMeta",
 		"className",
 		"actualClass",
-		"conflicts" ],
+		"conflicts",
+		"comment",
+		"commentStamp" ],
 	"name" : "MISSourceHolder",
 	"pools" : [
 		 ],

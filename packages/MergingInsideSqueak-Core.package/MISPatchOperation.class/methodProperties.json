@@ -3,9 +3,11 @@
 		"initializeWithChange:" : "romnn 6/28/2019 13:03" },
 	"instance" : {
 		"<=" : "romnn 7/8/2019 11:36",
+		"=" : "abc 7/26/2019 14:26",
 		"change" : "romnn 6/24/2019 11:28",
 		"change:" : "romnn 6/24/2019 11:34",
 		"children" : "romnn 6/24/2019 11:30",
+		"convertToMCOperations" : "romnn 7/25/2019 20:24",
 		"hasChildren" : "romnn 6/24/2019 11:29",
 		"isAddition" : "romnn 6/22/2019 17:23",
 		"isMISPatchOperation" : "romnn 7/8/2019 11:27",

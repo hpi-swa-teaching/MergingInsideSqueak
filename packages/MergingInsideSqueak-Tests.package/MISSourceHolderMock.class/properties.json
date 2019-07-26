@@ -1,0 +1,14 @@
+{
+	"category" : "MergingInsideSqueak-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"token" ],
+	"name" : "MISSourceHolderMock",
+	"pools" : [
+		 ],
+	"super" : "MISSourceHolder",
+	"type" : "normal" }

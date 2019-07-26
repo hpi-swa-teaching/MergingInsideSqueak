@@ -1,4 +1,5 @@
 as yet unclassified
 text: aString
 
-	text := aString
+	left := aString.
+	right := aString

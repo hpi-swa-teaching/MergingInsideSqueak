@@ -6,7 +6,6 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"right",
 		"selected",
 		"selectedSides" ],
 	"name" : "MISConflictChunk",

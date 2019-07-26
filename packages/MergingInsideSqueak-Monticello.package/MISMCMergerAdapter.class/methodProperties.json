@@ -1,10 +1,12 @@
 {
 	"class" : {
-		 },
+		"defaultBrowser" : "romnn 7/23/2019 18:01" },
 	"instance" : {
 		"addConflictWithOperation:" : "romnn 6/22/2019 15:33",
 		"addOperation:" : "romnn 6/24/2019 10:38",
+		"applyPatch:" : "romnn 7/23/2019 16:40",
 		"applyTo:" : "romnn 6/22/2019 15:33",
 		"items" : "romnn 6/22/2019 20:47",
+		"mergedSnapshot" : "romnn 7/23/2019 01:59",
 		"operations" : "romnn 7/3/2019 13:12",
 		"setItems:" : "romnn 7/4/2019 15:05" } }

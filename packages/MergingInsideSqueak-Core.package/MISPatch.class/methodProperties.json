@@ -1,6 +1,8 @@
 {
 	"class" : {
-		"operations:" : "romnn 7/4/2019 14:34" },
+		"fromBase:target:" : "MonticelloAdapterTests2 7/25/2019 01:10",
+		"operations:" : "romnn 7/4/2019 14:34",
+		"withOperations:" : "MonticelloAdapterTests2 7/25/2019 01:08" },
 	"instance" : {
 		"applyTo:" : "romnn 7/4/2019 14:35",
 		"hasChanges" : "romnn 7/4/2019 14:35",

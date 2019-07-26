@@ -6,7 +6,8 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"left" ],
+		"left",
+		"right" ],
 	"name" : "Chunk",
 	"pools" : [
 		 ],

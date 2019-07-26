@@ -1,5 +1,4 @@
 as yet unclassified
 fromSources: aCollectionOfMISClasses
 
-	^self new sources: aCollectionOfMISClasses; 
-		yourself.
+	^self new sources: aCollectionOfMISClasses; yourself

@@ -1,7 +1,12 @@
-deserialising
+as yet unclassified
 convertMISSourceHolderToMCDefinition: aMISSourceHolder
 
-	aMISSourceHolder isMethodSource ifTrue: [
+	^ aMISSourceHolder convertToMCDefinition
+	"aMISSourceHolder isMethodSource ifTrue: [
 		^ self convertMISMethodToMCMethodDefinition: aMISSourceHolder
 		].
-	^nil
+	aMISSourceHolder isClassSource ifTrue: [
+		self halt.
+		^ self convertMISClassToMCClassDefinition: aMISSourceHolder
+		].
+	^nil"
