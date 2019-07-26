@@ -1,4 +1,4 @@
 testing
 chunks
 
-	^chunks ifNil: [^OrderedCollection with: (Chunk new setText: source)]
+	^chunks ifNil: [^OrderedCollection with: (MISChunk new setText: source)]

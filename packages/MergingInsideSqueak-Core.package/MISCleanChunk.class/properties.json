@@ -11,5 +11,5 @@
 	"name" : "MISCleanChunk",
 	"pools" : [
 		 ],
-	"super" : "Chunk",
+	"super" : "MISChunk",
 	"type" : "normal" }

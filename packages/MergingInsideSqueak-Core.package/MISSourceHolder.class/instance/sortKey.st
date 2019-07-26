@@ -1,4 +1,4 @@
 as yet unclassified
 sortKey
 
-	^self className , '>>' , self summary
+	^self actualClass className , '>>' , self summary

@@ -6,10 +6,15 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"selected",
-		"selectedSides" ],
-	"name" : "MISConflictChunk",
+		"testRun",
+		"controller",
+		"modalProcess",
+		"modalValue",
+		"windowMorph",
+		"label",
+		"windowTitle" ],
+	"name" : "MISMergeUiView",
 	"pools" : [
 		 ],
-	"super" : "MISChunk",
+	"super" : "CodeHolder",
 	"type" : "normal" }

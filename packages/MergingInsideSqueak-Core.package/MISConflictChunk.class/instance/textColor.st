@@ -1,3 +1,3 @@
 as yet unclassified
 textColor
-	^MergeTextColor blue
+	^MISMergeTextColor blue
