@@ -1,4 +1,4 @@
-as yet unclassified
-withOperations: aCollection
+instance creation
+withOperations: aCollectionOfOperations
 	
-	^self basicNew initializeWithOperations: aCollection
+	^self basicNew operations: aCollectionOfOperations

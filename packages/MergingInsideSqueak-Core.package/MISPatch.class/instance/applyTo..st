@@ -1,4 +1,4 @@
-as yet unclassified
+applying
 applyTo: anObject
 	
 	operations do: [:ea | ea applyTo: anObject].
