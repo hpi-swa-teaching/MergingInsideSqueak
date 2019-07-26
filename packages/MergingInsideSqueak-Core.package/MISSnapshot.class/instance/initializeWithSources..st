@@ -1,4 +1,4 @@
-as yet unclassified
+initialize-release
 initializeWithSources: aCollectionOfMISSourceHolders
 	
 	self sources: aCollectionOfMISSourceHolders

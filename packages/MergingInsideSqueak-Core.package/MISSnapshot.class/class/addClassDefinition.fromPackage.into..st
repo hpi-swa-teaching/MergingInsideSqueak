@@ -1,4 +1,4 @@
-as yet unclassified
+snapshot-building
 addClassDefinition: aMISClass fromPackage: aPackageName into: aSourceHolderCollection
 
 	(aSourceHolderCollection contains: [:classDefinition | classDefinition = aMISClass]) ifFalse: [

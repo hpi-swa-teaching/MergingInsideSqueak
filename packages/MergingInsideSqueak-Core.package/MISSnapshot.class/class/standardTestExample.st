@@ -1,4 +1,4 @@
-as yet unclassified
+constants
 standardTestExample
 
 	^self fromSources: (OrderedCollection with: (MISPatchModification initializeWithChange: (MISClass new

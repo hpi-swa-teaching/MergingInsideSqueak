@@ -1,4 +1,4 @@
-as yet unclassified
+instance creation
 fromSquotVersion: aSquotVersion
 
 	^self fromSquotArtifacts: aSquotVersion artifacts.

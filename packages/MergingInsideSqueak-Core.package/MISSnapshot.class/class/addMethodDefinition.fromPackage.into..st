@@ -1,4 +1,4 @@
-as yet unclassified
+snapshot-building
 addMethodDefinition: aMISMethod fromPackage: aPackageName into: aSourceHolderCollection
 	
 	(aSourceHolderCollection contains: [:classDefinition | classDefinition className = aMISMethod className]) 

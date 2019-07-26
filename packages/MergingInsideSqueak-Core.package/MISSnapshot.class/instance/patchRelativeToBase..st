@@ -1,3 +1,3 @@
-as yet unclassified
+converting
 patchRelativeToBase: aSnapshot
 	^ MISPatch fromBase: aSnapshot target: self

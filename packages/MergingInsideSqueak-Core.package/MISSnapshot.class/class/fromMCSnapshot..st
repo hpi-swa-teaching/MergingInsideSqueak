@@ -1,4 +1,4 @@
-as yet unclassified
+instance creation
 fromMCSnapshot: aMCSnapshot
 	
 	| sourceHolders |

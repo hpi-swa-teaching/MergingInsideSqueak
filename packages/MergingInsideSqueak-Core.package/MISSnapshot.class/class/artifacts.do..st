@@ -1,4 +1,4 @@
-as yet unclassified
+snapshot-building
 artifacts: aArtifactDictionary do: aBlock
 
 	aArtifactDictionary keys do: [:packageName |

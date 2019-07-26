@@ -1,4 +1,4 @@
-as yet unclassified
+snapshot-building
 addDefinition: aMISDefinition fromPackage: aPackageName into: aSourceHolderCollection
 	
 	aMISDefinition ifNil: [^nil].

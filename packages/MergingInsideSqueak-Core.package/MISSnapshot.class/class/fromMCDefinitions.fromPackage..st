@@ -1,4 +1,4 @@
-as yet unclassified
+instance creation
 fromMCDefinitions: aCollectionOfMCDefinitions fromPackage: aPackageName
 	
 	| sourceHolders |
