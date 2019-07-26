@@ -1,4 +1,4 @@
 patch-calculation
 calculatePatch
 	
-	self patchIt
+	^self patchIt
