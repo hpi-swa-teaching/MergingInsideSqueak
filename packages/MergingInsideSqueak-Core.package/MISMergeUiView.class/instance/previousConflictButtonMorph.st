@@ -1,4 +1,4 @@
 accessing
 previousConflictButtonMorph
 
-	^self panel detect: [:morph | morph nameForFindWindowFeature = 'buttonA']
+	^self panel detect: [:morph | morph nameForFindWindowFeature = 'previousConflict']

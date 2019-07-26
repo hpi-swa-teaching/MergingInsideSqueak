@@ -1,5 +1,5 @@
 running
 setUp
 	
-	view := MergeUiView openWithMockDataForTest.
+	view := MISMergeUiView openWithMockDataForTest.
 	self assert: view isNil not.

@@ -1,4 +1,4 @@
 accessing
 panelB
 
-	^self ui submorphs detect: [:morph | morph nameForFindWindowFeature = 'panelB']
+	^self submorphs detect: [:morph | morph nameForFindWindowFeature = 'panelB']
