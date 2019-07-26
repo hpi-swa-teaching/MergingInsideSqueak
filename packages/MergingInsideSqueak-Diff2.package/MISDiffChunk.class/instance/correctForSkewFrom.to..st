@@ -1,4 +1,4 @@
-as yet unclassified
+merging
 correctForSkewFrom: smallerChunk to: biggerChunk
 	"Given a biggerChunk that definitely contains smallerChunk but might have an extra head or tail, updates the receiver to include such an extra head or tail."
 	| headSize tailSize |

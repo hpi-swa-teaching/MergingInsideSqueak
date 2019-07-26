@@ -1,4 +1,4 @@
-accessing
+constants
 defaultBrowser
 
 	^MergeUiView

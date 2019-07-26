@@ -1,4 +1,4 @@
-as yet unclassified
+merging
 destructiveMergeWith: aChunk
 	| newLastIndex |
 	newLastIndex := self lastIndex max: aChunk lastIndex.

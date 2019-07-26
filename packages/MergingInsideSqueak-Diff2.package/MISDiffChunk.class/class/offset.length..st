@@ -1,3 +1,3 @@
-as yet unclassified
+instance creation
 offset: o length: l
 	^ self new offset: o; length: l

@@ -1,4 +1,4 @@
-as yet unclassified
+instance creation
 base: aMISSnapshot
 
 	^self new base: aMISSnapshot; yourself

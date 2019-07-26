@@ -1,4 +1,4 @@
-as yet unclassified
+diffing
 diff
 	"Returns a MISDiffPatch instance that can be used in future to transform file1 into file2."
 	| p |

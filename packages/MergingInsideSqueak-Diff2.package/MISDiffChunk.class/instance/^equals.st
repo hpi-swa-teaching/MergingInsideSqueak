@@ -1,4 +1,4 @@
-as yet unclassified
+extracting
 = otherChunk
 	^ (otherChunk isKindOf: MISDiffChunk) and:
 	[(self offset = otherChunk offset) and:

@@ -1,4 +1,4 @@
-as yet unclassified
+diffing
 diffIndices
 	"Returns a collection of (MISDiffChunk -> MISDiffChunk) associations mapping differing regions of file1 and file2 onto each other."
 	| result p1 p2 |
