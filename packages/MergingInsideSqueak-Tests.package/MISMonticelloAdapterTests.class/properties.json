@@ -6,9 +6,14 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
-	"name" : "MISMyersUkkonenDiffTests",
+		"conflicts",
+		"snapshot",
+		"repositoryGroup",
+		"workingCopy",
+		"versions",
+		"savedInitials" ],
+	"name" : "MISMonticelloAdapterTests",
 	"pools" : [
 		 ],
-	"super" : "MISGenericDiffTests",
+	"super" : "TestCase",
 	"type" : "normal" }

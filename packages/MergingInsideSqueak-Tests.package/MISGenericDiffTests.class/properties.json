@@ -7,8 +7,8 @@
 	"commentStamp" : "",
 	"instvars" : [
 		 ],
-	"name" : "MISMyersUkkonenDiffTests",
+	"name" : "MISGenericDiffTests",
 	"pools" : [
 		 ],
-	"super" : "MISGenericDiffTests",
+	"super" : "TestCase",
 	"type" : "normal" }

@@ -1,0 +1,19 @@
+{
+	"category" : "MergingInsideSqueak-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"classFactory",
+		"repositoryDirectory",
+		"workingCopy",
+		"repository",
+		"store",
+		"changeLogSuppressor" ],
+	"name" : "MISGitBrowserAdapterTests",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

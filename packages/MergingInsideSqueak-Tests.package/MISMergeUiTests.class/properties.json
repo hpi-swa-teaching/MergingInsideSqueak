@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
-	"name" : "MISMyersUkkonenDiffTests",
+		"view" ],
+	"name" : "MISMergeUiTests",
 	"pools" : [
 		 ],
-	"super" : "MISGenericDiffTests",
+	"super" : "TestCase",
 	"type" : "normal" }

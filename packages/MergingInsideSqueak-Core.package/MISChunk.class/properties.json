@@ -1,14 +1,15 @@
 {
-	"category" : "MergingInsideSqueak-Tests",
+	"category" : "MergingInsideSqueak-Core",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
-	"name" : "MISMyersUkkonenDiffTests",
+		"left",
+		"right" ],
+	"name" : "MISChunk",
 	"pools" : [
 		 ],
-	"super" : "MISGenericDiffTests",
+	"super" : "Object",
 	"type" : "normal" }
