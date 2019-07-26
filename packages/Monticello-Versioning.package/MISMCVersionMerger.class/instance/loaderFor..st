@@ -4,7 +4,7 @@ loaderFor: aCollectionOfPatchOperations
 	| loader | 
 	loader := MCPackageLoader new.
 	loader provisions addAll: self provisions.
-	aCollectionOfPatchOperations do: [:misDef |
-		(self convertMISPatchOperationToMCOperation:misDef) do: [ :mcDef |
+	aCollectionOfPatchOperations do: [:misPatchOperation |
+		misPatchOperation convertToMCOperations do: [ :mcDef |
 			mcDef applyTo: loader]].
 	^loader
