@@ -1,4 +1,4 @@
-as yet unclassified
+saving
 saveSnapshot: aMISSnapshot
 
 	| local remote |

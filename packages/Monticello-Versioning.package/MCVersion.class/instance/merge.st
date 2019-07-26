@@ -1,3 +1,3 @@
 actions
 merge
-	self workingCopy withEnvironmentActiveDo: [MCVersionMerger mergeVersion: self]
+	self workingCopy withEnvironmentActiveDo: [MISMCVersionMerger mergeVersion: self]

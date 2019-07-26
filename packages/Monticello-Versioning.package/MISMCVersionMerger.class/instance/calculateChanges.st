@@ -1,4 +1,4 @@
-as yet unclassified
+merging
 calculateChanges
 
 	^changes := records inject: OrderedCollection new into: [:acc :record |

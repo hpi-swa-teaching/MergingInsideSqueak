@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 base: aMISSnapshot
 
 	baseSnapshot := aMISSnapshot

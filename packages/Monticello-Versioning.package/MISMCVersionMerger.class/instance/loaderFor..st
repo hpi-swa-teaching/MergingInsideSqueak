@@ -1,4 +1,4 @@
-as yet unclassified
+merging
 loaderFor: aCollectionOfPatchOperations
 
 	| loader | 

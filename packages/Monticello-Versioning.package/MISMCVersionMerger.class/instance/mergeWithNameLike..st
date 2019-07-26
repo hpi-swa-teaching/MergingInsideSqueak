@@ -1,4 +1,4 @@
-as yet unclassified
+merging
 mergeWithNameLike: baseName
 
 	self calculateProvisions.

@@ -1,7 +1,7 @@
-as yet unclassified
+merging
 patchMergeRecord: aMCMergeRecord
 
 	| localSnapshot remoteSnapshot |
-	localSnapshot := self convertMCSnapshotToMISSnapshot: aMCMergeRecord version snapshot.
-	remoteSnapshot := self convertMCSnapshotToMISSnapshot: aMCMergeRecord ancestorSnapshot.
+	localSnapshot := MISSnapshot fromMCSnapshot: aMCMergeRecord version snapshot.
+	remoteSnapshot := MISSnapshot fromMCSnapshot: aMCMergeRecord ancestorSnapshot.
 	^MISDiffer new base: localSnapshot; target: remoteSnapshot; patch

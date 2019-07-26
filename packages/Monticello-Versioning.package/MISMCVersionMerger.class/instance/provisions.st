@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 provisions
 
 	^provisions ifNil: [Set new]
