@@ -16,7 +16,7 @@ merge: targetVersion
 		and: [(packageSnapshot patchRelativeToBase: ancestorSnapshot) isEmpty]])
 				ifTrue: [^ targetVersion load].
 	
-	merger := "MCThreeWayMerger" MISMCMergerAdapter
+	merger := MCThreeWayMerger 
 				base: packageSnapshot
 				target: targetVersion snapshot
 				ancestor: ancestorSnapshot.

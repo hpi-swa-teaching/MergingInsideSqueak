@@ -1,5 +1,5 @@
 handling
 defaultAction
-	^ ("MCMergeBrowser" MISMCMergeBrowserAdapter new
+	^ (MCMergeBrowser new
 		merger: merger;
 		label: messageText) showModally

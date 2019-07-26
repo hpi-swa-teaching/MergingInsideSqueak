@@ -2,7 +2,6 @@
 	"category" : "Monticello-Versioning",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "AnObsoleteMISMonticelloConverter classTrait",
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
@@ -14,5 +13,4 @@
 	"pools" : [
 		 ],
 	"super" : "MCVersionMerger",
-	"traitcomposition" : "AnObsoleteMISMonticelloConverter",
 	"type" : "normal" }
