@@ -6,6 +6,5 @@ OrderedDictionary {
 	'packages\/MergingInsideSqueak-Diff2.package' : #SquotCypressCodeSerializer,
 	'packages\/Monticello-Base.package' : #SquotCypressCodeSerializer,
 	'packages\/Monticello-Modeling.package' : #SquotCypressCodeSerializer,
-	'packages\/Squot-Core.package' : #SquotCypressCodeSerializer,
-	'Squot-Adapter.package' : #SquotCypressCodeSerializer
+	'packages\/Squot-Adapter.package' : #SquotCypressCodeSerializer
 }

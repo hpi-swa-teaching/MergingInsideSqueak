@@ -1,1 +1,0 @@
-I behave like an artifact, but represent a loaded, living object. When you ask an ImageStore for artifacts, it will return instances of me.

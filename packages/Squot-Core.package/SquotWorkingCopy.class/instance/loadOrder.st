@@ -1,3 +1,0 @@
-accessing
-loadOrder
-	^ store loadOrder
