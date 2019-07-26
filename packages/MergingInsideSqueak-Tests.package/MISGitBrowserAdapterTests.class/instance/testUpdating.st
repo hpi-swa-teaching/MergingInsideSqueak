@@ -1,7 +1,5 @@
 as yet unclassified
-failingTestUpdating
-	"Disabled because failing on CI"
-
+testUpdating
 	| targetVersion targetSources SquotAdapter |
 	
 	SquotAdapter := SquotMISAdapter new

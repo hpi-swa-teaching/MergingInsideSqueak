@@ -11,6 +11,6 @@ baseline: spec
 				package: 'MergingInsideSqueak-Tests' with: [spec requires: #('default')];
 				yourself.
 			spec
-				group: 'default' with: #('MergingInsideSqueak-Core' 'MergingInsideSqueak-Diff2');
+				group: 'default' with: #('MergingInsideSqueak-Core' 'MergingInsideSqueak-Diff2' 'Monticello-Base' 'Monticello-Versioning' 'Monticello-Patching');
 				group: 'tests' with: #('MergingInsideSqueak-Tests')];
 				yourself

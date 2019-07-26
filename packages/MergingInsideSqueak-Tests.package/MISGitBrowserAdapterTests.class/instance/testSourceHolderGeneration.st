@@ -1,7 +1,5 @@
 as yet unclassified
-failingTestSourceHolderGeneration
-	"Disabled because failing on CI"
-
+testSourceHolderGeneration
 	| latestVersion actualSourceHolder |
 	
 	latestVersion := workingCopy baseVersion.
