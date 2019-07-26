@@ -10,6 +10,5 @@ buildConflictListWith: aBuilder
 		hasChildren: #classHasChildren:;
 		getChildren: #childrenOfClass:;
 		setSelected: #handleChangeSelection:;
-		setSelectedPath: #selectedPath:;
-		getSelectedPath: #selectedPath;
+		getSelected: #selected;
 		yourself
