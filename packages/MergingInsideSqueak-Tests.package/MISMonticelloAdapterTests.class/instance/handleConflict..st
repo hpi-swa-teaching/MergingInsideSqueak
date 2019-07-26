@@ -1,5 +1,6 @@
 as yet unclassified
 handleConflict: aConflict	
+	
 	|l r|
 	l := #removed.
 	r := #removed.

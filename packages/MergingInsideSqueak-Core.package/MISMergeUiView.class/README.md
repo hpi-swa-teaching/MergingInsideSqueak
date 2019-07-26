@@ -1,0 +1,1 @@
+A MISMergeUiView is the view of our application in the sense of MVC. It holds all the ellements of the UI and therefore represents the window.

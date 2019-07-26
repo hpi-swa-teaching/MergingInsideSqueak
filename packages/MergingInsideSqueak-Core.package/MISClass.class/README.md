@@ -1,0 +1,1 @@
+A MISClass is the datastructure that holds all the necessary information for a class of a repository which is supposed to be merged. Most importantly it holds all the methods of this class which will be compared in the process of the merge.

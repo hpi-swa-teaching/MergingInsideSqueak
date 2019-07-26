@@ -1,4 +1,4 @@
 as yet unclassified
 packageName
 	
-	^ self mockPackage name
+	^self mockPackage name

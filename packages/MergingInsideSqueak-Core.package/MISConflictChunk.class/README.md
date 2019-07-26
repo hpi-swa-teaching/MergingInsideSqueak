@@ -1,0 +1,1 @@
+A MISConflictChunk is the class which is used for categorizing a chunk that is not represented in both files. The part given in the instance variable left and right show the conflicting part of each file.

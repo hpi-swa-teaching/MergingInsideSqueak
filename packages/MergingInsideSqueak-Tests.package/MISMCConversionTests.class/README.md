@@ -1,0 +1,1 @@
+A MISMCConversionTests is the class which mocks relevant classes in their datastructure for Monticello and our MergingInsideSqueak tool which are supposed to be parsed and merged. The datastructure should be the same after serializing and deserialising and therefore I test whether the conversion in each direction is done perfectly.

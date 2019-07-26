@@ -1,4 +1,4 @@
 as yet unclassified
 mockPackage
 	
-	^ MCSnapshotResource mockPackage
+	^MCSnapshotResource mockPackage

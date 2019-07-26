@@ -1,4 +1,4 @@
 as yet unclassified
 mockVersionName
 	
-	^ 'MISMonticelloAdapterTest-xxx.1'
+	^'MISMonticelloAdapterTest-xxx.1'

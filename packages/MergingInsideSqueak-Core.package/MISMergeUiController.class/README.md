@@ -1,0 +1,1 @@
+A MISMergeUiController is the controller for our application in the sense of MVC. The class implements the functionalities of the buttons and updates the view.

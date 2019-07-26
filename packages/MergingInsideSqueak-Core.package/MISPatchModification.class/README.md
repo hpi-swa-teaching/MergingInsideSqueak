@@ -1,0 +1,1 @@
+A MISPatchModification represents a file that was modified remotly/locally and has to be resolved while merging.

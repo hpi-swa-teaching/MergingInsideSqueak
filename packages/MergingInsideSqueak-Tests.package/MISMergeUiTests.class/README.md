@@ -1,0 +1,1 @@
+A MISMergeUiTests is the class which tests the output of the UI on each possible sequence of button clicks against an expected result that should be shown to the user.

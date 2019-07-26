@@ -1,5 +1,6 @@
 as yet unclassified
 assertMerge: local with: remote base: ancestor gives: result conflicts: conflictResult
+	
 	| merger |
 	conflicts := #().
 	merger := MCThreeWayMerger

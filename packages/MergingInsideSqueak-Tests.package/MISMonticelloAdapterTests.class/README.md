@@ -1,0 +1,1 @@
+A MISMOnticelloAdapterTests is the class for mocking and testing everything around the adapter for Monticello with our tool.  I mock an environment which represents Monticellos structure and test our tool against it.
