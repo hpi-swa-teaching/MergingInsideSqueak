@@ -1,4 +1,4 @@
 initialize
 open
 
-	^self new buildAndOpenFullMergingTool
+	^self new buildAndOpen

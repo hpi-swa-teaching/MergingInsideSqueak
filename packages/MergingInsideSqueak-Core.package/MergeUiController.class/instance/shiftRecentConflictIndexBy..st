@@ -2,6 +2,7 @@ updating
 shiftRecentConflictIndexBy: anOffset
 
 	| totalConflicts recentConflictIndex newConflictIndex |
+	self halt.
 	totalConflicts := self currentChange change conflictCount.
 	recentConflictIndex := self recentConflictIndices at: self currentChange ifAbsentPut: 1.
 	newConflictIndex := (recentConflictIndex + anOffset) rem: totalConflicts.

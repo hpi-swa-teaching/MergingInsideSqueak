@@ -1,4 +1,4 @@
 as yet unclassified
 defaultExtent
 	
-	^500@500
+	^1200@800

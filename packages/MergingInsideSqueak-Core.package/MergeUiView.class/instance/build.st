@@ -14,6 +14,6 @@ build
 		(self generalButtonsFrame) -> [self buildGeneralButtonsWith: builder]
 	}.
 	self setMultiWindowFor: windowSpec.
-	ui := builder build: windowSpec.
+	windowMorph := builder build: windowSpec.
 	self conflictListMorph update: #selectedPath.
-	^ui 	
+	^windowMorph 	

@@ -1,4 +1,4 @@
 accessing
 conflicts
 
-	^conflicts ifNil: [^conflicts := OrderedCollection new]
+	^conflicts ifNil: [conflicts := OrderedCollection new]

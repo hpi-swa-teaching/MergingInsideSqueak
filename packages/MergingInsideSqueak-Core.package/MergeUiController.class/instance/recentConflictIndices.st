@@ -1,4 +1,5 @@
 accessing
 recentConflictIndices
 
-	^recentConflictIndices ifNil: [^recentConflictIndices := Dictionary new]
+	self halt.
+	^ recentConflictIndices ifNil: [recentConflictIndices := Dictionary new]
