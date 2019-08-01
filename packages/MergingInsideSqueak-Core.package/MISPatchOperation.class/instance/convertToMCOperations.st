@@ -1,0 +1,4 @@
+converting
+convertToMCOperations
+
+	^self subclassResponsibility

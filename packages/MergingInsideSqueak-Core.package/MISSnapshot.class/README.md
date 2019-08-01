@@ -1,0 +1,1 @@
+A MISSnapshot is the class that holds the sources of one repositorie that should be merged. The sources consist of a Collection of MISClasses which contain the MISMethods.

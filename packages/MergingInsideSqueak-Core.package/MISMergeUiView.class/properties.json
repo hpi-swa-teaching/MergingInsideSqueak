@@ -1,0 +1,20 @@
+{
+	"category" : "MergingInsideSqueak-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "romnn 7/26/2019 23:37",
+	"instvars" : [
+		"testRun",
+		"controller",
+		"modalProcess",
+		"modalValue",
+		"windowMorph",
+		"label",
+		"windowTitle" ],
+	"name" : "MISMergeUiView",
+	"pools" : [
+		 ],
+	"super" : "CodeHolder",
+	"type" : "normal" }

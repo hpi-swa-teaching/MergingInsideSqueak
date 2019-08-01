@@ -1,7 +1,6 @@
-as yet unclassified
+initialize-release
 initializeWithBase: baseMISSnapshot target: targetMISSnapshot
 
-	self halt.
 	base := baseMISSnapshot.
 	target := targetMISSnapshot.
 	

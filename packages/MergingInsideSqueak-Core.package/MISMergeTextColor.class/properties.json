@@ -1,0 +1,14 @@
+{
+	"category" : "MergingInsideSqueak-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "lvp 7/26/2019 21:56",
+	"instvars" : [
+		"shoutSchouldPreserve" ],
+	"name" : "MISMergeTextColor",
+	"pools" : [
+		 ],
+	"super" : "TextColor",
+	"type" : "normal" }

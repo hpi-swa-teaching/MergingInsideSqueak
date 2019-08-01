@@ -1,4 +1,4 @@
-as yet unclassified
+selecting
 toggleSide: aSide
 
 	(self selectedSides anySatisfy: [ :selected | selected = aSide ])

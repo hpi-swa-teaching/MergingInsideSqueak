@@ -1,0 +1,1 @@
+A MISPatchOperation is the general class for the logic used by the subclasses.  They are calculated by the MISDiffer and represent the operations that are necessary to convert one snaphot into another.

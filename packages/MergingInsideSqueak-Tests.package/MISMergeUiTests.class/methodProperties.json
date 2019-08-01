@@ -1,0 +1,23 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"areEqualText:and:" : "romnn 6/29/2019 04:40",
+		"caseOneExpectedPart:" : "romnn 7/26/2019 22:06",
+		"caseOneExpectedPart:withColor:underlined:" : "lvp 7/26/2019 19:38",
+		"caseTwoExpectedParts:withColors:underlined:" : "lvp 7/26/2019 19:38",
+		"currentConflict" : "romnn 6/29/2019 05:04",
+		"setUp" : "romnn 7/26/2019 21:55",
+		"tearDown" : "Tim Strauss 7/26/2019 07:44",
+		"testChoice" : "romnn 7/26/2019 22:05",
+		"testChooseA" : "romnn 7/26/2019 21:58",
+		"testChooseABA" : "romnn 7/26/2019 22:06",
+		"testChooseB" : "romnn 7/26/2019 22:07",
+		"testInitConflictPointer" : "romnn 6/29/2019 00:35",
+		"testInitialization" : "romnn 7/26/2019 22:06",
+		"testLoadsConflicts" : "lvp 7/26/2019 18:43",
+		"testMergedResult" : "romnn 7/26/2019 22:07",
+		"testPartA" : "lvp 7/26/2019 18:39",
+		"testPartB" : "lvp 7/26/2019 18:39",
+		"testResult" : "romnn 7/26/2019 22:06",
+		"testTreeEntries" : "Tim Strauss 7/26/2019 07:42" } }

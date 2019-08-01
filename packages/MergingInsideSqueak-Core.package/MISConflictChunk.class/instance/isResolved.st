@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 isResolved
 
 	^self selectedSides size > 0

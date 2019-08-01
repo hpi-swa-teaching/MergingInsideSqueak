@@ -1,0 +1,1 @@
+A MISMethod is the datastructure that holds all the necessary information for a method which will be compared in the process of the merge.

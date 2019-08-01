@@ -1,8 +1,8 @@
-as yet unclassified
+accessing
 resultTextColor
 
 	^self isResolved ifTrue: [
-				^TextColor blue
+				^MISMergeTextColor blue
 			] ifFalse: [
-				^TextColor red
+				^MISMergeTextColor red
 			]

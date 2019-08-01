@@ -1,0 +1,14 @@
+{
+	"category" : "MergingInsideSqueak-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "romnn 7/26/2019 23:39",
+	"instvars" : [
+		"view" ],
+	"name" : "MISMergeUiTests",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

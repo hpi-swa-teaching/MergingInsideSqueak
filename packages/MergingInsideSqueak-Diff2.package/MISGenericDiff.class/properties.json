@@ -4,10 +4,13 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "romnn 7/26/2019 23:41",
 	"instvars" : [
 		"file1",
-		"file2" ],
+		"file2",
+		"file1EndingConflict",
+		"file2EndingConflict",
+		"lineBlock" ],
 	"name" : "MISGenericDiff",
 	"pools" : [
 		 ],

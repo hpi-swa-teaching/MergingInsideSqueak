@@ -1,0 +1,4 @@
+accessing
+file1EndingConflict
+
+	^file1EndingConflict

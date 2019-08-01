@@ -1,4 +1,4 @@
-as yet unclassified
+applying
 applyTo: file
 	"Applies this patch to the given collection. Makes no sanity checks on the contents of the collection - simply blindly applies the chunks and snippets to its argument."
 	| result commonOffset |

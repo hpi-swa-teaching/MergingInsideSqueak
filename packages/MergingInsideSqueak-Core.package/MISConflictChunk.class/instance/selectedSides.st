@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 selectedSides
 
 	^selectedSides ifNil: [^OrderedCollection new]

@@ -1,4 +1,4 @@
-testing
+comparing
 = aSourceHolder
 
 	^aSourceHolder isMethodSource

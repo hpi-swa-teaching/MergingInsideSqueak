@@ -1,0 +1,19 @@
+{
+	"category" : "MergingInsideSqueak-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "romnn 7/26/2019 23:39",
+	"instvars" : [
+		"conflicts",
+		"snapshot",
+		"repositoryGroup",
+		"workingCopy",
+		"versions",
+		"savedInitials" ],
+	"name" : "MISMonticelloAdapterTests",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

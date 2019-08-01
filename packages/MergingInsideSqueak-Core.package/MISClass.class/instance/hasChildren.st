@@ -1,4 +1,4 @@
-nil
+accessing
 hasChildren
 
 	^self methods size > 0

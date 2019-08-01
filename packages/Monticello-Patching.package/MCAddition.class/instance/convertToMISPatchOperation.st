@@ -1,0 +1,4 @@
+converting
+convertToMISPatchOperation
+
+	^MISPatchAddition new initializeWithChange: self definition convertToMISDefinition

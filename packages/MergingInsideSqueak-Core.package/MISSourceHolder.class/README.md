@@ -1,0 +1,1 @@
+A MISSourceHolder is the general class for the MISClass and MISMethod which contains mostly accessible instance variables that are saved for a MISClass and a MISMethod.

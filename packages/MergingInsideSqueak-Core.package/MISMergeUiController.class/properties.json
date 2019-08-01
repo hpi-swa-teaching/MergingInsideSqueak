@@ -1,0 +1,25 @@
+{
+	"category" : "MergingInsideSqueak-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "romnn 7/26/2019 23:37",
+	"instvars" : [
+		"view",
+		"conflicts",
+		"patch",
+		"currentChange",
+		"recentConflictIndices",
+		"selectedParent",
+		"selectedChild",
+		"selectedPath",
+		"allA",
+		"allB",
+		"stateA",
+		"stateB" ],
+	"name" : "MISMergeUiController",
+	"pools" : [
+		 ],
+	"super" : "CodeHolder",
+	"type" : "normal" }

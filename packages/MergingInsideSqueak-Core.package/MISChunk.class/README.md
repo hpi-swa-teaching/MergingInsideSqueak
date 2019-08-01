@@ -1,0 +1,1 @@
+A MISChunk is the class that is given multiple times in a Collection when creating a patch for two comparing files. Both files are converted into one collection of MISChunks that are either clean when the part is represented in both files or is confliciting if not.  The class holds the general logic that is used in the MISCleanChunk and MISConflictChunk.

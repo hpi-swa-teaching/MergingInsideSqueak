@@ -1,4 +1,0 @@
-accessing
-unsetShowsOnlyConflicts
-
-	showsOnlyConflicts := false

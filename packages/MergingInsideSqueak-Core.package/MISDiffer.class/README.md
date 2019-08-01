@@ -1,0 +1,1 @@
+A MISDiffer is the class that executes the diffing and calculates the corresponding patch operations for the base and target Snapshot.

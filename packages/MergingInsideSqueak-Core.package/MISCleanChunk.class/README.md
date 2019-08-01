@@ -1,0 +1,1 @@
+A MISCleanChunk is the class which is used for categorizing a chunk that is represented in both files. This part of the file does not contain a conflict.

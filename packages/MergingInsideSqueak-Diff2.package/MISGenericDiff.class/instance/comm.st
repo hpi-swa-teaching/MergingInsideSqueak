@@ -1,6 +1,6 @@
-as yet unclassified
+diffing
 comm
-	"Returns a collection of similarities and differences between the two files. Each entry in the resulting collection is either (#common -> {...}) or (#different -> ({...} -> {...}))."
+		"Returns a collection of similarities and differences between the two files. Each entry in the resulting collection is either (#common -> {...}) or (#different -> ({...} -> {...}))."
 	| result common p1 p2 |
 	result := OrderedCollection new.
 	p1 := 0.

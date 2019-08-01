@@ -1,0 +1,1 @@
+We copied the implementation of a modified version of Myers' greedy lcs algorithm described in http://xmailserver.org/diff2.pdf from our legacy project DiffMerge-Helper. A similar version written in C can be found here http://research.janelia.org/myers/Papers/file.comparison.pdf. Ukkonen's version can be found here http://www.cs.helsinki.fi/u/ukkonen/InfCont85.PDF.

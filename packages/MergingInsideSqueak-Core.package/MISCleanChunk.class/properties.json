@@ -4,14 +4,12 @@
 		"text" ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "romnn 7/26/2019 23:36",
 	"instvars" : [
-		"right",
 		"selected",
-		"resolved",
-		"text" ],
+		"resolved" ],
 	"name" : "MISCleanChunk",
 	"pools" : [
 		 ],
-	"super" : "Chunk",
+	"super" : "MISChunk",
 	"type" : "normal" }

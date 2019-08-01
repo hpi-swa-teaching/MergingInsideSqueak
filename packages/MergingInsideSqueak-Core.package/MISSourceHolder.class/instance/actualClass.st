@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 actualClass
 	" Returns the corresponding class for this source "
 

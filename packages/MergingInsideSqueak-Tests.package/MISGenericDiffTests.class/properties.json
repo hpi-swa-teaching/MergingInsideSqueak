@@ -1,0 +1,14 @@
+{
+	"category" : "MergingInsideSqueak-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "romnn 7/26/2019 23:42",
+	"instvars" : [
+		 ],
+	"name" : "MISGenericDiffTests",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

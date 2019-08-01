@@ -1,0 +1,4 @@
+accessing
+defaultBrowser
+
+	^MCMergeBrowser

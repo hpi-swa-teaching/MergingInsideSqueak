@@ -1,4 +1,4 @@
-as yet unclassified
+patch-calculation
 patchedClass: aMISClass
 
 	| found patchedClass | 
@@ -8,5 +8,4 @@ patchedClass: aMISClass
 		ifTrue: [
 			patchedClass := aMISClass copy methods: (OrderedCollection new).
 			self patchOperations add: patchedClass.
-			^patchedClass
-		]
+			^patchedClass]

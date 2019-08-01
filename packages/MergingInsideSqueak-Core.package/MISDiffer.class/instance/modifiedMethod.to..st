@@ -1,7 +1,7 @@
-as yet unclassified
+patch-calculation
 modifiedMethod: aBaseMISSource to:  aTargetMISSource
-	| chunks diffChunks ownerClass |
 	
+	| chunks diffChunks ownerClass |
 	ownerClass := self patchedClass: aBaseMISSource actualClass.
 	diffChunks := self differ
 			file1: aBaseMISSource sourceText;
@@ -15,5 +15,4 @@ modifiedMethod: aBaseMISSource to:  aTargetMISSource
 			chunks add: (MISConflictChunk left: chunk value key right: chunk value value)
 		]
 	].
-	" TODO: Also think about author, timestamp etc"
 	ownerClass methods add: (MISPatchModification initializeWithChange: (aBaseMISSource copy source: chunks))

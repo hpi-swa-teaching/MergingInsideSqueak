@@ -1,10 +1,12 @@
 OrderedDictionary {
-	'packages\/MergingInsideSqueak-Core.package' : #SquotCypressCodeSerializer,
-	'packages\/MergingInsideSqueak-Tests.package' : #SquotCypressCodeSerializer,
-	'packages\/BaselineOfMergingInsideSqueak.package' : #SquotCypressCodeSerializer,
-	'packages\/MergingInsideSqueak-Monticello.package' : #SquotCypressCodeSerializer,
-	'packages\/MergingInsideSqueak-Diff2.package' : #SquotCypressCodeSerializer,
-	'packages\/Squot-Core.package' : #SquotCypressCodeSerializer,
 	'packages\/Monticello-Base.package' : #SquotCypressCodeSerializer,
-	'packages\/Monticello-Modeling.package' : #SquotCypressCodeSerializer
+	'packages\/BaselineOfMergingInsideSqueak.package' : #SquotCypressCodeSerializer,
+	'packages\/MergingInsideSqueak-Tests.package' : #SquotCypressCodeSerializer,
+	'packages\/MergingInsideSqueak-Diff2.package' : #SquotCypressCodeSerializer,
+	'packages\/Morphic-Explorer.package' : #SquotCypressCodeSerializer,
+	'packages\/MergingInsideSqueak-Core.package' : #SquotCypressCodeSerializer,
+	'packages\/Monticello-Versioning.package' : #SquotCypressCodeSerializer,
+	'packages\/Monticello-Patching.package' : #SquotCypressCodeSerializer,
+	'packages\/Monticello-Modeling.package' : #SquotCypressCodeSerializer,
+	'packages\/Squot-Core.package' : #SquotCypressCodeSerializer
 }

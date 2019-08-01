@@ -1,0 +1,25 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"assertConverted:hasSameNumberOfClasses:" : "abc 7/26/2019 04:06",
+		"assertConverted:hasSameNumberOfMethods:" : "abc 7/26/2019 04:07",
+		"assertMerge:with:base:gives:conflicts:" : "romnn 7/26/2019 23:29",
+		"change:toReturn:" : "romnn 7/25/2019 15:12",
+		"changeMethod:toReturn:" : "romnn 7/26/2019 23:29",
+		"classesOfDefinitions:" : "abc 7/26/2019 03:46",
+		"clearPackageCache" : "romnn 7/25/2019 22:12",
+		"countMethodsNamed:in:" : "abc 7/26/2019 03:57",
+		"handleConflict:" : "romnn 7/26/2019 23:29",
+		"merge:" : "romnn 7/25/2019 15:11",
+		"methodsOfClassNamed:in:" : "abc 7/26/2019 04:01",
+		"mockPackage" : "romnn 7/26/2019 23:29",
+		"mockSnapshot" : "romnn 7/26/2019 23:29",
+		"mockVersionName" : "romnn 7/26/2019 23:28",
+		"packageName" : "romnn 7/26/2019 23:29",
+		"restoreMocks" : "abc 7/25/2019 22:17",
+		"setUp" : "romnn 7/26/2019 23:28",
+		"tearDown" : "abc 7/25/2019 22:17",
+		"testEncodes" : "romnn 7/26/2019 23:28",
+		"testUpdatesSuccessfully" : "romnn 7/26/2019 23:27",
+		"version" : "romnn 7/25/2019 22:29" } }

@@ -1,0 +1,1 @@
+A MISPatchRemoval represents a method that was removed remotely and you have to accept whether you want to delete the method or not.

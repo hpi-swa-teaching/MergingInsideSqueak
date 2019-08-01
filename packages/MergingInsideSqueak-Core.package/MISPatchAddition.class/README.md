@@ -1,0 +1,1 @@
+A MISPatchAddition represents a method that was added remotely and wants to be loaded.

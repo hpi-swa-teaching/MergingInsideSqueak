@@ -1,4 +1,4 @@
-as yet unclassified
+patch-calculation
 addedClass: aMISClass
 
-	^aMISClass methods: (aMISClass methods collect: [ :method | MISPatchAddition initializeWithChange: method ])
+	^aMISClass methods: (aMISClass methods collect: [ :method | MISPatchAddition initializeWithChange: method])

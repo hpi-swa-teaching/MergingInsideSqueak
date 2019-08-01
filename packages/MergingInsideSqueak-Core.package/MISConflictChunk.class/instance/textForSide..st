@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 textForSide: aSide
 
 	(aSide = #left) ifTrue: [^self left].

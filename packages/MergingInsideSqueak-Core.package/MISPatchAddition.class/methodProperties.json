@@ -2,6 +2,6 @@
 	"class" : {
 		"of:" : "romnn 6/24/2019 11:03" },
 	"instance" : {
-		"initializeWithChange:" : "romnn 6/24/2019 10:41",
-		"isAddition" : "romnn 6/22/2019 17:28",
-		"operationName" : "romnn 6/24/2019 13:24" } }
+		"convertToMCOperations" : "romnn 7/25/2019 20:24",
+		"isAddition" : "romnn 7/26/2019 21:31",
+		"operationName" : "romnn 7/26/2019 21:31" } }

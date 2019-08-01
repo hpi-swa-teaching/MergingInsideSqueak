@@ -1,0 +1,15 @@
+{
+	"category" : "MergingInsideSqueak-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "romnn 7/26/2019 23:36",
+	"instvars" : [
+		"left",
+		"right" ],
+	"name" : "MISChunk",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

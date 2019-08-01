@@ -1,4 +1,4 @@
-as yet unclassified
+patch-calculation
 choosePatchForClass: aMISClass
 
 	| classPatch |

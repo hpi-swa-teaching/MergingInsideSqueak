@@ -1,0 +1,1 @@
+A MISGitBrowserAdapterTests is the class for mocking and testing everything around the adapter for the GitBrowser with our tool.  I mock an environment which represents the structure of the GitBrowser and test our tool against it.

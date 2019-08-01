@@ -1,4 +1,4 @@
-as yet unclassified
+printing
 printSummaryOn: aStream
 
 	aStream nextPut: $(.

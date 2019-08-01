@@ -4,13 +4,12 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "romnn 7/26/2019 23:36",
 	"instvars" : [
-		"right",
 		"selected",
 		"selectedSides" ],
 	"name" : "MISConflictChunk",
 	"pools" : [
 		 ],
-	"super" : "Chunk",
+	"super" : "MISChunk",
 	"type" : "normal" }

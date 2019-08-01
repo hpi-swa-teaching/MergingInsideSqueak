@@ -1,8 +1,8 @@
-as yet unclassified
+accessing
 sourceTextColorForSide: aSide
 
 	^self isResolved ifTrue: [
 			(self selectedSides anySatisfy: [ :selected | selected = aSide ])
-				ifTrue: [^TextColor green]
-				ifFalse: [^TextColor red]
-		] ifFalse: [^TextColor blue]
+				ifTrue: [^MISMergeTextColor green]
+				ifFalse: [^MISMergeTextColor red]
+		] ifFalse: [^MISMergeTextColor blue]

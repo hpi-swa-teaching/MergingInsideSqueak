@@ -1,0 +1,1 @@
+A MISPatch is the class that holds a number of patch operations to transform one snapshot into another snapshot.

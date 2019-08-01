@@ -1,4 +1,4 @@
-as yet unclassified
+selecting
 selectSide: aSide
 
 	selectedSides ifNil: [

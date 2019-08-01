@@ -1,0 +1,4 @@
+accessing
+local
+
+	^self text

@@ -1,6 +1,6 @@
-as yet unclassified
+accessing
 conflictCount
 
-	conflicts isEmptyOrNil ifTrue: [^0] ifFalse: [
-			^conflicts size
+	^conflicts isEmptyOrNil ifTrue: [0] ifFalse: [
+			conflicts size
 		]

@@ -1,0 +1,4 @@
+accessing
+labelColor
+
+	^TextColor red

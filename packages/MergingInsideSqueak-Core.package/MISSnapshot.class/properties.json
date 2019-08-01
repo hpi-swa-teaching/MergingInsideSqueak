@@ -4,9 +4,8 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "romnn 7/26/2019 23:38",
 	"instvars" : [
-		"classes",
 		"sources" ],
 	"name" : "MISSnapshot",
 	"pools" : [

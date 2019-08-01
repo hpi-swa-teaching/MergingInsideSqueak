@@ -1,0 +1,1 @@
+A MISMergeTextColor is responsible for preserving our custom style for the merge conflicts even after SyntaxHighlighting.

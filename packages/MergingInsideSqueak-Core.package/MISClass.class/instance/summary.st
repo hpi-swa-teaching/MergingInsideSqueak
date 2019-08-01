@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 summary
 
-	^self className asString
+	^self className

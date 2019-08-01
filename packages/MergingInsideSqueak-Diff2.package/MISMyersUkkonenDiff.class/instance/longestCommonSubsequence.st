@@ -1,4 +1,4 @@
-as yet unclassified
+lcs-calculation
 longestCommonSubsequence
 	
 	^lcs ifNil: [ 
